@@ -39,6 +39,10 @@ video{width:100%;border-radius:10px;background:#000}
 .cmt textarea{width:100%;min-height:44px;resize:vertical;padding:6px 8px;border-radius:6px;border:1px solid #3a4a2f;background:#12180e;color:#e6edf3;font-size:.76rem;font-family:inherit;box-sizing:border-box}
 .others{margin-top:5px}
 .ocmt{font-size:.7rem;color:#c3cee0;background:#0e1420;border-left:2px solid #6f4da0;padding:3px 7px;margin-top:3px;border-radius:0 4px 4px 0}
+.gbtn{font-size:.72rem;padding:5px 12px;border-radius:6px;border:1px solid #3a4a5f;background:#1c2836;color:#7fd1ff;cursor:pointer;margin-top:2px}
+.gbtn:hover{border-color:#7fd1ff}
+.gload{font-size:.7rem;color:#8b98a8;padding:6px}
+.giscus-holder{margin-top:6px}
 .cap{color:#c3cee0;font-size:.76rem;margin:6px 0 2px;line-height:1.4}.cap .neg{color:#e6896f}
 .lane{position:relative;height:30px;border-radius:6px;margin-top:8px;background:#0c1119;cursor:pointer;overflow:hidden;
  background-image:repeating-linear-gradient(90deg,transparent 0 9.9%,rgba(255,255,255,.05) 9.9% 10%)}
@@ -62,7 +66,7 @@ audio.mini{height:28px}
   <div class="tcur" id="tcur">t = 0.00 s</div>
   <div class="hint"><span class="dot t2a"></span>T2A onset(틱이 점등) <span class="dot v2a"></span>V2A span(구간 점등)<br>
    레인 클릭 = 그 시점으로 이동 · 각 트랙 오디오 개별 재생 · <b>원본(편집 전)</b> 오디오 함께 재생 · 라벨의 <span class="refb ref">ref &#10003;</span>/<span class="refb noref">no-ref</span> = reference 사용 여부</div>
-  <div class="review">
+  <div class="review" id="reviewbox">
    <div class="revh">📝 리뷰 (트랙별 문제점을 각 트랙 아래에 작성)</div>
    <input id="reviewer" class="revname" placeholder="리뷰어 이름(작성자 표시용)">
    <div class="revbtns">
@@ -76,6 +80,20 @@ audio.mini{height:28px}
 </div>
 <script>
 const D={"clip_id": "-0WfESRV74k_000000", "duration": 10.0078, "video": "../-0WfESRV74k_000000/videos/-0WfESRV74k_000000.mp4", "final_mix": "../-0WfESRV74k_000000/final_mix.wav", "tracks": [{"group_id": "t2a_00", "route": "t2a", "mode": "onset·copy", "source": "crowd", "caption": "distant crowd murmuring and cheering", "negative": null, "wav": "t2a_00_crowd.wav", "onsets": [0.32], "spans": [], "ref_used": false, "raws": [{"label": "원본8s(no-ref)", "wav": "t2a_00_crowd__raw8s.wav", "ref": false}, {"label": "trim(no-ref)", "wav": "t2a_00_crowd__trim.wav", "ref": false}]}, {"group_id": "t2a_01", "route": "t2a", "mode": "onset·copy", "source": "music", "caption": "melodic piano and vocal harmonies blending", "negative": null, "wav": "t2a_01_music.wav", "onsets": [], "spans": [], "ref_used": false, "raws": [{"label": "원본8s(no-ref)", "wav": "t2a_01_music__raw8s.wav", "ref": false}, {"label": "trim(no-ref)", "wav": "t2a_01_music__trim.wav", "ref": false}]}, {"group_id": "v2a_00", "route": "v2a", "mode": "span", "source": "applause", "caption": "audience clapping rhythmically in unison", "negative": "crowd, music, male_singing", "wav": "v2a_00_applause.wav", "onsets": [], "spans": [[0.24, 2.48]], "ref_used": false, "raws": [{"label": "sp0원본8s(no-ref)", "wav": "v2a_00_applause__sp0__raw8s.wav", "ref": false}]}, {"group_id": "v2a_01", "route": "v2a", "mode": "span", "source": "male_singing", "caption": "male voice singing with emotional intensity", "negative": "applause, crowd, music", "wav": "v2a_01_male_singing.wav", "onsets": [], "spans": [[5.36, 9.2]], "ref_used": false, "raws": [{"label": "sp0원본8s(no-ref)", "wav": "v2a_01_male_singing__sp0__raw8s.wav", "ref": false}]}]}, DUR=D.duration||10, WIN=0.14;
+const GISCUS={"repo": "DoeunJeong/m7-audio-review", "repoId": "R_kgDOTL1ZDg", "category": "General", "categoryId": "DIC_kwDOTL1ZDs4DAYEE"};   // {repo,repoId,category,categoryId} or null
+function giscusTerm(tr){return D.clip_id+' · '+tr.group_id+'_'+tr.source;}
+function loadGiscus(container,term){
+ container.innerHTML='<div class="gload">불러오는 중… (GitHub Discussions)</div>';
+ const s=document.createElement('script');s.src='https://giscus.app/client.js';
+ const set={'data-repo':GISCUS.repo,'data-repo-id':GISCUS.repoId,'data-category':GISCUS.category,
+  'data-category-id':GISCUS.categoryId,'data-mapping':'specific','data-term':term,'data-strict':'1',
+  'data-reactions-enabled':'1','data-emit-metadata':'0','data-input-position':'top',
+  'data-theme':'dark_dimmed','data-lang':'ko','data-loading':'lazy'};
+ Object.entries(set).forEach(([k,val])=>s.setAttribute(k,val));
+ s.crossOrigin='anonymous';s.async=true;
+ s.onload=()=>{const l=container.querySelector('.gload');if(l)l.remove();};
+ container.appendChild(s);
+}
 const v=document.getElementById('v'), master=document.getElementById('master'), tcur=document.getElementById('tcur'), panel=document.getElementById('panel');
 const pct=t=>Math.max(0,Math.min(100,t/DUR*100));
 const esc=s=>(s==null?'':''+s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
@@ -122,17 +140,27 @@ D.tracks.forEach(tr=>{
    });
    box.appendChild(rw);
  }
- // 트랙별 문제점 코멘트 (localStorage 자동저장)
- const cm=document.createElement('div');cm.className='cmt';
- cm.innerHTML='<div class="cmh">🐞 문제점 코멘트</div>';
- const ta=document.createElement('textarea');ta.placeholder='이 트랙의 문제점을 적어주세요…';
- ta.value=((STORE.data[D.clip_id]||{})[tr.group_id])||'';
- ta.addEventListener('input',()=>saveCmt(tr.group_id,ta.value));
- cm.appendChild(ta);
- const others=othersFor(tr.group_id);
- if(others.length){let oh='';others.forEach(o=>{oh+='<div class="ocmt"><b>'+esc(o.r)+':</b> '+esc(o.t)+'</div>';});
-   cm.insertAdjacentHTML('beforeend','<div class="others">'+oh+'</div>');}
- box.appendChild(cm);
+ // 트랙별 코멘트: giscus(공유·실시간) 또는 localStorage(개인·오프라인)
+ if(GISCUS){
+   const cm=document.createElement('div');cm.className='cmt';
+   cm.innerHTML='<div class="cmh">💬 공유 코멘트 (GitHub Discussions · 실시간)</div>';
+   const btn=document.createElement('button');btn.className='gbtn';btn.textContent='공유 코멘트 열기';
+   const cont=document.createElement('div');cont.className='giscus-holder';
+   btn.addEventListener('click',()=>{btn.remove();loadGiscus(cont,giscusTerm(tr));});
+   cm.appendChild(btn);cm.appendChild(cont);
+   box.appendChild(cm);
+ }else{
+   const cm=document.createElement('div');cm.className='cmt';
+   cm.innerHTML='<div class="cmh">🐞 문제점 코멘트</div>';
+   const ta=document.createElement('textarea');ta.placeholder='이 트랙의 문제점을 적어주세요…';
+   ta.value=((STORE.data[D.clip_id]||{})[tr.group_id])||'';
+   ta.addEventListener('input',()=>saveCmt(tr.group_id,ta.value));
+   cm.appendChild(ta);
+   const others=othersFor(tr.group_id);
+   if(others.length){let oh='';others.forEach(o=>{oh+='<div class="ocmt"><b>'+esc(o.r)+':</b> '+esc(o.t)+'</div>';});
+     cm.insertAdjacentHTML('beforeend','<div class="others">'+oh+'</div>');}
+   box.appendChild(cm);
+ }
  box._ph=ph;tr._ph=ph;
  panel.appendChild(box);
 });
@@ -149,6 +177,13 @@ master.addEventListener('pause',()=>{if(v)v.pause();tick();});
 master.addEventListener('seeking',()=>{if(v)v.currentTime=master.currentTime;});
 master.addEventListener('timeupdate',()=>{if(v&&Math.abs(v.currentTime-master.currentTime)>0.25)v.currentTime=master.currentTime;if(master.paused)tick();});
 tick();
-// 리뷰어 이름 (localStorage 유지)
-const rv=document.getElementById('reviewer');if(rv){rv.value=STORE.reviewer||'';rv.addEventListener('input',()=>{STORE.reviewer=rv.value;saveStore();});}
+// 리뷰 박스: giscus면 안내로 교체, 아니면 localStorage 리뷰어 이름 유지
+if(GISCUS){
+ const rb=document.getElementById('reviewbox');
+ if(rb)rb.innerHTML='<div class="revh">💬 공유 코멘트 (실시간)</div>'
+  +'<div class="revnote">각 트랙의 <b>"공유 코멘트 열기"</b>를 누르면 GitHub Discussions 기반 코멘트 창이 열립니다. '
+  +'작성하려면 <b>GitHub 로그인</b>이 필요해요. 모두가 같은 스레드를 보고, 게시하면 바로 공유됩니다.</div>';
+}else{
+ const rv=document.getElementById('reviewer');if(rv){rv.value=STORE.reviewer||'';rv.addEventListener('input',()=>{STORE.reviewer=rv.value;saveStore();});}
+}
 </script></body></html>
