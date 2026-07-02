@@ -1,0 +1,56 @@
+[
+  {
+    "group_id": "t2a_00",
+    "source": "dog",
+    "mode": "t2a_render_once",
+    "ref_used": false,
+    "raws": [
+      [
+        "원본8s(no-ref)",
+        "t2a_00_dog__raw8s.wav",
+        false
+      ],
+      [
+        "trim(no-ref)",
+        "t2a_00_dog__trim.wav",
+        false
+      ]
+    ]
+  },
+  {
+    "group_id": "t2a_01",
+    "source": "growling",
+    "mode": "t2a_render_once",
+    "ref_used": false,
+    "raws": [
+      [
+        "원본8s(no-ref)",
+        "t2a_01_growling__raw8s.wav",
+        false
+      ],
+      [
+        "trim(no-ref)",
+        "t2a_01_growling__trim.wav",
+        false
+      ]
+    ]
+  },
+  {
+    "group_id": "t2a_02",
+    "source": "bark",
+    "mode": "t2a_render_once",
+    "ref_used": false,
+    "raws": [
+      [
+        "원본8s(no-ref)",
+        "t2a_02_bark__raw8s.wav",
+        false
+      ],
+      [
+        "trim(no-ref)",
+        "t2a_02_bark__trim.wav",
+        false
+      ]
+    ]
+  }
+]

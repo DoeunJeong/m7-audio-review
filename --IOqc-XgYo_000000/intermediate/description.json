@@ -1,0 +1,36 @@
+{
+  "clip": "--IOqc-XgYo_000000",
+  "duration": 10.0,
+  "vl": false,
+  "sources": [
+    {
+      "source": "music",
+      "label": "music",
+      "kind": "music",
+      "source_hint": "Electronic keyboard (Roland RD-700NX) being played by a person.",
+      "salience": "high",
+      "route": "t2a",
+      "route_reason": "music는 v2a 생성 불가 → t2a",
+      "visible": null,
+      "timing": "continuous",
+      "times": [
+        [
+          3.32,
+          10.0
+        ]
+      ],
+      "onsets": [],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "music"
+      },
+      "caption": "music",
+      "negative": null,
+      "regen": null
+    }
+  ]
+}

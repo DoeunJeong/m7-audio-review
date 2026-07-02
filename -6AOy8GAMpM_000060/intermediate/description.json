@@ -1,0 +1,157 @@
+{
+  "clip": "-6AOy8GAMpM_000060",
+  "duration": 10.0,
+  "vl": true,
+  "sources": [
+    {
+      "source": "typing",
+      "label": "typing",
+      "kind": "sfx",
+      "source_hint": "Computer keyboard",
+      "salience": "high",
+      "route": "v2a",
+      "route_reason": "dense/repetitive → continuous, 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "timing": "continuous",
+      "times": [
+        [
+          0.12,
+          6.04
+        ]
+      ],
+      "onsets": [
+        0.12,
+        0.28,
+        0.4,
+        0.6,
+        1.12,
+        1.44,
+        1.56,
+        1.68,
+        1.96,
+        2.2,
+        2.36,
+        2.56,
+        2.72,
+        2.84,
+        2.96,
+        3.08,
+        3.32,
+        3.48,
+        3.68,
+        3.88,
+        4.12,
+        4.48,
+        4.68,
+        4.88,
+        5.08,
+        5.2,
+        5.32,
+        5.48,
+        5.64,
+        5.88,
+        6.04
+      ],
+      "dense_collapsed": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 31,
+        "density": 5.236,
+        "regularity": {
+          "median_iv": 0.2,
+          "cov": 0.431
+        },
+        "kind": "sfx"
+      },
+      "caption": "fingers tapping white keyboard keys",
+      "negative": "keyboard_click, computer_keyboard, keyboard_typing",
+      "regen": null
+    },
+    {
+      "source": "keyboard_click",
+      "label": "keyboard_click",
+      "kind": "sfx",
+      "source_hint": "Computer keyboard",
+      "salience": "low",
+      "route": "t2a",
+      "route_reason": "단발 → t2a",
+      "visible": null,
+      "timing": "transient",
+      "times": [
+        8.92
+      ],
+      "onsets": [
+        8.92
+      ],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 1,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "caption": "keyboard click",
+      "negative": null,
+      "regen": null
+    },
+    {
+      "source": "computer_keyboard",
+      "label": "computer_keyboard",
+      "kind": "sfx",
+      "source_hint": "Computer keyboard",
+      "salience": "high",
+      "route": "v2a",
+      "route_reason": "continuous(지속/텍스처) → v2a (시각 확인 안 됨, baseline 유지)",
+      "visible": null,
+      "timing": "continuous",
+      "times": [
+        [
+          0.0,
+          7.84
+        ]
+      ],
+      "onsets": [],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "caption": "computer keyboard",
+      "negative": "typing, keyboard_click, keyboard_typing",
+      "regen": null
+    },
+    {
+      "source": "keyboard_typing",
+      "label": "keyboard_typing",
+      "kind": "sfx",
+      "source_hint": "Computer keyboard",
+      "salience": "high",
+      "route": "v2a",
+      "route_reason": "continuous(지속/텍스처) → v2a (시각 확인 안 됨, baseline 유지)",
+      "visible": null,
+      "timing": "continuous",
+      "times": [
+        [
+          7.84,
+          10.0
+        ]
+      ],
+      "onsets": [],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "caption": "keyboard typing",
+      "negative": "typing, keyboard_click, computer_keyboard",
+      "regen": null
+    }
+  ]
+}

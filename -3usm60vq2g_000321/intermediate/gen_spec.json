@@ -1,0 +1,112 @@
+{
+  "clip_id": "-3usm60vq2g_000321",
+  "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-3usm60vq2g_000321/videos/-3usm60vq2g_000321.mp4",
+  "duration": 10.064,
+  "sample_rate": 44100,
+  "v2a_fixed_sec": 8.0,
+  "t2a_groups": [
+    {
+      "group_id": "t2a_00",
+      "source": "chirp",
+      "caption": "sharp metallic chirp",
+      "route_reason": "희소 반복 단발(onset 16회) → t2a",
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 16,
+        "density": 1.778,
+        "regularity": {
+          "median_iv": 0.44,
+          "cov": 0.617
+        },
+        "kind": "sfx"
+      },
+      "regen": {
+        "policy": "regenerate_each",
+        "reason": "불규칙 반복(onset 16회, cov 0.617) → onset마다 재생성 권장"
+      },
+      "onsets": [
+        0.36,
+        0.8,
+        1.08,
+        1.48,
+        2.16,
+        2.68,
+        4.08,
+        4.44,
+        4.6,
+        5.28,
+        6.6,
+        6.92,
+        7.96,
+        8.72,
+        9.0,
+        9.36
+      ],
+      "n": 16
+    },
+    {
+      "group_id": "t2a_01",
+      "source": "walk",
+      "caption": "footsteps on gravel",
+      "route_reason": "단발 → t2a",
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 1,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "regen": null,
+      "onsets": [
+        3.12
+      ],
+      "n": 1
+    },
+    {
+      "group_id": "t2a_02",
+      "source": "hammer_strike",
+      "caption": "hammer hitting metal",
+      "route_reason": "희소 반복 단발(onset 3회) → t2a",
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 3,
+        "density": 1.316,
+        "regularity": {
+          "median_iv": 1.8,
+          "cov": 0.579
+        },
+        "kind": "sfx"
+      },
+      "regen": {
+        "policy": "regenerate_each",
+        "reason": "불규칙 반복(onset 3회, cov 0.579) → onset마다 재생성 권장"
+      },
+      "onsets": [
+        5.56,
+        6.04,
+        7.84
+      ],
+      "n": 3
+    },
+    {
+      "group_id": "t2a_03",
+      "source": "breathing",
+      "caption": "steady breath",
+      "route_reason": "단발 → t2a",
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 1,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "regen": null,
+      "onsets": [
+        8.92
+      ],
+      "n": 1
+    }
+  ],
+  "v2a_groups": [],
+  "skipped": []
+}

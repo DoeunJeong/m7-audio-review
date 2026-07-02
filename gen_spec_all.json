@@ -1,0 +1,4099 @@
+[
+  {
+    "clip_id": "--IOqc-XgYo_000000",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/--IOqc-XgYo_000000/videos/--IOqc-XgYo_000000.mp4",
+    "duration": 10.0,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [
+      {
+        "group_id": "t2a_00",
+        "source": "music",
+        "caption": "music",
+        "route_reason": "music는 v2a 생성 불가 → t2a",
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "music"
+        },
+        "regen": null,
+        "spans": [
+          [
+            3.32,
+            10.0
+          ]
+        ],
+        "continuous": true
+      }
+    ],
+    "v2a_groups": [],
+    "skipped": []
+  },
+  {
+    "clip_id": "--L3BCCcGEw_000400",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/--L3BCCcGEw_000400/videos/--L3BCCcGEw_000400.mp4",
+    "duration": 10.024059,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [],
+    "v2a_groups": [
+      {
+        "group_id": "v2a_00",
+        "source": "applause",
+        "caption": "Audience applauding with clapping hands",
+        "negative": "applause_2",
+        "spans": [
+          [
+            5.28,
+            6.24
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/--L3BCCcGEw_000400/videos/--L3BCCcGEw_000400.mp4",
+        "video_id": "000400",
+        "route_reason": "dense/repetitive → continuous, 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 6,
+          "density": 6.25,
+          "regularity": {
+            "median_iv": 0.16,
+            "cov": 0.333
+          },
+          "kind": "sfx"
+        }
+      },
+      {
+        "group_id": "v2a_01",
+        "source": "applause_2",
+        "caption": "Audience applauding with clapping hands",
+        "negative": "applause",
+        "spans": [
+          [
+            0.0,
+            10.0
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/--L3BCCcGEw_000400/videos/--L3BCCcGEw_000400.mp4",
+        "video_id": "000400",
+        "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "clip_id": "--Z4X0SQxBc_000290",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/--Z4X0SQxBc_000290/videos/--Z4X0SQxBc_000290.mp4",
+    "duration": 10.0,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [],
+    "v2a_groups": [
+      {
+        "group_id": "v2a_00",
+        "source": "applause",
+        "caption": "audience clapping hands rhythmically",
+        "negative": "cheering",
+        "spans": [
+          [
+            0.0,
+            10.0
+          ],
+          [
+            0.0,
+            10.0
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/--Z4X0SQxBc_000290/videos/--Z4X0SQxBc_000290.mp4",
+        "video_id": "000290",
+        "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 55,
+          "density": 5.589,
+          "regularity": {
+            "median_iv": 0.16,
+            "cov": 0.332
+          },
+          "kind": "sfx"
+        }
+      },
+      {
+        "group_id": "v2a_01",
+        "source": "cheering",
+        "caption": "audience cheering excitedly",
+        "negative": "applause",
+        "spans": [
+          [
+            0.0,
+            10.0
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/--Z4X0SQxBc_000290/videos/--Z4X0SQxBc_000290.mp4",
+        "video_id": "000290",
+        "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "clip_id": "--qEoNMshyY_000037",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/--qEoNMshyY_000037/videos/--qEoNMshyY_000037.mp4",
+    "duration": 10.04,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [
+      {
+        "group_id": "t2a_00",
+        "source": "music",
+        "caption": "music",
+        "route_reason": "music는 v2a 생성 불가 → t2a",
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "music"
+        },
+        "regen": null,
+        "spans": [
+          [
+            0.0,
+            10.0
+          ]
+        ],
+        "continuous": true
+      }
+    ],
+    "v2a_groups": [
+      {
+        "group_id": "v2a_00",
+        "source": "tap_dance_footsteps",
+        "caption": "black and white tap shoes striking floor",
+        "negative": "music",
+        "spans": [
+          [
+            0.08,
+            9.52
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/--qEoNMshyY_000037/videos/--qEoNMshyY_000037.mp4",
+        "video_id": "000037",
+        "route_reason": "dense/repetitive → continuous, 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 46,
+          "density": 4.873,
+          "regularity": {
+            "median_iv": 0.16,
+            "cov": 0.538
+          },
+          "kind": "sfx"
+        }
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "clip_id": "--yJcmmwiMc_000030",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/--yJcmmwiMc_000030/videos/--yJcmmwiMc_000030.mp4",
+    "duration": 10.0,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [
+      {
+        "group_id": "t2a_00",
+        "source": "guitar_string_pluck",
+        "caption": "finger plucking guitar string",
+        "route_reason": "희소 반복 단발(onset 2회) → t2a",
+        "evidence": {
+          "timing": "transient",
+          "onset_count": 2,
+          "density": 16.667,
+          "regularity": {
+            "median_iv": 0.12,
+            "cov": 0.0
+          },
+          "kind": "sfx"
+        },
+        "regen": {
+          "policy": "reuse_once",
+          "reason": "규칙적 반복(onset 2회, cov 0.0) → 동일 음색 1회 생성 재사용"
+        },
+        "onsets": [
+          9.52,
+          9.64
+        ],
+        "n": 2
+      },
+      {
+        "group_id": "t2a_01",
+        "source": "music",
+        "caption": "guitar music",
+        "route_reason": "music는 v2a 생성 불가 → t2a",
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "music"
+        },
+        "regen": null,
+        "spans": [
+          [
+            0.0,
+            10.0
+          ]
+        ],
+        "continuous": true
+      }
+    ],
+    "v2a_groups": [],
+    "skipped": []
+  },
+  {
+    "clip_id": "--z8JpdDKr0_000249",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/--z8JpdDKr0_000249/videos/--z8JpdDKr0_000249.mp4",
+    "duration": 10.059,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [],
+    "v2a_groups": [
+      {
+        "group_id": "v2a_00",
+        "source": "drill",
+        "caption": "drill bit spinning rapidly into wood",
+        "negative": "wood_nail_impact, mechanisms",
+        "spans": [
+          [
+            5.88,
+            9.68
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/--z8JpdDKr0_000249/videos/--z8JpdDKr0_000249.mp4",
+        "video_id": "000249",
+        "route_reason": "dense/repetitive → continuous, 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 16,
+          "density": 4.211,
+          "regularity": {
+            "median_iv": 0.2,
+            "cov": 0.664
+          },
+          "kind": "sfx"
+        }
+      },
+      {
+        "group_id": "v2a_01",
+        "source": "wood_nail_impact",
+        "caption": "wooden nail being driven into timber",
+        "negative": "drill, mechanisms",
+        "spans": [
+          [
+            0.0,
+            5.84
+          ],
+          [
+            6.36,
+            6.84
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/--z8JpdDKr0_000249/videos/--z8JpdDKr0_000249.mp4",
+        "video_id": "000249",
+        "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      },
+      {
+        "group_id": "v2a_02",
+        "source": "mechanisms",
+        "caption": "mechanical whirring and clanking of tools",
+        "negative": "drill, wood_nail_impact",
+        "spans": [
+          [
+            0.0,
+            10.0
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/--z8JpdDKr0_000249/videos/--z8JpdDKr0_000249.mp4",
+        "video_id": "000249",
+        "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "clip_id": "-03N_1zOM4E_000239",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-03N_1zOM4E_000239/videos/-03N_1zOM4E_000239.mp4",
+    "duration": 10.04,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [
+      {
+        "group_id": "t2a_00",
+        "source": "tap",
+        "caption": "soft rhythmic tapping on table surface",
+        "route_reason": "희소 반복 단발(onset 3회) → t2a",
+        "evidence": {
+          "timing": "transient",
+          "onset_count": 3,
+          "density": 0.824,
+          "regularity": {
+            "median_iv": 2.68,
+            "cov": 0.473
+          },
+          "kind": "sfx"
+        },
+        "regen": {
+          "policy": "regenerate_each",
+          "reason": "불규칙 반복(onset 3회, cov 0.473) → onset마다 재생성 권장"
+        },
+        "onsets": [
+          2.08,
+          3.04,
+          5.72
+        ],
+        "n": 3
+      },
+      {
+        "group_id": "t2a_01",
+        "source": "bouncing",
+        "caption": "ping-pong ball bouncing on table surface",
+        "route_reason": "희소 반복 단발(onset 13회) → t2a",
+        "evidence": {
+          "timing": "transient",
+          "onset_count": 13,
+          "density": 2.006,
+          "regularity": {
+            "median_iv": 0.44,
+            "cov": 1.002
+          },
+          "kind": "sfx"
+        },
+        "regen": {
+          "policy": "regenerate_each",
+          "reason": "불규칙 반복(onset 13회, cov 1.002) → onset마다 재생성 권장"
+        },
+        "onsets": [
+          2.32,
+          2.84,
+          3.28,
+          5.56,
+          5.88,
+          6.44,
+          6.96,
+          7.52,
+          7.68,
+          7.96,
+          8.24,
+          8.44,
+          8.8
+        ],
+        "n": 13
+      }
+    ],
+    "v2a_groups": [],
+    "skipped": []
+  },
+  {
+    "clip_id": "-03N_1zOM4E_000337",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-03N_1zOM4E_000337/videos/-03N_1zOM4E_000337.mp4",
+    "duration": 10.04,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [
+      {
+        "group_id": "t2a_00",
+        "source": "bouncing",
+        "caption": "ping-pong ball bouncing on table surface",
+        "route_reason": "희소 반복 단발(onset 15회) → t2a",
+        "evidence": {
+          "timing": "transient",
+          "onset_count": 15,
+          "density": 1.596,
+          "regularity": {
+            "median_iv": 0.48,
+            "cov": 1.199
+          },
+          "kind": "sfx"
+        },
+        "regen": {
+          "policy": "regenerate_each",
+          "reason": "불규칙 반복(onset 15회, cov 1.199) → onset마다 재생성 권장"
+        },
+        "onsets": [
+          0.32,
+          0.84,
+          0.96,
+          1.52,
+          2.2,
+          2.56,
+          5.72,
+          6.2,
+          6.36,
+          6.64,
+          7.36,
+          7.48,
+          7.72,
+          9.52,
+          9.72
+        ],
+        "n": 15
+      },
+      {
+        "group_id": "t2a_01",
+        "source": "tap",
+        "caption": "ping-pong paddle tapping table",
+        "route_reason": "희소 반복 단발(onset 3회) → t2a",
+        "evidence": {
+          "timing": "transient",
+          "onset_count": 3,
+          "density": 0.547,
+          "regularity": {
+            "median_iv": 4.12,
+            "cov": 0.504
+          },
+          "kind": "sfx"
+        },
+        "regen": {
+          "policy": "regenerate_each",
+          "reason": "불규칙 반복(onset 3회, cov 0.504) → onset마다 재생성 권장"
+        },
+        "onsets": [
+          4.16,
+          5.52,
+          9.64
+        ],
+        "n": 3
+      }
+    ],
+    "v2a_groups": [],
+    "skipped": []
+  },
+  {
+    "clip_id": "-0DIFwkUpjQ_000050",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-0DIFwkUpjQ_000050/videos/-0DIFwkUpjQ_000050.mp4",
+    "duration": 10.0,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [
+      {
+        "group_id": "t2a_00",
+        "source": "laugh",
+        "caption": "high-pitched, bubbling laughter",
+        "route_reason": "희소 반복 단발(onset 2회) → t2a",
+        "evidence": {
+          "timing": "transient",
+          "onset_count": 2,
+          "density": 0.575,
+          "regularity": {
+            "median_iv": 3.48,
+            "cov": 0.0
+          },
+          "kind": "sfx"
+        },
+        "regen": {
+          "policy": "reuse_once",
+          "reason": "규칙적 반복(onset 2회, cov 0.0) → 동일 음색 1회 생성 재사용"
+        },
+        "onsets": [
+          1.28,
+          4.76
+        ],
+        "n": 2
+      },
+      {
+        "group_id": "t2a_01",
+        "source": "male_speech",
+        "caption": "man speaking in a low, calm tone",
+        "route_reason": "speech는 v2a 생성 불가 → t2a",
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "speech"
+        },
+        "regen": null,
+        "spans": [
+          [
+            0.0,
+            1.52
+          ],
+          [
+            5.44,
+            6.28
+          ],
+          [
+            8.6,
+            10.0
+          ]
+        ],
+        "continuous": true
+      }
+    ],
+    "v2a_groups": [
+      {
+        "group_id": "v2a_00",
+        "source": "skateboard",
+        "caption": "skateboard wheels rolling on concrete",
+        "negative": "laugh, male_speech, wind",
+        "spans": [
+          [
+            0.0,
+            10.0
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-0DIFwkUpjQ_000050/videos/-0DIFwkUpjQ_000050.mp4",
+        "video_id": "000050",
+        "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      },
+      {
+        "group_id": "v2a_01",
+        "source": "wind",
+        "caption": "gentle breeze rustling through grass and leaves",
+        "negative": "laugh, skateboard, male_speech",
+        "spans": [
+          [
+            0.0,
+            10.0
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-0DIFwkUpjQ_000050/videos/-0DIFwkUpjQ_000050.mp4",
+        "video_id": "000050",
+        "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "clip_id": "-0VQXloTkoo_000032",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-0VQXloTkoo_000032/videos/-0VQXloTkoo_000032.mp4",
+    "duration": 10.005011,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [
+      {
+        "group_id": "t2a_00",
+        "source": "music",
+        "caption": "upbeat rhythmic music with percussion and melody",
+        "route_reason": "music는 v2a 생성 불가 → t2a",
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "music"
+        },
+        "regen": null,
+        "spans": [
+          [
+            0.0,
+            10.0
+          ]
+        ],
+        "continuous": true
+      }
+    ],
+    "v2a_groups": [
+      {
+        "group_id": "v2a_00",
+        "source": "tap_dance",
+        "caption": "tap shoes striking wooden floor with rhythmic clicks",
+        "negative": "music, female_singing",
+        "spans": [
+          [
+            1.0,
+            10.0
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-0VQXloTkoo_000032/videos/-0VQXloTkoo_000032.mp4",
+        "video_id": "000032",
+        "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      },
+      {
+        "group_id": "v2a_01",
+        "source": "female_singing",
+        "caption": "female voice singing with clear, melodic tone",
+        "negative": "music, tap_dance",
+        "spans": [
+          [
+            2.28,
+            9.84
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-0VQXloTkoo_000032/videos/-0VQXloTkoo_000032.mp4",
+        "video_id": "000032",
+        "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "clip_id": "-0WfESRV74k_000000",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-0WfESRV74k_000000/videos/-0WfESRV74k_000000.mp4",
+    "duration": 10.0078,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [
+      {
+        "group_id": "t2a_00",
+        "source": "crowd",
+        "caption": "distant crowd murmuring and cheering",
+        "route_reason": "단발 → t2a",
+        "evidence": {
+          "timing": "transient",
+          "onset_count": 1,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        },
+        "regen": null,
+        "onsets": [
+          0.32
+        ],
+        "n": 1
+      },
+      {
+        "group_id": "t2a_01",
+        "source": "music",
+        "caption": "melodic piano and vocal harmonies blending",
+        "route_reason": "music는 v2a 생성 불가 → t2a",
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "music"
+        },
+        "regen": null,
+        "spans": [
+          [
+            0.0,
+            10.0
+          ]
+        ],
+        "continuous": true
+      }
+    ],
+    "v2a_groups": [
+      {
+        "group_id": "v2a_00",
+        "source": "applause",
+        "caption": "audience clapping rhythmically in unison",
+        "negative": "crowd, music, male_singing",
+        "spans": [
+          [
+            0.24,
+            2.48
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-0WfESRV74k_000000/videos/-0WfESRV74k_000000.mp4",
+        "video_id": "000000",
+        "route_reason": "dense/repetitive → continuous, 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 13,
+          "density": 5.804,
+          "regularity": {
+            "median_iv": 0.16,
+            "cov": 0.267
+          },
+          "kind": "sfx"
+        }
+      },
+      {
+        "group_id": "v2a_01",
+        "source": "male_singing",
+        "caption": "male voice singing with emotional intensity",
+        "negative": "applause, crowd, music",
+        "spans": [
+          [
+            5.36,
+            9.2
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-0WfESRV74k_000000/videos/-0WfESRV74k_000000.mp4",
+        "video_id": "000000",
+        "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "clip_id": "-0yRK50zyTI_000030",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-0yRK50zyTI_000030/videos/-0yRK50zyTI_000030.mp4",
+    "duration": 10.0,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [
+      {
+        "group_id": "t2a_00",
+        "source": "box_opening",
+        "caption": "sharp knife slicing through cardboard box tape",
+        "route_reason": "희소 반복 단발(onset 7회) → t2a",
+        "evidence": {
+          "timing": "transient",
+          "onset_count": 7,
+          "density": 0.818,
+          "regularity": {
+            "median_iv": 0.88,
+            "cov": 1.226
+          },
+          "kind": "sfx"
+        },
+        "regen": {
+          "policy": "regenerate_each",
+          "reason": "불규칙 반복(onset 7회, cov 1.226) → onset마다 재생성 권장"
+        },
+        "onsets": [
+          0.04,
+          0.32,
+          1.72,
+          2.6,
+          7.84,
+          8.24,
+          8.6
+        ],
+        "n": 7
+      },
+      {
+        "group_id": "t2a_01",
+        "source": "breathing",
+        "caption": "steady rhythmic breathing",
+        "route_reason": "단발 → t2a",
+        "evidence": {
+          "timing": "transient",
+          "onset_count": 1,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        },
+        "regen": null,
+        "onsets": [
+          3.04
+        ],
+        "n": 1
+      }
+    ],
+    "v2a_groups": [
+      {
+        "group_id": "v2a_00",
+        "source": "mechanisms",
+        "caption": "knife scraping cardboard as it cuts through",
+        "negative": "box_opening, breathing",
+        "spans": [
+          [
+            0.0,
+            10.0
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-0yRK50zyTI_000030/videos/-0yRK50zyTI_000030.mp4",
+        "video_id": "000030",
+        "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "clip_id": "-1ukRC9M6bc_000050",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-1ukRC9M6bc_000050/videos/-1ukRC9M6bc_000050.mp4",
+    "duration": 10.0,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [
+      {
+        "group_id": "t2a_00",
+        "source": "music",
+        "caption": "drumsticks striking drumheads with force",
+        "route_reason": "music는 v2a 생성 불가 → t2a",
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "music"
+        },
+        "regen": null,
+        "spans": [
+          [
+            0.0,
+            10.0
+          ]
+        ],
+        "continuous": true
+      }
+    ],
+    "v2a_groups": [
+      {
+        "group_id": "v2a_00",
+        "source": "female_singing",
+        "caption": "female voice singing with emotion",
+        "negative": "music",
+        "spans": [
+          [
+            0.0,
+            2.16
+          ],
+          [
+            3.08,
+            7.04
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-1ukRC9M6bc_000050/videos/-1ukRC9M6bc_000050.mp4",
+        "video_id": "000050",
+        "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "clip_id": "-23CeprtibU_000030",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-23CeprtibU_000030/videos/-23CeprtibU_000030.mp4",
+    "duration": 10.0,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [],
+    "v2a_groups": [
+      {
+        "group_id": "v2a_00",
+        "source": "chainsaw",
+        "caption": "chainsaw",
+        "negative": "",
+        "spans": [
+          [
+            0.0,
+            10.0
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-23CeprtibU_000030/videos/-23CeprtibU_000030.mp4",
+        "video_id": "000030",
+        "route_reason": "continuous(지속/텍스처) → v2a (시각 확인 안 됨, baseline 유지)",
+        "visible": null,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 30,
+          "density": 3.425,
+          "regularity": {
+            "median_iv": 0.2,
+            "cov": 1.108
+          },
+          "kind": "sfx"
+        }
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "clip_id": "-2Mt0URu_Xo_000247",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-2Mt0URu_Xo_000247/videos/-2Mt0URu_Xo_000247.mp4",
+    "duration": 10.057,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [
+      {
+        "group_id": "t2a_00",
+        "source": "cheering",
+        "caption": "audience cheering loudly",
+        "route_reason": "희소 반복 단발(onset 7회) → t2a",
+        "evidence": {
+          "timing": "transient",
+          "onset_count": 7,
+          "density": 0.738,
+          "regularity": {
+            "median_iv": 0.56,
+            "cov": 1.64
+          },
+          "kind": "sfx"
+        },
+        "regen": {
+          "policy": "regenerate_each",
+          "reason": "불규칙 반복(onset 7회, cov 1.64) → onset마다 재생성 권장"
+        },
+        "onsets": [
+          0.24,
+          7.6,
+          8.16,
+          8.88,
+          9.08,
+          9.36,
+          9.72
+        ],
+        "n": 7
+      },
+      {
+        "group_id": "t2a_01",
+        "source": "squeal",
+        "caption": "sharp squealing noise",
+        "route_reason": "단발 → t2a",
+        "evidence": {
+          "timing": "transient",
+          "onset_count": 1,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        },
+        "regen": null,
+        "onsets": [
+          2.52
+        ],
+        "n": 1
+      },
+      {
+        "group_id": "t2a_02",
+        "source": "applause",
+        "caption": "audience applauding enthusiastically",
+        "route_reason": "희소 반복 단발(onset 2회) → t2a",
+        "evidence": {
+          "timing": "transient",
+          "onset_count": 2,
+          "density": 1.613,
+          "regularity": {
+            "median_iv": 1.24,
+            "cov": 0.0
+          },
+          "kind": "sfx"
+        },
+        "regen": {
+          "policy": "reuse_once",
+          "reason": "규칙적 반복(onset 2회, cov 0.0) → 동일 음색 1회 생성 재사용"
+        },
+        "onsets": [
+          6.68,
+          7.92
+        ],
+        "n": 2
+      },
+      {
+        "group_id": "t2a_03",
+        "source": "male_speech",
+        "caption": "man speaking clearly",
+        "route_reason": "speech는 v2a 생성 불가 → t2a",
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "speech"
+        },
+        "regen": null,
+        "spans": [
+          [
+            6.0,
+            10.0
+          ]
+        ],
+        "continuous": true
+      }
+    ],
+    "v2a_groups": [
+      {
+        "group_id": "v2a_00",
+        "source": "clapping",
+        "caption": "hands clapping rhythmically",
+        "negative": "cheering, squeal, applause, male_speech, crowd",
+        "spans": [
+          [
+            0.32,
+            9.8
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-2Mt0URu_Xo_000247/videos/-2Mt0URu_Xo_000247.mp4",
+        "video_id": "000247",
+        "route_reason": "dense/repetitive → continuous, 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 25,
+          "density": 2.637,
+          "regularity": {
+            "median_iv": 0.28,
+            "cov": 1.063
+          },
+          "kind": "sfx"
+        }
+      },
+      {
+        "group_id": "v2a_01",
+        "source": "crowd",
+        "caption": "crowd noise in background",
+        "negative": "cheering, clapping, squeal, applause, male_speech",
+        "spans": [
+          [
+            0.0,
+            3.48
+          ],
+          [
+            4.04,
+            10.0
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-2Mt0URu_Xo_000247/videos/-2Mt0URu_Xo_000247.mp4",
+        "video_id": "000247",
+        "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "clip_id": "-2qJQqXbtZs_000042",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-2qJQqXbtZs_000042/videos/-2qJQqXbtZs_000042.mp4",
+    "duration": 10.04,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [
+      {
+        "group_id": "t2a_00",
+        "source": "filter_drop",
+        "caption": "filter dropping into trash can",
+        "route_reason": "희소 반복 단발(onset 2회) → t2a",
+        "evidence": {
+          "timing": "transient",
+          "onset_count": 2,
+          "density": 5.556,
+          "regularity": {
+            "median_iv": 0.36,
+            "cov": 0.0
+          },
+          "kind": "sfx"
+        },
+        "regen": {
+          "policy": "reuse_once",
+          "reason": "규칙적 반복(onset 2회, cov 0.0) → 동일 음색 1회 생성 재사용"
+        },
+        "onsets": [
+          0.56,
+          0.92
+        ],
+        "n": 2
+      }
+    ],
+    "v2a_groups": [
+      {
+        "group_id": "v2a_00",
+        "source": "sink_filling_or_washing",
+        "caption": "water splashing in sink",
+        "negative": "filter_drop, water_tap, filter_washing",
+        "spans": [
+          [
+            4.08,
+            9.84
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-2qJQqXbtZs_000042/videos/-2qJQqXbtZs_000042.mp4",
+        "video_id": "000042",
+        "route_reason": "dense/repetitive → continuous, 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 27,
+          "density": 4.688,
+          "regularity": {
+            "median_iv": 0.2,
+            "cov": 0.306
+          },
+          "kind": "sfx"
+        }
+      },
+      {
+        "group_id": "v2a_01",
+        "source": "water_tap",
+        "caption": "water flowing from faucet",
+        "negative": "filter_drop, sink_filling_or_washing, filter_washing",
+        "spans": [
+          [
+            3.56,
+            10.0
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-2qJQqXbtZs_000042/videos/-2qJQqXbtZs_000042.mp4",
+        "video_id": "000042",
+        "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      },
+      {
+        "group_id": "v2a_02",
+        "source": "filter_washing",
+        "caption": "water running over filter",
+        "negative": "filter_drop, sink_filling_or_washing, water_tap",
+        "spans": [
+          [
+            0.0,
+            3.56
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-2qJQqXbtZs_000042/videos/-2qJQqXbtZs_000042.mp4",
+        "video_id": "000042",
+        "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "clip_id": "-2qJQqXbtZs_000128",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-2qJQqXbtZs_000128/videos/-2qJQqXbtZs_000128.mp4",
+    "duration": 10.04,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [],
+    "v2a_groups": [
+      {
+        "group_id": "v2a_00",
+        "source": "vacuum_cleaner_start",
+        "caption": "Vacuum cleaner motor starts with a low hum and whirring sound.",
+        "negative": "vacuum_cleaner, vacuum_cleaner_2",
+        "spans": [
+          [
+            0.12,
+            1.32
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-2qJQqXbtZs_000128/videos/-2qJQqXbtZs_000128.mp4",
+        "video_id": "000128",
+        "route_reason": "dense/repetitive → continuous, 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 5,
+          "density": 4.167,
+          "regularity": {
+            "median_iv": 0.24,
+            "cov": 0.663
+          },
+          "kind": "sfx"
+        }
+      },
+      {
+        "group_id": "v2a_01",
+        "source": "vacuum_cleaner",
+        "caption": "Vacuum cleaner moving across carpet with suction and brush roll noise.",
+        "negative": "vacuum_cleaner_start, vacuum_cleaner_2",
+        "spans": [
+          [
+            2.8,
+            6.68
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-2qJQqXbtZs_000128/videos/-2qJQqXbtZs_000128.mp4",
+        "video_id": "000128",
+        "route_reason": "dense/repetitive → continuous, 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 23,
+          "density": 5.928,
+          "regularity": {
+            "median_iv": 0.16,
+            "cov": 0.189
+          },
+          "kind": "sfx"
+        }
+      },
+      {
+        "group_id": "v2a_02",
+        "source": "vacuum_cleaner_2",
+        "caption": "Vacuum cleaner moving across carpet with suction and brush roll noise.",
+        "negative": "vacuum_cleaner_start, vacuum_cleaner",
+        "spans": [
+          [
+            2.52,
+            6.96
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-2qJQqXbtZs_000128/videos/-2qJQqXbtZs_000128.mp4",
+        "video_id": "000128",
+        "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "clip_id": "-32EWNC_btk_000011",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-32EWNC_btk_000011/videos/-32EWNC_btk_000011.mp4",
+    "duration": 10.055,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [
+      {
+        "group_id": "t2a_00",
+        "source": "engine_start",
+        "caption": "metallic engine crankshaft turning",
+        "route_reason": "v2a 후보(dense/repetitive → continuous)였으나 화면에 원인 미노출 → t2a 강등",
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 29,
+          "density": 4.77,
+          "regularity": {
+            "median_iv": 0.16,
+            "cov": 0.946
+          },
+          "kind": "sfx"
+        },
+        "regen": {
+          "policy": "regenerate_each",
+          "reason": "불규칙 반복(onset 29회, cov 0.946) → onset마다 재생성 권장"
+        },
+        "onsets": [
+          3.68,
+          3.8,
+          3.96,
+          4.08,
+          5.32,
+          5.6,
+          5.8,
+          6.04,
+          6.2,
+          6.36,
+          6.72,
+          7.04,
+          7.16,
+          7.32,
+          7.52,
+          7.72,
+          7.84,
+          7.96,
+          8.2,
+          8.32,
+          8.48,
+          8.64,
+          8.8,
+          8.96,
+          9.12,
+          9.28,
+          9.44,
+          9.6,
+          9.76
+        ],
+        "n": 29
+      }
+    ],
+    "v2a_groups": [
+      {
+        "group_id": "v2a_00",
+        "source": "medium_engine_mid_frequency",
+        "caption": "metallic engine components vibrating",
+        "negative": "engine_start, engine_knocking",
+        "spans": [
+          [
+            0.0,
+            10.0
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-32EWNC_btk_000011/videos/-32EWNC_btk_000011.mp4",
+        "video_id": "000011",
+        "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      },
+      {
+        "group_id": "v2a_01",
+        "source": "engine_knocking",
+        "caption": "metallic engine components vibrating",
+        "negative": "engine_start, medium_engine_mid_frequency",
+        "spans": [
+          [
+            0.0,
+            10.0
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-32EWNC_btk_000011/videos/-32EWNC_btk_000011.mp4",
+        "video_id": "000011",
+        "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "clip_id": "-3cXcRajPSc_000030",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-3cXcRajPSc_000030/videos/-3cXcRajPSc_000030.mp4",
+    "duration": 10.0,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [],
+    "v2a_groups": [
+      {
+        "group_id": "v2a_00",
+        "source": "rain_on_surface",
+        "caption": "raindrops pattering on wet pavement",
+        "negative": "clip_clop, wind_noise_microphone, wind",
+        "spans": [
+          [
+            0.08,
+            9.84
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-3cXcRajPSc_000030/videos/-3cXcRajPSc_000030.mp4",
+        "video_id": "000030",
+        "route_reason": "dense/repetitive → continuous, 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 37,
+          "density": 3.791,
+          "regularity": {
+            "median_iv": 0.24,
+            "cov": 0.445
+          },
+          "kind": "sfx"
+        }
+      },
+      {
+        "group_id": "v2a_01",
+        "source": "clip_clop",
+        "caption": "footsteps on wet pavement",
+        "negative": "rain_on_surface, wind_noise_microphone, wind",
+        "spans": [
+          [
+            1.24,
+            9.76
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-3cXcRajPSc_000030/videos/-3cXcRajPSc_000030.mp4",
+        "video_id": "000030",
+        "route_reason": "dense/repetitive → continuous, 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 28,
+          "density": 3.286,
+          "regularity": {
+            "median_iv": 0.24,
+            "cov": 0.819
+          },
+          "kind": "sfx"
+        }
+      },
+      {
+        "group_id": "v2a_02",
+        "source": "wind_noise_microphone",
+        "caption": "wind rustling through microphone",
+        "negative": "rain_on_surface, clip_clop, wind",
+        "spans": [
+          [
+            0.72,
+            10.0
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-3cXcRajPSc_000030/videos/-3cXcRajPSc_000030.mp4",
+        "video_id": "000030",
+        "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      },
+      {
+        "group_id": "v2a_03",
+        "source": "wind",
+        "caption": "wind blowing through alleyway",
+        "negative": "rain_on_surface, clip_clop, wind_noise_microphone",
+        "spans": [
+          [
+            0.0,
+            10.0
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-3cXcRajPSc_000030/videos/-3cXcRajPSc_000030.mp4",
+        "video_id": "000030",
+        "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "clip_id": "-3usm60vq2g_000240",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-3usm60vq2g_000240/videos/-3usm60vq2g_000240.mp4",
+    "duration": 10.05,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [
+      {
+        "group_id": "t2a_00",
+        "source": "chirp",
+        "caption": "sharp, high-pitched metallic chirp",
+        "route_reason": "희소 반복 단발(onset 10회) → t2a",
+        "evidence": {
+          "timing": "transient",
+          "onset_count": 10,
+          "density": 1.02,
+          "regularity": {
+            "median_iv": 0.44,
+            "cov": 1.098
+          },
+          "kind": "sfx"
+        },
+        "regen": {
+          "policy": "regenerate_each",
+          "reason": "불규칙 반복(onset 10회, cov 1.098) → onset마다 재생성 권장"
+        },
+        "onsets": [
+          0.0,
+          0.16,
+          0.92,
+          1.16,
+          2.28,
+          2.64,
+          3.08,
+          6.32,
+          9.6,
+          9.8
+        ],
+        "n": 10
+      },
+      {
+        "group_id": "t2a_01",
+        "source": "tool_impact",
+        "caption": "metallic tool striking wood with force",
+        "route_reason": "희소 반복 단발(onset 4회) → t2a",
+        "evidence": {
+          "timing": "transient",
+          "onset_count": 4,
+          "density": 1.02,
+          "regularity": {
+            "median_iv": 0.32,
+            "cov": 1.111
+          },
+          "kind": "sfx"
+        },
+        "regen": {
+          "policy": "regenerate_each",
+          "reason": "불규칙 반복(onset 4회, cov 1.111) → onset마다 재생성 권장"
+        },
+        "onsets": [
+          4.44,
+          4.68,
+          5.0,
+          8.36
+        ],
+        "n": 4
+      },
+      {
+        "group_id": "t2a_02",
+        "source": "male_speech",
+        "caption": "man speaking in a calm tone",
+        "route_reason": "speech는 v2a 생성 불가 → t2a",
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "speech"
+        },
+        "regen": null,
+        "spans": [
+          [
+            0.2,
+            4.28
+          ],
+          [
+            6.44,
+            6.84
+          ],
+          [
+            8.48,
+            9.48
+          ]
+        ],
+        "continuous": true
+      }
+    ],
+    "v2a_groups": [],
+    "skipped": []
+  },
+  {
+    "clip_id": "-3usm60vq2g_000321",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-3usm60vq2g_000321/videos/-3usm60vq2g_000321.mp4",
+    "duration": 10.064,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [
+      {
+        "group_id": "t2a_00",
+        "source": "chirp",
+        "caption": "sharp metallic chirp",
+        "route_reason": "희소 반복 단발(onset 16회) → t2a",
+        "evidence": {
+          "timing": "transient",
+          "onset_count": 16,
+          "density": 1.778,
+          "regularity": {
+            "median_iv": 0.44,
+            "cov": 0.617
+          },
+          "kind": "sfx"
+        },
+        "regen": {
+          "policy": "regenerate_each",
+          "reason": "불규칙 반복(onset 16회, cov 0.617) → onset마다 재생성 권장"
+        },
+        "onsets": [
+          0.36,
+          0.8,
+          1.08,
+          1.48,
+          2.16,
+          2.68,
+          4.08,
+          4.44,
+          4.6,
+          5.28,
+          6.6,
+          6.92,
+          7.96,
+          8.72,
+          9.0,
+          9.36
+        ],
+        "n": 16
+      },
+      {
+        "group_id": "t2a_01",
+        "source": "walk",
+        "caption": "footsteps on gravel",
+        "route_reason": "단발 → t2a",
+        "evidence": {
+          "timing": "transient",
+          "onset_count": 1,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        },
+        "regen": null,
+        "onsets": [
+          3.12
+        ],
+        "n": 1
+      },
+      {
+        "group_id": "t2a_02",
+        "source": "hammer_strike",
+        "caption": "hammer hitting metal",
+        "route_reason": "희소 반복 단발(onset 3회) → t2a",
+        "evidence": {
+          "timing": "transient",
+          "onset_count": 3,
+          "density": 1.316,
+          "regularity": {
+            "median_iv": 1.8,
+            "cov": 0.579
+          },
+          "kind": "sfx"
+        },
+        "regen": {
+          "policy": "regenerate_each",
+          "reason": "불규칙 반복(onset 3회, cov 0.579) → onset마다 재생성 권장"
+        },
+        "onsets": [
+          5.56,
+          6.04,
+          7.84
+        ],
+        "n": 3
+      },
+      {
+        "group_id": "t2a_03",
+        "source": "breathing",
+        "caption": "steady breath",
+        "route_reason": "단발 → t2a",
+        "evidence": {
+          "timing": "transient",
+          "onset_count": 1,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        },
+        "regen": null,
+        "onsets": [
+          8.92
+        ],
+        "n": 1
+      }
+    ],
+    "v2a_groups": [],
+    "skipped": []
+  },
+  {
+    "clip_id": "-46xqouqMxA_000006",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-46xqouqMxA_000006/videos/-46xqouqMxA_000006.mp4",
+    "duration": 9.0,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [],
+    "v2a_groups": [
+      {
+        "group_id": "v2a_00",
+        "source": "meow",
+        "caption": "cat meowing with open mouth",
+        "negative": "background_noise",
+        "spans": [
+          [
+            0.16,
+            0.8
+          ],
+          [
+            1.68,
+            2.44
+          ],
+          [
+            3.52,
+            4.32
+          ],
+          [
+            4.96,
+            5.76
+          ],
+          [
+            6.8,
+            7.72
+          ],
+          [
+            8.4,
+            9.0
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-46xqouqMxA_000006/videos/-46xqouqMxA_000006.mp4",
+        "video_id": "000006",
+        "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      },
+      {
+        "group_id": "v2a_01",
+        "source": "background_noise",
+        "caption": "indoor background noise",
+        "negative": "meow",
+        "spans": [
+          [
+            0.8,
+            1.68
+          ],
+          [
+            2.44,
+            3.52
+          ],
+          [
+            4.32,
+            4.96
+          ],
+          [
+            5.76,
+            6.8
+          ],
+          [
+            7.72,
+            8.4
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-46xqouqMxA_000006/videos/-46xqouqMxA_000006.mp4",
+        "video_id": "000006",
+        "route_reason": "continuous(지속/텍스처) → v2a (시각 확인 안 됨, baseline 유지)",
+        "visible": null,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "clip_id": "-4o0jRbgHr4_000030",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-4o0jRbgHr4_000030/videos/-4o0jRbgHr4_000030.mp4",
+    "duration": 10.0,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [
+      {
+        "group_id": "t2a_00",
+        "source": "cat_meow",
+        "caption": "cat vocalizing with open mouth",
+        "route_reason": "단발 → t2a",
+        "evidence": {
+          "timing": "transient",
+          "onset_count": 1,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        },
+        "regen": null,
+        "onsets": [
+          5.56
+        ],
+        "n": 1
+      },
+      {
+        "group_id": "t2a_01",
+        "source": "air_conditioner",
+        "caption": "air conditioner hum",
+        "route_reason": "v2a 후보(continuous(지속/텍스처))였으나 화면에 원인 미노출 → t2a 강등",
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        },
+        "regen": null,
+        "spans": [
+          [
+            0.0,
+            10.0
+          ]
+        ],
+        "continuous": true
+      }
+    ],
+    "v2a_groups": [
+      {
+        "group_id": "v2a_00",
+        "source": "floor_scratching",
+        "caption": "cat claws scraping floor",
+        "negative": "cat_meow, air_conditioner",
+        "spans": [
+          [
+            0.76,
+            4.08
+          ],
+          [
+            6.28,
+            9.92
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-4o0jRbgHr4_000030/videos/-4o0jRbgHr4_000030.mp4",
+        "video_id": "000030",
+        "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "clip_id": "-5KPeudJyhk_000300",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-5KPeudJyhk_000300/videos/-5KPeudJyhk_000300.mp4",
+    "duration": 10.0,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [
+      {
+        "group_id": "t2a_00",
+        "source": "music",
+        "caption": "electric guitar strumming",
+        "route_reason": "music는 v2a 생성 불가 → t2a",
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "music"
+        },
+        "regen": null,
+        "spans": [
+          [
+            0.0,
+            10.0
+          ]
+        ],
+        "continuous": true
+      }
+    ],
+    "v2a_groups": [
+      {
+        "group_id": "v2a_00",
+        "source": "male_singing",
+        "caption": "male voice singing into microphone",
+        "negative": "music",
+        "spans": [
+          [
+            0.0,
+            4.2
+          ],
+          [
+            5.4,
+            10.0
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-5KPeudJyhk_000300/videos/-5KPeudJyhk_000300.mp4",
+        "video_id": "000300",
+        "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "clip_id": "-6AOy8GAMpM_000060",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-6AOy8GAMpM_000060/videos/-6AOy8GAMpM_000060.mp4",
+    "duration": 10.0,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [
+      {
+        "group_id": "t2a_00",
+        "source": "keyboard_click",
+        "caption": "keyboard click",
+        "route_reason": "단발 → t2a",
+        "evidence": {
+          "timing": "transient",
+          "onset_count": 1,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        },
+        "regen": null,
+        "onsets": [
+          8.92
+        ],
+        "n": 1
+      }
+    ],
+    "v2a_groups": [
+      {
+        "group_id": "v2a_00",
+        "source": "typing",
+        "caption": "fingers tapping white keyboard keys",
+        "negative": "keyboard_click, computer_keyboard, keyboard_typing",
+        "spans": [
+          [
+            0.12,
+            6.04
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-6AOy8GAMpM_000060/videos/-6AOy8GAMpM_000060.mp4",
+        "video_id": "000060",
+        "route_reason": "dense/repetitive → continuous, 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 31,
+          "density": 5.236,
+          "regularity": {
+            "median_iv": 0.2,
+            "cov": 0.431
+          },
+          "kind": "sfx"
+        }
+      },
+      {
+        "group_id": "v2a_01",
+        "source": "computer_keyboard",
+        "caption": "computer keyboard",
+        "negative": "typing, keyboard_click, keyboard_typing",
+        "spans": [
+          [
+            0.0,
+            7.84
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-6AOy8GAMpM_000060/videos/-6AOy8GAMpM_000060.mp4",
+        "video_id": "000060",
+        "route_reason": "continuous(지속/텍스처) → v2a (시각 확인 안 됨, baseline 유지)",
+        "visible": null,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      },
+      {
+        "group_id": "v2a_02",
+        "source": "keyboard_typing",
+        "caption": "keyboard typing",
+        "negative": "typing, keyboard_click, computer_keyboard",
+        "spans": [
+          [
+            7.84,
+            10.0
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-6AOy8GAMpM_000060/videos/-6AOy8GAMpM_000060.mp4",
+        "video_id": "000060",
+        "route_reason": "continuous(지속/텍스처) → v2a (시각 확인 안 됨, baseline 유지)",
+        "visible": null,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "clip_id": "-6BO5P5QkX4_000068",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-6BO5P5QkX4_000068/videos/-6BO5P5QkX4_000068.mp4",
+    "duration": 10.019002,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [],
+    "v2a_groups": [
+      {
+        "group_id": "v2a_00",
+        "source": "crackle",
+        "caption": "wood crackling as it burns in fire",
+        "negative": "fire",
+        "spans": [
+          [
+            0.16,
+            9.2
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-6BO5P5QkX4_000068/videos/-6BO5P5QkX4_000068.mp4",
+        "video_id": "000068",
+        "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      },
+      {
+        "group_id": "v2a_01",
+        "source": "fire",
+        "caption": "bright orange flames dancing and flickering",
+        "negative": "crackle",
+        "spans": [
+          [
+            0.0,
+            10.0
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-6BO5P5QkX4_000068/videos/-6BO5P5QkX4_000068.mp4",
+        "video_id": "000068",
+        "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "clip_id": "-6bTvuXsIXI_000030",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-6bTvuXsIXI_000030/videos/-6bTvuXsIXI_000030.mp4",
+    "duration": 10.0,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [
+      {
+        "group_id": "t2a_00",
+        "source": "whistling",
+        "caption": "A high-pitched, continuous whistling sound",
+        "route_reason": "희소 반복 단발(onset 2회) → t2a",
+        "evidence": {
+          "timing": "transient",
+          "onset_count": 2,
+          "density": 5.556,
+          "regularity": {
+            "median_iv": 0.36,
+            "cov": 0.0
+          },
+          "kind": "sfx"
+        },
+        "regen": {
+          "policy": "regenerate_each",
+          "reason": "영상에서 반복 동작이 매번 다름(VL) → onset마다 재생성"
+        },
+        "onsets": [
+          7.4,
+          7.76
+        ],
+        "n": 2
+      }
+    ],
+    "v2a_groups": [
+      {
+        "group_id": "v2a_00",
+        "source": "whoop",
+        "caption": "A single person's excited whooping sound",
+        "negative": "whistling, applause, crowd",
+        "spans": [
+          [
+            2.92,
+            9.16
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-6bTvuXsIXI_000030/videos/-6bTvuXsIXI_000030.mp4",
+        "video_id": "000030",
+        "route_reason": "dense/repetitive → continuous, 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 19,
+          "density": 3.045,
+          "regularity": {
+            "median_iv": 0.16,
+            "cov": 1.025
+          },
+          "kind": "sfx"
+        }
+      },
+      {
+        "group_id": "v2a_01",
+        "source": "applause",
+        "caption": "Audience members clapping their hands together",
+        "negative": "whoop, whistling, crowd",
+        "spans": [
+          [
+            2.04,
+            10.0
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-6bTvuXsIXI_000030/videos/-6bTvuXsIXI_000030.mp4",
+        "video_id": "000030",
+        "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      },
+      {
+        "group_id": "v2a_02",
+        "source": "crowd",
+        "caption": "A large crowd cheering and shouting",
+        "negative": "whoop, whistling, applause",
+        "spans": [
+          [
+            2.12,
+            10.0
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-6bTvuXsIXI_000030/videos/-6bTvuXsIXI_000030.mp4",
+        "video_id": "000030",
+        "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "clip_id": "-6t2iefJug8_000010",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-6t2iefJug8_000010/videos/-6t2iefJug8_000010.mp4",
+    "duration": 10.0,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [
+      {
+        "group_id": "t2a_00",
+        "source": "music",
+        "caption": "music",
+        "route_reason": "music는 v2a 생성 불가 → t2a",
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "music"
+        },
+        "regen": null,
+        "spans": [
+          [
+            0.0,
+            10.0
+          ]
+        ],
+        "continuous": true
+      }
+    ],
+    "v2a_groups": [],
+    "skipped": []
+  },
+  {
+    "clip_id": "-7IhwezUrUA_000590",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-7IhwezUrUA_000590/videos/-7IhwezUrUA_000590.mp4",
+    "duration": 10.0,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [
+      {
+        "group_id": "t2a_00",
+        "source": "breathing",
+        "caption": "deep rhythmic inhalation and exhalation",
+        "route_reason": "희소 반복 단발(onset 6회) → t2a",
+        "evidence": {
+          "timing": "transient",
+          "onset_count": 6,
+          "density": 0.67,
+          "regularity": {
+            "median_iv": 1.92,
+            "cov": 0.525
+          },
+          "kind": "sfx"
+        },
+        "regen": {
+          "policy": "regenerate_each",
+          "reason": "불규칙 반복(onset 6회, cov 0.525) → onset마다 재생성 권장"
+        },
+        "onsets": [
+          0.28,
+          1.48,
+          1.8,
+          4.64,
+          7.32,
+          9.24
+        ],
+        "n": 6
+      },
+      {
+        "group_id": "t2a_01",
+        "source": "male_speech",
+        "caption": "man speaking in a low tone",
+        "route_reason": "speech는 v2a 생성 불가 → t2a",
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "speech"
+        },
+        "regen": null,
+        "spans": [
+          [
+            0.48,
+            1.4
+          ],
+          [
+            2.0,
+            3.64
+          ],
+          [
+            6.28,
+            7.04
+          ],
+          [
+            7.64,
+            9.24
+          ]
+        ],
+        "continuous": true
+      }
+    ],
+    "v2a_groups": [
+      {
+        "group_id": "v2a_00",
+        "source": "metal_impact",
+        "caption": "metallic object striking a surface",
+        "negative": "breathing, male_speech, mechanical_operation",
+        "spans": [
+          [
+            3.64,
+            6.28
+          ],
+          [
+            7.04,
+            7.48
+          ],
+          [
+            9.44,
+            10.0
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-7IhwezUrUA_000590/videos/-7IhwezUrUA_000590.mp4",
+        "video_id": "000590",
+        "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      },
+      {
+        "group_id": "v2a_01",
+        "source": "mechanical_operation",
+        "caption": "mechanical device operating with metallic clinks and hums",
+        "negative": "breathing, male_speech, metal_impact",
+        "spans": [
+          [
+            0.0,
+            0.48
+          ],
+          [
+            1.4,
+            2.0
+          ],
+          [
+            3.64,
+            6.28
+          ],
+          [
+            7.04,
+            7.64
+          ],
+          [
+            9.24,
+            10.0
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-7IhwezUrUA_000590/videos/-7IhwezUrUA_000590.mp4",
+        "video_id": "000590",
+        "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "clip_id": "-7cMtsWTtnQ_000200",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-7cMtsWTtnQ_000200/videos/-7cMtsWTtnQ_000200.mp4",
+    "duration": 10.0,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [],
+    "v2a_groups": [
+      {
+        "group_id": "v2a_00",
+        "source": "applause",
+        "caption": "audience clapping hands together in unison",
+        "negative": "applause_2",
+        "spans": [
+          [
+            0.04,
+            9.84
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-7cMtsWTtnQ_000200/videos/-7cMtsWTtnQ_000200.mp4",
+        "video_id": "000200",
+        "route_reason": "dense/repetitive → continuous, 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 46,
+          "density": 4.694,
+          "regularity": {
+            "median_iv": 0.2,
+            "cov": 0.396
+          },
+          "kind": "sfx"
+        }
+      },
+      {
+        "group_id": "v2a_01",
+        "source": "applause_2",
+        "caption": "audience clapping hands together in unison",
+        "negative": "applause",
+        "spans": [
+          [
+            0.0,
+            10.0
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-7cMtsWTtnQ_000200/videos/-7cMtsWTtnQ_000200.mp4",
+        "video_id": "000200",
+        "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "clip_id": "-84CyEpynsY_000010",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-84CyEpynsY_000010/videos/-84CyEpynsY_000010.mp4",
+    "duration": 10.0,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [
+      {
+        "group_id": "t2a_00",
+        "source": "dog_yip",
+        "caption": "sharp, high-pitched dog yip",
+        "route_reason": "희소 반복 단발(onset 4회) → t2a",
+        "evidence": {
+          "timing": "transient",
+          "onset_count": 4,
+          "density": 0.671,
+          "regularity": {
+            "median_iv": 1.84,
+            "cov": 0.26
+          },
+          "kind": "sfx"
+        },
+        "regen": {
+          "policy": "reuse_once",
+          "reason": "규칙적 반복(onset 4회, cov 0.26) → 동일 음색 1회 생성 재사용"
+        },
+        "onsets": [
+          1.24,
+          2.68,
+          4.52,
+          7.2
+        ],
+        "n": 4
+      },
+      {
+        "group_id": "t2a_01",
+        "source": "laughter",
+        "caption": "joyful, bubbling laughter",
+        "route_reason": "단발 → t2a",
+        "evidence": {
+          "timing": "transient",
+          "onset_count": 1,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        },
+        "regen": null,
+        "onsets": [
+          8.52
+        ],
+        "n": 1
+      }
+    ],
+    "v2a_groups": [
+      {
+        "group_id": "v2a_00",
+        "source": "water_falling",
+        "caption": "steady, rhythmic water dripping",
+        "negative": "dog_yip, laughter",
+        "spans": [
+          [
+            0.0,
+            10.0
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-84CyEpynsY_000010/videos/-84CyEpynsY_000010.mp4",
+        "video_id": "000010",
+        "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "clip_id": "-8S9TKWIOSc_000030",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-8S9TKWIOSc_000030/videos/-8S9TKWIOSc_000030.mp4",
+    "duration": 10.008662,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [],
+    "v2a_groups": [
+      {
+        "group_id": "v2a_00",
+        "source": "chainsaw",
+        "caption": "chainsaw",
+        "negative": "",
+        "spans": [
+          [
+            0.0,
+            10.0
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-8S9TKWIOSc_000030/videos/-8S9TKWIOSc_000030.mp4",
+        "video_id": "000030",
+        "route_reason": "continuous(지속/텍스처) → v2a (시각 확인 안 됨, baseline 유지)",
+        "visible": null,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "clip_id": "-91W9Tp2x2w_000207",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-91W9Tp2x2w_000207/videos/-91W9Tp2x2w_000207.mp4",
+    "duration": 10.033,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [
+      {
+        "group_id": "t2a_00",
+        "source": "breathing",
+        "caption": "steady rhythmic inhalation and exhalation",
+        "route_reason": "희소 반복 단발(onset 2회) → t2a",
+        "evidence": {
+          "timing": "transient",
+          "onset_count": 2,
+          "density": 1.25,
+          "regularity": {
+            "median_iv": 1.6,
+            "cov": 0.0
+          },
+          "kind": "sfx"
+        },
+        "regen": {
+          "policy": "reuse_once",
+          "reason": "영상에서 동일 반복 동작(VL) → 1회 생성 재사용"
+        },
+        "onsets": [
+          7.28,
+          8.88
+        ],
+        "n": 2
+      },
+      {
+        "group_id": "t2a_01",
+        "source": "male_speech",
+        "caption": "man speaking with animated facial expressions",
+        "route_reason": "speech는 v2a 생성 불가 → t2a",
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "speech"
+        },
+        "regen": null,
+        "spans": [
+          [
+            0.0,
+            2.16
+          ],
+          [
+            3.12,
+            10.0
+          ]
+        ],
+        "continuous": true
+      }
+    ],
+    "v2a_groups": [
+      {
+        "group_id": "v2a_00",
+        "source": "video_game_sound",
+        "caption": "player sprinting across grass field",
+        "negative": "breathing, male_speech",
+        "spans": [
+          [
+            3.8,
+            5.28
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-91W9Tp2x2w_000207/videos/-91W9Tp2x2w_000207.mp4",
+        "video_id": "000207",
+        "route_reason": "dense/repetitive → continuous, 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 8,
+          "density": 5.405,
+          "regularity": {
+            "median_iv": 0.16,
+            "cov": 0.426
+          },
+          "kind": "sfx"
+        }
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "clip_id": "-9HoMjD6Opk_000030",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-9HoMjD6Opk_000030/videos/-9HoMjD6Opk_000030.mp4",
+    "duration": 10.037256,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [],
+    "v2a_groups": [
+      {
+        "group_id": "v2a_00",
+        "source": "chainsaw_start_up",
+        "caption": "chainsaw engine revving up with a loud roar",
+        "negative": "chainsaw",
+        "spans": [
+          [
+            0.08,
+            6.44
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-9HoMjD6Opk_000030/videos/-9HoMjD6Opk_000030.mp4",
+        "video_id": "000030",
+        "route_reason": "dense/repetitive → continuous, 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 15,
+          "density": 2.358,
+          "regularity": {
+            "median_iv": 0.24,
+            "cov": 1.62
+          },
+          "kind": "sfx"
+        }
+      },
+      {
+        "group_id": "v2a_01",
+        "source": "chainsaw",
+        "caption": "chainsaw blade cutting through wood with a loud sawing sound",
+        "negative": "chainsaw_start_up",
+        "spans": [
+          [
+            0.0,
+            10.0
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-9HoMjD6Opk_000030/videos/-9HoMjD6Opk_000030.mp4",
+        "video_id": "000030",
+        "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "clip_id": "-9YohOxYZ0Q_000010",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-9YohOxYZ0Q_000010/videos/-9YohOxYZ0Q_000010.mp4",
+    "duration": 10.004649,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [
+      {
+        "group_id": "t2a_00",
+        "source": "bark",
+        "caption": "sharp, short bark from a puppy",
+        "route_reason": "희소 반복 단발(onset 4회) → t2a",
+        "evidence": {
+          "timing": "transient",
+          "onset_count": 4,
+          "density": 0.926,
+          "regularity": {
+            "median_iv": 0.76,
+            "cov": 0.728
+          },
+          "kind": "sfx"
+        },
+        "regen": {
+          "policy": "regenerate_each",
+          "reason": "불규칙 반복(onset 4회, cov 0.728) → onset마다 재생성 권장"
+        },
+        "onsets": [
+          2.08,
+          2.72,
+          3.48,
+          6.4
+        ],
+        "n": 4
+      },
+      {
+        "group_id": "t2a_01",
+        "source": "puppy_pawing_on_ground",
+        "caption": "soft thud of puppy paws on concrete",
+        "route_reason": "희소 반복 단발(onset 2회) → t2a",
+        "evidence": {
+          "timing": "transient",
+          "onset_count": 2,
+          "density": 4.167,
+          "regularity": {
+            "median_iv": 0.48,
+            "cov": 0.0
+          },
+          "kind": "sfx"
+        },
+        "regen": {
+          "policy": "reuse_once",
+          "reason": "규칙적 반복(onset 2회, cov 0.0) → 동일 음색 1회 생성 재사용"
+        },
+        "onsets": [
+          9.0,
+          9.48
+        ],
+        "n": 2
+      }
+    ],
+    "v2a_groups": [
+      {
+        "group_id": "v2a_00",
+        "source": "growling",
+        "caption": "low, tense growl from a puppy",
+        "negative": "bark, puppy_pawing_on_ground, puppy_walking_on_concrete",
+        "spans": [
+          [
+            0.2,
+            1.72
+          ],
+          [
+            2.88,
+            5.36
+          ],
+          [
+            7.0,
+            9.08
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-9YohOxYZ0Q_000010/videos/-9YohOxYZ0Q_000010.mp4",
+        "video_id": "000010",
+        "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      },
+      {
+        "group_id": "v2a_01",
+        "source": "puppy_walking_on_concrete",
+        "caption": "puppy's paws making soft thuds on concrete",
+        "negative": "bark, puppy_pawing_on_ground, growling",
+        "spans": [
+          [
+            1.72,
+            2.88
+          ],
+          [
+            5.36,
+            7.0
+          ],
+          [
+            9.08,
+            9.96
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-9YohOxYZ0Q_000010/videos/-9YohOxYZ0Q_000010.mp4",
+        "video_id": "000010",
+        "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "clip_id": "-9yf3oNuowg_000030",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-9yf3oNuowg_000030/videos/-9yf3oNuowg_000030.mp4",
+    "duration": 10.0,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [
+      {
+        "group_id": "t2a_00",
+        "source": "thunder",
+        "caption": "distant rumbling thunder",
+        "route_reason": "v2a 후보(dense/repetitive → continuous)였으나 화면에 원인 미노출 → t2a 강등",
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 20,
+          "density": 5.747,
+          "regularity": {
+            "median_iv": 0.16,
+            "cov": 0.303
+          },
+          "kind": "sfx"
+        },
+        "regen": {
+          "policy": "reuse_once",
+          "reason": "규칙적 반복(onset 20회, cov 0.303) → 동일 음색 1회 생성 재사용"
+        },
+        "onsets": [
+          1.44,
+          1.56,
+          1.76,
+          1.92,
+          2.04,
+          2.24,
+          2.44,
+          2.72,
+          2.88,
+          3.04,
+          3.2,
+          3.36,
+          3.52,
+          3.68,
+          3.84,
+          4.0,
+          4.16,
+          4.32,
+          4.56,
+          4.92
+        ],
+        "n": 20
+      }
+    ],
+    "v2a_groups": [
+      {
+        "group_id": "v2a_00",
+        "source": "rain_on_surface",
+        "caption": "raindrops hitting glass window",
+        "negative": "thunder",
+        "spans": [
+          [
+            0.0,
+            10.0
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-9yf3oNuowg_000030/videos/-9yf3oNuowg_000030.mp4",
+        "video_id": "000030",
+        "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "clip_id": "-GlZ819IHfE_000012",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-GlZ819IHfE_000012/videos/-GlZ819IHfE_000012.mp4",
+    "duration": 10.022,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [
+      {
+        "group_id": "t2a_00",
+        "source": "male_speech",
+        "caption": "man speaking with animated hand gestures",
+        "route_reason": "speech는 v2a 생성 불가 → t2a",
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "speech"
+        },
+        "regen": null,
+        "spans": [
+          [
+            0.0,
+            2.52
+          ],
+          [
+            3.48,
+            10.0
+          ]
+        ],
+        "continuous": true
+      }
+    ],
+    "v2a_groups": [
+      {
+        "group_id": "v2a_00",
+        "source": "chopping_food",
+        "caption": "chopping food with a slap chop tool",
+        "negative": "male_speech",
+        "spans": [
+          [
+            1.24,
+            3.0
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-GlZ819IHfE_000012/videos/-GlZ819IHfE_000012.mp4",
+        "video_id": "000012",
+        "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "clip_id": "-Gz3fJ1ZDCQ_000000",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-Gz3fJ1ZDCQ_000000/videos/-Gz3fJ1ZDCQ_000000.mp4",
+    "duration": 10.0,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [
+      {
+        "group_id": "t2a_00",
+        "source": "keyboard_click",
+        "caption": "metallic keyboard key being pressed",
+        "route_reason": "희소 반복 단발(onset 2회) → t2a",
+        "evidence": {
+          "timing": "transient",
+          "onset_count": 2,
+          "density": 5.0,
+          "regularity": {
+            "median_iv": 0.4,
+            "cov": 0.0
+          },
+          "kind": "sfx"
+        },
+        "regen": {
+          "policy": "reuse_once",
+          "reason": "규칙적 반복(onset 2회, cov 0.0) → 동일 음색 1회 생성 재사용"
+        },
+        "onsets": [
+          8.2,
+          8.6
+        ],
+        "n": 2
+      }
+    ],
+    "v2a_groups": [
+      {
+        "group_id": "v2a_00",
+        "source": "computer_keyboard",
+        "caption": "computer keyboard being typed on",
+        "negative": "keyboard_click, computer_mouse",
+        "spans": [
+          [
+            1.08,
+            4.64
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-Gz3fJ1ZDCQ_000000/videos/-Gz3fJ1ZDCQ_000000.mp4",
+        "video_id": "000000",
+        "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      },
+      {
+        "group_id": "v2a_01",
+        "source": "computer_mouse",
+        "caption": "computer mouse cursor moving",
+        "negative": "keyboard_click, computer_keyboard",
+        "spans": [
+          [
+            0.36,
+            1.08
+          ],
+          [
+            4.64,
+            10.0
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-Gz3fJ1ZDCQ_000000/videos/-Gz3fJ1ZDCQ_000000.mp4",
+        "video_id": "000000",
+        "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "clip_id": "-HLTp7gPBEw_000030",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-HLTp7gPBEw_000030/videos/-HLTp7gPBEw_000030.mp4",
+    "duration": 10.002835,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [
+      {
+        "group_id": "t2a_00",
+        "source": "cat_paw_hit",
+        "caption": "soft padded paw tapping",
+        "route_reason": "희소 반복 단발(onset 4회) → t2a",
+        "evidence": {
+          "timing": "transient",
+          "onset_count": 4,
+          "density": 0.641,
+          "regularity": {
+            "median_iv": 2.2,
+            "cov": 0.731
+          },
+          "kind": "sfx"
+        },
+        "regen": {
+          "policy": "regenerate_each",
+          "reason": "불규칙 반복(onset 4회, cov 0.731) → onset마다 재생성 권장"
+        },
+        "onsets": [
+          0.36,
+          4.24,
+          6.44,
+          6.6
+        ],
+        "n": 4
+      },
+      {
+        "group_id": "t2a_01",
+        "source": "cat_purr",
+        "caption": "cat purring low and steady",
+        "route_reason": "희소 반복 단발(onset 9회) → t2a",
+        "evidence": {
+          "timing": "transient",
+          "onset_count": 9,
+          "density": 1.114,
+          "regularity": {
+            "median_iv": 0.76,
+            "cov": 0.778
+          },
+          "kind": "sfx"
+        },
+        "regen": {
+          "policy": "regenerate_each",
+          "reason": "불규칙 반복(onset 9회, cov 0.778) → onset마다 재생성 권장"
+        },
+        "onsets": [
+          0.68,
+          1.88,
+          2.64,
+          3.4,
+          3.76,
+          5.88,
+          6.12,
+          8.52,
+          8.76
+        ],
+        "n": 9
+      }
+    ],
+    "v2a_groups": [
+      {
+        "group_id": "v2a_00",
+        "source": "cat_meow",
+        "caption": "cat vocalizing with soft meow",
+        "negative": "cat_paw_hit, cat_purr, tv_power_on",
+        "spans": [
+          [
+            0.6,
+            8.6
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-HLTp7gPBEw_000030/videos/-HLTp7gPBEw_000030.mp4",
+        "video_id": "000030",
+        "route_reason": "dense/repetitive → continuous, 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 19,
+          "density": 2.375,
+          "regularity": {
+            "median_iv": 0.28,
+            "cov": 1.356
+          },
+          "kind": "sfx"
+        }
+      },
+      {
+        "group_id": "v2a_01",
+        "source": "tv_power_on",
+        "caption": "tv screen powering on with hum",
+        "negative": "cat_paw_hit, cat_meow, cat_purr",
+        "spans": [
+          [
+            0.0,
+            9.96
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-HLTp7gPBEw_000030/videos/-HLTp7gPBEw_000030.mp4",
+        "video_id": "000030",
+        "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "clip_id": "-LR6jZzVFHs_000050",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-LR6jZzVFHs_000050/videos/-LR6jZzVFHs_000050.mp4",
+    "duration": 10.0,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [
+      {
+        "group_id": "t2a_00",
+        "source": "keyboard_typing",
+        "caption": "fingers tapping white keyboard keys",
+        "route_reason": "희소 반복 단발(onset 7회) → t2a",
+        "evidence": {
+          "timing": "transient",
+          "onset_count": 7,
+          "density": 1.08,
+          "regularity": {
+            "median_iv": 0.16,
+            "cov": 1.922
+          },
+          "kind": "sfx"
+        },
+        "regen": {
+          "policy": "reuse_once",
+          "reason": "영상에서 동일 반복 동작(VL) → 1회 생성 재사용"
+        },
+        "onsets": [
+          2.68,
+          2.8,
+          3.0,
+          8.72,
+          8.88,
+          9.0,
+          9.16
+        ],
+        "n": 7
+      }
+    ],
+    "v2a_groups": [
+      {
+        "group_id": "v2a_00",
+        "source": "computer_keyboard",
+        "caption": "white computer keyboard being typed on",
+        "negative": "keyboard_typing",
+        "spans": [
+          [
+            0.0,
+            9.72
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-LR6jZzVFHs_000050/videos/-LR6jZzVFHs_000050.mp4",
+        "video_id": "000050",
+        "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "clip_id": "-N985spfu2I_000520",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-N985spfu2I_000520/videos/-N985spfu2I_000520.mp4",
+    "duration": 10.0,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [
+      {
+        "group_id": "t2a_00",
+        "source": "breathing",
+        "caption": "soft rhythmic inhale and exhale",
+        "route_reason": "단발 → t2a",
+        "evidence": {
+          "timing": "transient",
+          "onset_count": 1,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        },
+        "regen": null,
+        "onsets": [
+          6.52
+        ],
+        "n": 1
+      }
+    ],
+    "v2a_groups": [
+      {
+        "group_id": "v2a_00",
+        "source": "computer_keyboard",
+        "caption": "fingers pressing keys on a glowing keyboard",
+        "negative": "breathing, keyboard_typing",
+        "spans": [
+          [
+            0.0,
+            0.4
+          ],
+          [
+            1.2,
+            5.48
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-N985spfu2I_000520/videos/-N985spfu2I_000520.mp4",
+        "video_id": "000520",
+        "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      },
+      {
+        "group_id": "v2a_01",
+        "source": "keyboard_typing",
+        "caption": "fingers rapidly tapping keys on a keyboard",
+        "negative": "breathing, computer_keyboard",
+        "spans": [
+          [
+            0.4,
+            1.2
+          ],
+          [
+            5.48,
+            10.0
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-N985spfu2I_000520/videos/-N985spfu2I_000520.mp4",
+        "video_id": "000520",
+        "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "clip_id": "-YPnzrEQ7hE_000228",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-YPnzrEQ7hE_000228/videos/-YPnzrEQ7hE_000228.mp4",
+    "duration": 10.003991,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [
+      {
+        "group_id": "t2a_00",
+        "source": "hair_rinsing",
+        "caption": "hair rinsing",
+        "route_reason": "희소 반복 단발(onset 2회) → t2a",
+        "evidence": {
+          "timing": "transient",
+          "onset_count": 2,
+          "density": 4.167,
+          "regularity": {
+            "median_iv": 0.48,
+            "cov": 0.0
+          },
+          "kind": "sfx"
+        },
+        "regen": {
+          "policy": "reuse_once",
+          "reason": "규칙적 반복(onset 2회, cov 0.0) → 동일 음색 1회 생성 재사용"
+        },
+        "onsets": [
+          5.0,
+          5.48
+        ],
+        "n": 2
+      }
+    ],
+    "v2a_groups": [],
+    "skipped": []
+  },
+  {
+    "clip_id": "-cA9HsnV1ao_000030",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-cA9HsnV1ao_000030/videos/-cA9HsnV1ao_000030.mp4",
+    "duration": 10.0,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [],
+    "v2a_groups": [
+      {
+        "group_id": "v2a_00",
+        "source": "hair_dryer",
+        "caption": "hair dryer",
+        "negative": "",
+        "spans": [
+          [
+            0.0,
+            10.0
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-cA9HsnV1ao_000030/videos/-cA9HsnV1ao_000030.mp4",
+        "video_id": "000030",
+        "route_reason": "continuous(지속/텍스처) → v2a (시각 확인 안 됨, baseline 유지)",
+        "visible": null,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "clip_id": "1RAcDEFEszA_000093",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/1RAcDEFEszA_000093/videos/1RAcDEFEszA_000093.mp4",
+    "duration": 10.003991,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [
+      {
+        "group_id": "t2a_00",
+        "source": "apple_chopping",
+        "caption": "sharp slicing of apple with a slicer",
+        "route_reason": "희소 반복 단발(onset 3회) → t2a",
+        "evidence": {
+          "timing": "transient",
+          "onset_count": 3,
+          "density": 0.524,
+          "regularity": {
+            "median_iv": 2.96,
+            "cov": 0.035
+          },
+          "kind": "sfx"
+        },
+        "regen": {
+          "policy": "reuse_once",
+          "reason": "규칙적 반복(onset 3회, cov 0.035) → 동일 음색 1회 생성 재사용"
+        },
+        "onsets": [
+          1.92,
+          4.88,
+          7.64
+        ],
+        "n": 3
+      },
+      {
+        "group_id": "t2a_01",
+        "source": "female_speech",
+        "caption": "female voice speaking in a kitchen",
+        "route_reason": "speech는 v2a 생성 불가 → t2a",
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "speech"
+        },
+        "regen": null,
+        "spans": [
+          [
+            0.0,
+            3.28
+          ],
+          [
+            4.92,
+            9.04
+          ]
+        ],
+        "continuous": true
+      },
+      {
+        "group_id": "t2a_02",
+        "source": "male_speech",
+        "caption": "male voice speaking in a kitchen",
+        "route_reason": "speech는 v2a 생성 불가 → t2a",
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "speech"
+        },
+        "regen": null,
+        "spans": [
+          [
+            3.28,
+            4.92
+          ],
+          [
+            9.2,
+            10.0
+          ]
+        ],
+        "continuous": true
+      }
+    ],
+    "v2a_groups": [
+      {
+        "group_id": "v2a_00",
+        "source": "conversation",
+        "caption": "two people talking in a kitchen",
+        "negative": "apple_chopping, female_speech, male_speech",
+        "spans": [
+          [
+            0.0,
+            10.0
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/1RAcDEFEszA_000093/videos/1RAcDEFEszA_000093.mp4",
+        "video_id": "000093",
+        "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "clip_id": "B1S5Ha-S6W4_000023",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/B1S5Ha-S6W4_000023/videos/B1S5Ha-S6W4_000023.mp4",
+    "duration": 10.066,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [],
+    "v2a_groups": [],
+    "skipped": []
+  },
+  {
+    "clip_id": "fNLS25qblX0_000007",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/fNLS25qblX0_000007/videos/fNLS25qblX0_000007.mp4",
+    "duration": 10.02,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [
+      {
+        "group_id": "t2a_00",
+        "source": "walk",
+        "caption": "soft footsteps on wooden floor",
+        "route_reason": "희소 반복 단발(onset 4회) → t2a",
+        "evidence": {
+          "timing": "transient",
+          "onset_count": 4,
+          "density": 2.0,
+          "regularity": {
+            "median_iv": 0.56,
+            "cov": 0.408
+          },
+          "kind": "sfx"
+        },
+        "regen": {
+          "policy": "regenerate_each",
+          "reason": "불규칙 반복(onset 4회, cov 0.408) → onset마다 재생성 권장"
+        },
+        "onsets": [
+          0.24,
+          0.8,
+          1.84,
+          2.24
+        ],
+        "n": 4
+      },
+      {
+        "group_id": "t2a_01",
+        "source": "bouncing",
+        "caption": "ball bouncing on table surface",
+        "route_reason": "단발 → t2a",
+        "evidence": {
+          "timing": "transient",
+          "onset_count": 1,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        },
+        "regen": null,
+        "onsets": [
+          4.04
+        ],
+        "n": 1
+      },
+      {
+        "group_id": "t2a_02",
+        "source": "table_tennis_table_motor",
+        "caption": "table tennis table motor hum",
+        "route_reason": "v2a 후보(continuous(지속/텍스처))였으나 화면에 원인 미노출 → t2a 강등",
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        },
+        "regen": null,
+        "spans": [
+          [
+            0.0,
+            10.0
+          ]
+        ],
+        "continuous": true
+      }
+    ],
+    "v2a_groups": [
+      {
+        "group_id": "v2a_00",
+        "source": "tap",
+        "caption": "ping-pong paddle tapping table",
+        "negative": "walk, bouncing, table_tennis_table_motor",
+        "spans": [
+          [
+            2.76,
+            9.84
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/fNLS25qblX0_000007/videos/fNLS25qblX0_000007.mp4",
+        "video_id": "000007",
+        "route_reason": "dense/repetitive → continuous, 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 20,
+          "density": 2.825,
+          "regularity": {
+            "median_iv": 0.4,
+            "cov": 0.249
+          },
+          "kind": "sfx"
+        }
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "clip_id": "fO2HS7_fZb0_000026",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/fO2HS7_fZb0_000026/videos/fO2HS7_fZb0_000026.mp4",
+    "duration": 9.0,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [
+      {
+        "group_id": "t2a_00",
+        "source": "dog",
+        "caption": "dog snuffling with nose close to car door",
+        "route_reason": "희소 반복 단발(onset 2회) → t2a",
+        "evidence": {
+          "timing": "transient",
+          "onset_count": 2,
+          "density": 0.5,
+          "regularity": {
+            "median_iv": 4.0,
+            "cov": 0.0
+          },
+          "kind": "sfx"
+        },
+        "regen": {
+          "policy": "reuse_once",
+          "reason": "규칙적 반복(onset 2회, cov 0.0) → 동일 음색 1회 생성 재사용"
+        },
+        "onsets": [
+          0.2,
+          4.2
+        ],
+        "n": 2
+      },
+      {
+        "group_id": "t2a_01",
+        "source": "growling",
+        "caption": "dog growling low and guttural",
+        "route_reason": "단발 → t2a",
+        "evidence": {
+          "timing": "transient",
+          "onset_count": 1,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        },
+        "regen": null,
+        "onsets": [
+          0.48
+        ],
+        "n": 1
+      },
+      {
+        "group_id": "t2a_02",
+        "source": "bark",
+        "caption": "dog barking short and sharp",
+        "route_reason": "희소 반복 단발(onset 8회) → t2a",
+        "evidence": {
+          "timing": "transient",
+          "onset_count": 8,
+          "density": 1.111,
+          "regularity": {
+            "median_iv": 0.72,
+            "cov": 0.736
+          },
+          "kind": "sfx"
+        },
+        "regen": {
+          "policy": "regenerate_each",
+          "reason": "불규칙 반복(onset 8회, cov 0.736) → onset마다 재생성 권장"
+        },
+        "onsets": [
+          0.72,
+          1.44,
+          2.16,
+          2.92,
+          5.8,
+          6.44,
+          7.2,
+          7.92
+        ],
+        "n": 8
+      }
+    ],
+    "v2a_groups": [],
+    "skipped": []
+  },
+  {
+    "clip_id": "fPubwuy5X0E_000268",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/fPubwuy5X0E_000268/videos/fPubwuy5X0E_000268.mp4",
+    "duration": 10.012,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [
+      {
+        "group_id": "t2a_00",
+        "source": "male_speech",
+        "caption": "man speaking in a calm tone",
+        "route_reason": "speech는 v2a 생성 불가 → t2a",
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "speech"
+        },
+        "regen": null,
+        "spans": [
+          [
+            5.56,
+            10.0
+          ]
+        ],
+        "continuous": true
+      }
+    ],
+    "v2a_groups": [
+      {
+        "group_id": "v2a_00",
+        "source": "vacuum_cleaner",
+        "caption": "vacuum cleaner motor whirring and sucking dust",
+        "negative": "generic_impact_sounds, male_speech, vacuum_cleaner_2, vacuum_cleaner_suction",
+        "spans": [
+          [
+            1.16,
+            4.24
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/fPubwuy5X0E_000268/videos/fPubwuy5X0E_000268.mp4",
+        "video_id": "000268",
+        "route_reason": "dense/repetitive → continuous, 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 16,
+          "density": 5.195,
+          "regularity": {
+            "median_iv": 0.2,
+            "cov": 0.333
+          },
+          "kind": "sfx"
+        }
+      },
+      {
+        "group_id": "v2a_01",
+        "source": "generic_impact_sounds",
+        "caption": "sharp metallic clang of a tool hitting a surface",
+        "negative": "vacuum_cleaner, male_speech, vacuum_cleaner_2, vacuum_cleaner_suction",
+        "spans": [
+          [
+            5.16,
+            6.08
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/fPubwuy5X0E_000268/videos/fPubwuy5X0E_000268.mp4",
+        "video_id": "000268",
+        "route_reason": "dense/repetitive → continuous, 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 3,
+          "density": 3.261,
+          "regularity": {
+            "median_iv": 0.64,
+            "cov": 0.391
+          },
+          "kind": "sfx"
+        }
+      },
+      {
+        "group_id": "v2a_02",
+        "source": "vacuum_cleaner_2",
+        "caption": "vacuum cleaner motor whirring and sucking dust",
+        "negative": "vacuum_cleaner, generic_impact_sounds, male_speech, vacuum_cleaner_suction",
+        "spans": [
+          [
+            0.0,
+            4.88
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/fPubwuy5X0E_000268/videos/fPubwuy5X0E_000268.mp4",
+        "video_id": "000268",
+        "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      },
+      {
+        "group_id": "v2a_03",
+        "source": "vacuum_cleaner_suction",
+        "caption": "vacuum cleaner suction sound as it picks up debris",
+        "negative": "vacuum_cleaner, generic_impact_sounds, male_speech, vacuum_cleaner_2",
+        "spans": [
+          [
+            4.88,
+            5.56
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/fPubwuy5X0E_000268/videos/fPubwuy5X0E_000268.mp4",
+        "video_id": "000268",
+        "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      }
+    ],
+    "skipped": []
+  },
+  {
+    "clip_id": "fTyCcmvQXXU_000333",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/fTyCcmvQXXU_000333/videos/fTyCcmvQXXU_000333.mp4",
+    "duration": 10.043,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [
+      {
+        "group_id": "t2a_00",
+        "source": "gun_click",
+        "caption": "metallic click of a firearm safety being engaged",
+        "route_reason": "희소 반복 단발(onset 6회) → t2a",
+        "evidence": {
+          "timing": "transient",
+          "onset_count": 6,
+          "density": 0.694,
+          "regularity": {
+            "median_iv": 0.48,
+            "cov": 1.028
+          },
+          "kind": "sfx"
+        },
+        "regen": {
+          "policy": "regenerate_each",
+          "reason": "불규칙 반복(onset 6회, cov 1.028) → onset마다 재생성 권장"
+        },
+        "onsets": [
+          0.6,
+          3.56,
+          3.72,
+          8.36,
+          8.76,
+          9.24
+        ],
+        "n": 6
+      },
+      {
+        "group_id": "t2a_01",
+        "source": "breathing",
+        "caption": "soft inhalation and exhalation of breath",
+        "route_reason": "희소 반복 단발(onset 4회) → t2a",
+        "evidence": {
+          "timing": "transient",
+          "onset_count": 4,
+          "density": 0.552,
+          "regularity": {
+            "median_iv": 0.24,
+            "cov": 1.309
+          },
+          "kind": "sfx"
+        },
+        "regen": {
+          "policy": "regenerate_each",
+          "reason": "불규칙 반복(onset 4회, cov 1.309) → onset마다 재생성 권장"
+        },
+        "onsets": [
+          2.48,
+          2.72,
+          2.84,
+          9.72
+        ],
+        "n": 4
+      },
+      {
+        "group_id": "t2a_02",
+        "source": "male_speech",
+        "caption": "man speaking with calm tone",
+        "route_reason": "speech는 v2a 생성 불가 → t2a",
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "speech"
+        },
+        "regen": null,
+        "spans": [
+          [
+            0.68,
+            2.2
+          ],
+          [
+            3.04,
+            10.0
+          ]
+        ],
+        "continuous": true
+      }
+    ],
+    "v2a_groups": [],
+    "skipped": []
+  },
+  {
+    "clip_id": "fX5Ulo9HjhE_000330",
+    "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/fX5Ulo9HjhE_000330/videos/fX5Ulo9HjhE_000330.mp4",
+    "duration": 10.04,
+    "sample_rate": 44100,
+    "v2a_fixed_sec": 8.0,
+    "t2a_groups": [
+      {
+        "group_id": "t2a_00",
+        "source": "chop",
+        "caption": "sharp axe hitting wood with force",
+        "route_reason": "희소 반복 단발(onset 2회) → t2a",
+        "evidence": {
+          "timing": "transient",
+          "onset_count": 2,
+          "density": 0.267,
+          "regularity": {
+            "median_iv": 7.48,
+            "cov": 0.0
+          },
+          "kind": "sfx"
+        },
+        "regen": {
+          "policy": "reuse_once",
+          "reason": "규칙적 반복(onset 2회, cov 0.0) → 동일 음색 1회 생성 재사용"
+        },
+        "onsets": [
+          1.08,
+          8.56
+        ],
+        "n": 2
+      },
+      {
+        "group_id": "t2a_01",
+        "source": "breathing",
+        "caption": "steady rhythmic breaths in and out",
+        "route_reason": "희소 반복 단발(onset 6회) → t2a",
+        "evidence": {
+          "timing": "transient",
+          "onset_count": 6,
+          "density": 0.739,
+          "regularity": {
+            "median_iv": 0.76,
+            "cov": 1.004
+          },
+          "kind": "sfx"
+        },
+        "regen": {
+          "policy": "regenerate_each",
+          "reason": "불규칙 반복(onset 6회, cov 1.004) → onset마다 재생성 권장"
+        },
+        "onsets": [
+          1.44,
+          3.32,
+          4.0,
+          4.12,
+          4.88,
+          9.56
+        ],
+        "n": 6
+      },
+      {
+        "group_id": "t2a_02",
+        "source": "walk",
+        "caption": "boots stepping on dirt ground",
+        "route_reason": "희소 반복 단발(onset 2회) → t2a",
+        "evidence": {
+          "timing": "transient",
+          "onset_count": 2,
+          "density": 2.941,
+          "regularity": {
+            "median_iv": 0.68,
+            "cov": 0.0
+          },
+          "kind": "sfx"
+        },
+        "regen": {
+          "policy": "reuse_once",
+          "reason": "규칙적 반복(onset 2회, cov 0.0) → 동일 음색 1회 생성 재사용"
+        },
+        "onsets": [
+          5.36,
+          6.04
+        ],
+        "n": 2
+      }
+    ],
+    "v2a_groups": [
+      {
+        "group_id": "v2a_00",
+        "source": "wood_splitting",
+        "caption": "wood cracking and splitting under axe impact",
+        "negative": "chop, breathing, walk",
+        "spans": [
+          [
+            0.0,
+            9.36
+          ]
+        ],
+        "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/fX5Ulo9HjhE_000330/videos/fX5Ulo9HjhE_000330.mp4",
+        "video_id": "000330",
+        "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+        "visible": true,
+        "evidence": {
+          "timing": "continuous",
+          "onset_count": 0,
+          "density": 0.0,
+          "regularity": null,
+          "kind": "sfx"
+        }
+      }
+    ],
+    "skipped": []
+  }
+]

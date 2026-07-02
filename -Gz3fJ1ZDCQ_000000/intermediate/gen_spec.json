@@ -1,0 +1,87 @@
+{
+  "clip_id": "-Gz3fJ1ZDCQ_000000",
+  "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-Gz3fJ1ZDCQ_000000/videos/-Gz3fJ1ZDCQ_000000.mp4",
+  "duration": 10.0,
+  "sample_rate": 44100,
+  "v2a_fixed_sec": 8.0,
+  "t2a_groups": [
+    {
+      "group_id": "t2a_00",
+      "source": "keyboard_click",
+      "caption": "metallic keyboard key being pressed",
+      "route_reason": "희소 반복 단발(onset 2회) → t2a",
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 2,
+        "density": 5.0,
+        "regularity": {
+          "median_iv": 0.4,
+          "cov": 0.0
+        },
+        "kind": "sfx"
+      },
+      "regen": {
+        "policy": "reuse_once",
+        "reason": "규칙적 반복(onset 2회, cov 0.0) → 동일 음색 1회 생성 재사용"
+      },
+      "onsets": [
+        8.2,
+        8.6
+      ],
+      "n": 2
+    }
+  ],
+  "v2a_groups": [
+    {
+      "group_id": "v2a_00",
+      "source": "computer_keyboard",
+      "caption": "computer keyboard being typed on",
+      "negative": "keyboard_click, computer_mouse",
+      "spans": [
+        [
+          1.08,
+          4.64
+        ]
+      ],
+      "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-Gz3fJ1ZDCQ_000000/videos/-Gz3fJ1ZDCQ_000000.mp4",
+      "video_id": "000000",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      }
+    },
+    {
+      "group_id": "v2a_01",
+      "source": "computer_mouse",
+      "caption": "computer mouse cursor moving",
+      "negative": "keyboard_click, computer_keyboard",
+      "spans": [
+        [
+          0.36,
+          1.08
+        ],
+        [
+          4.64,
+          10.0
+        ]
+      ],
+      "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-Gz3fJ1ZDCQ_000000/videos/-Gz3fJ1ZDCQ_000000.mp4",
+      "video_id": "000000",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      }
+    }
+  ],
+  "skipped": []
+}

@@ -1,0 +1,93 @@
+{
+  "clip_id": "-46xqouqMxA_000006",
+  "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-46xqouqMxA_000006/videos/-46xqouqMxA_000006.mp4",
+  "duration": 9.0,
+  "sample_rate": 44100,
+  "v2a_fixed_sec": 8.0,
+  "t2a_groups": [],
+  "v2a_groups": [
+    {
+      "group_id": "v2a_00",
+      "source": "meow",
+      "caption": "cat meowing with open mouth",
+      "negative": "background_noise",
+      "spans": [
+        [
+          0.16,
+          0.8
+        ],
+        [
+          1.68,
+          2.44
+        ],
+        [
+          3.52,
+          4.32
+        ],
+        [
+          4.96,
+          5.76
+        ],
+        [
+          6.8,
+          7.72
+        ],
+        [
+          8.4,
+          9.0
+        ]
+      ],
+      "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-46xqouqMxA_000006/videos/-46xqouqMxA_000006.mp4",
+      "video_id": "000006",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      }
+    },
+    {
+      "group_id": "v2a_01",
+      "source": "background_noise",
+      "caption": "indoor background noise",
+      "negative": "meow",
+      "spans": [
+        [
+          0.8,
+          1.68
+        ],
+        [
+          2.44,
+          3.52
+        ],
+        [
+          4.32,
+          4.96
+        ],
+        [
+          5.76,
+          6.8
+        ],
+        [
+          7.72,
+          8.4
+        ]
+      ],
+      "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-46xqouqMxA_000006/videos/-46xqouqMxA_000006.mp4",
+      "video_id": "000006",
+      "route_reason": "continuous(지속/텍스처) → v2a (시각 확인 안 됨, baseline 유지)",
+      "visible": null,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      }
+    }
+  ],
+  "skipped": []
+}

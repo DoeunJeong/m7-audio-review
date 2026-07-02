@@ -1,0 +1,139 @@
+{
+  "clip": "-0WfESRV74k_000000",
+  "duration": 10.0078,
+  "vl": true,
+  "sources": [
+    {
+      "source": "applause",
+      "label": "applause",
+      "kind": "sfx",
+      "source_hint": "Crowd in the audience",
+      "salience": "high",
+      "route": "v2a",
+      "route_reason": "dense/repetitive → continuous, 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "timing": "continuous",
+      "times": [
+        [
+          0.24,
+          2.48
+        ]
+      ],
+      "onsets": [
+        0.24,
+        0.4,
+        0.6,
+        0.76,
+        1.0,
+        1.16,
+        1.28,
+        1.44,
+        1.64,
+        1.8,
+        2.0,
+        2.16,
+        2.48
+      ],
+      "dense_collapsed": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 13,
+        "density": 5.804,
+        "regularity": {
+          "median_iv": 0.16,
+          "cov": 0.267
+        },
+        "kind": "sfx"
+      },
+      "caption": "audience clapping rhythmically in unison",
+      "negative": "crowd, music, male_singing",
+      "regen": null
+    },
+    {
+      "source": "crowd",
+      "label": "crowd",
+      "kind": "sfx",
+      "source_hint": "Crowd in the audience",
+      "salience": "medium",
+      "route": "t2a",
+      "route_reason": "단발 → t2a",
+      "visible": null,
+      "timing": "transient",
+      "times": [
+        0.32
+      ],
+      "onsets": [
+        0.32
+      ],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 1,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "caption": "distant crowd murmuring and cheering",
+      "negative": null,
+      "regen": null
+    },
+    {
+      "source": "music",
+      "label": "music",
+      "kind": "music",
+      "source_hint": "Stage performance",
+      "salience": "high",
+      "route": "t2a",
+      "route_reason": "music는 v2a 생성 불가 → t2a",
+      "visible": null,
+      "timing": "continuous",
+      "times": [
+        [
+          0.0,
+          10.0
+        ]
+      ],
+      "onsets": [],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "music"
+      },
+      "caption": "melodic piano and vocal harmonies blending",
+      "negative": null,
+      "regen": null
+    },
+    {
+      "source": "male_singing",
+      "label": "male_singing",
+      "kind": "sfx",
+      "source_hint": "Male singer on stage",
+      "salience": "high",
+      "route": "v2a",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "timing": "continuous",
+      "times": [
+        [
+          5.36,
+          9.2
+        ]
+      ],
+      "onsets": [],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "caption": "male voice singing with emotional intensity",
+      "negative": "applause, crowd, music",
+      "regen": null
+    }
+  ]
+}

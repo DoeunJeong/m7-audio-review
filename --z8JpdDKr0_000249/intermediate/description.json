@@ -1,0 +1,118 @@
+{
+  "clip": "--z8JpdDKr0_000249",
+  "duration": 10.059,
+  "vl": true,
+  "sources": [
+    {
+      "source": "drill",
+      "label": "drill",
+      "kind": "sfx",
+      "source_hint": "Electric drill in man's hands, driving nails into wood.",
+      "salience": "high",
+      "route": "v2a",
+      "route_reason": "dense/repetitive → continuous, 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "timing": "continuous",
+      "times": [
+        [
+          5.88,
+          9.68
+        ]
+      ],
+      "onsets": [
+        5.88,
+        6.04,
+        6.2,
+        6.36,
+        6.52,
+        7.32,
+        7.64,
+        7.84,
+        8.08,
+        8.28,
+        8.44,
+        8.6,
+        8.76,
+        9.24,
+        9.44,
+        9.68
+      ],
+      "dense_collapsed": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 16,
+        "density": 4.211,
+        "regularity": {
+          "median_iv": 0.2,
+          "cov": 0.664
+        },
+        "kind": "sfx"
+      },
+      "caption": "drill bit spinning rapidly into wood",
+      "negative": "wood_nail_impact, mechanisms",
+      "regen": null
+    },
+    {
+      "source": "wood_nail_impact",
+      "label": "wood_nail_impact",
+      "kind": "sfx",
+      "source_hint": "Nails being driven into ceiling joists by drill.",
+      "salience": "high",
+      "route": "v2a",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "timing": "continuous",
+      "times": [
+        [
+          0.0,
+          5.84
+        ],
+        [
+          6.36,
+          6.84
+        ]
+      ],
+      "onsets": [],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "caption": "wooden nail being driven into timber",
+      "negative": "drill, mechanisms",
+      "regen": null
+    },
+    {
+      "source": "mechanisms",
+      "label": "mechanisms",
+      "kind": "sfx",
+      "source_hint": "Electric drill motor running during nail driving.",
+      "salience": "medium",
+      "route": "v2a",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "timing": "continuous",
+      "times": [
+        [
+          0.0,
+          10.0
+        ]
+      ],
+      "onsets": [],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "caption": "mechanical whirring and clanking of tools",
+      "negative": "drill, wood_nail_impact",
+      "regen": null
+    }
+  ]
+}

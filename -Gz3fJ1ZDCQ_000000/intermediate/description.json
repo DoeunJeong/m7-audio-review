@@ -1,0 +1,105 @@
+{
+  "clip": "-Gz3fJ1ZDCQ_000000",
+  "duration": 10.0,
+  "vl": true,
+  "sources": [
+    {
+      "source": "keyboard_click",
+      "label": "keyboard_click",
+      "kind": "sfx",
+      "source_hint": "Computer keyboard",
+      "salience": "high",
+      "route": "t2a",
+      "route_reason": "희소 반복 단발(onset 2회) → t2a",
+      "visible": null,
+      "timing": "transient",
+      "times": [
+        8.2,
+        8.6
+      ],
+      "onsets": [
+        8.2,
+        8.6
+      ],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 2,
+        "density": 5.0,
+        "regularity": {
+          "median_iv": 0.4,
+          "cov": 0.0
+        },
+        "kind": "sfx"
+      },
+      "caption": "metallic keyboard key being pressed",
+      "negative": null,
+      "regen": {
+        "policy": "reuse_once",
+        "reason": "규칙적 반복(onset 2회, cov 0.0) → 동일 음색 1회 생성 재사용"
+      }
+    },
+    {
+      "source": "computer_keyboard",
+      "label": "computer_keyboard",
+      "kind": "sfx",
+      "source_hint": "Computer keyboard",
+      "salience": "high",
+      "route": "v2a",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "timing": "continuous",
+      "times": [
+        [
+          1.08,
+          4.64
+        ]
+      ],
+      "onsets": [],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "caption": "computer keyboard being typed on",
+      "negative": "keyboard_click, computer_mouse",
+      "regen": null
+    },
+    {
+      "source": "computer_mouse",
+      "label": "computer_mouse",
+      "kind": "sfx",
+      "source_hint": "Computer mouse",
+      "salience": "medium",
+      "route": "v2a",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "timing": "continuous",
+      "times": [
+        [
+          0.36,
+          1.08
+        ],
+        [
+          4.64,
+          10.0
+        ]
+      ],
+      "onsets": [],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "caption": "computer mouse cursor moving",
+      "negative": "keyboard_click, computer_keyboard",
+      "regen": null
+    }
+  ]
+}

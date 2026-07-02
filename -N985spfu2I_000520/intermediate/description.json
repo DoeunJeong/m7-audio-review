@@ -1,0 +1,101 @@
+{
+  "clip": "-N985spfu2I_000520",
+  "duration": 10.0,
+  "vl": true,
+  "sources": [
+    {
+      "source": "breathing",
+      "label": "breathing",
+      "kind": "sfx",
+      "source_hint": "Person's mouth/nose",
+      "salience": "low",
+      "route": "t2a",
+      "route_reason": "단발 → t2a",
+      "visible": null,
+      "timing": "transient",
+      "times": [
+        6.52
+      ],
+      "onsets": [
+        6.52
+      ],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 1,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "caption": "soft rhythmic inhale and exhale",
+      "negative": null,
+      "regen": null
+    },
+    {
+      "source": "computer_keyboard",
+      "label": "computer_keyboard",
+      "kind": "sfx",
+      "source_hint": "Computer keyboard",
+      "salience": "high",
+      "route": "v2a",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "timing": "continuous",
+      "times": [
+        [
+          0.0,
+          0.4
+        ],
+        [
+          1.2,
+          5.48
+        ]
+      ],
+      "onsets": [],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "caption": "fingers pressing keys on a glowing keyboard",
+      "negative": "breathing, keyboard_typing",
+      "regen": null
+    },
+    {
+      "source": "keyboard_typing",
+      "label": "keyboard_typing",
+      "kind": "sfx",
+      "source_hint": "Computer keyboard",
+      "salience": "high",
+      "route": "v2a",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "timing": "continuous",
+      "times": [
+        [
+          0.4,
+          1.2
+        ],
+        [
+          5.48,
+          10.0
+        ]
+      ],
+      "onsets": [],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "caption": "fingers rapidly tapping keys on a keyboard",
+      "negative": "breathing, computer_keyboard",
+      "regen": null
+    }
+  ]
+}

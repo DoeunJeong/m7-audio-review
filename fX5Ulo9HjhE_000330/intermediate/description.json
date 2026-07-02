@@ -1,0 +1,152 @@
+{
+  "clip": "fX5Ulo9HjhE_000330",
+  "duration": 10.04,
+  "vl": true,
+  "sources": [
+    {
+      "source": "chop",
+      "label": "chop",
+      "kind": "sfx",
+      "source_hint": "Axe striking a log",
+      "salience": "high",
+      "route": "t2a",
+      "route_reason": "희소 반복 단발(onset 2회) → t2a",
+      "visible": null,
+      "timing": "transient",
+      "times": [
+        1.08,
+        8.56
+      ],
+      "onsets": [
+        1.08,
+        8.56
+      ],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 2,
+        "density": 0.267,
+        "regularity": {
+          "median_iv": 7.48,
+          "cov": 0.0
+        },
+        "kind": "sfx"
+      },
+      "caption": "sharp axe hitting wood with force",
+      "negative": null,
+      "regen": {
+        "policy": "reuse_once",
+        "reason": "규칙적 반복(onset 2회, cov 0.0) → 동일 음색 1회 생성 재사용"
+      }
+    },
+    {
+      "source": "breathing",
+      "label": "breathing",
+      "kind": "sfx",
+      "source_hint": "Person breathing while chopping",
+      "salience": "low",
+      "route": "t2a",
+      "route_reason": "희소 반복 단발(onset 6회) → t2a",
+      "visible": null,
+      "timing": "transient",
+      "times": [
+        1.44,
+        3.32,
+        4.0,
+        4.12,
+        4.88,
+        9.56
+      ],
+      "onsets": [
+        1.44,
+        3.32,
+        4.0,
+        4.12,
+        4.88,
+        9.56
+      ],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 6,
+        "density": 0.739,
+        "regularity": {
+          "median_iv": 0.76,
+          "cov": 1.004
+        },
+        "kind": "sfx"
+      },
+      "caption": "steady rhythmic breaths in and out",
+      "negative": null,
+      "regen": {
+        "policy": "regenerate_each",
+        "reason": "불규칙 반복(onset 6회, cov 1.004) → onset마다 재생성 권장"
+      }
+    },
+    {
+      "source": "walk",
+      "label": "walk",
+      "kind": "sfx",
+      "source_hint": "Person walking near chopping area",
+      "salience": "medium",
+      "route": "t2a",
+      "route_reason": "희소 반복 단발(onset 2회) → t2a",
+      "visible": null,
+      "timing": "transient",
+      "times": [
+        5.36,
+        6.04
+      ],
+      "onsets": [
+        5.36,
+        6.04
+      ],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 2,
+        "density": 2.941,
+        "regularity": {
+          "median_iv": 0.68,
+          "cov": 0.0
+        },
+        "kind": "sfx"
+      },
+      "caption": "boots stepping on dirt ground",
+      "negative": null,
+      "regen": {
+        "policy": "reuse_once",
+        "reason": "규칙적 반복(onset 2회, cov 0.0) → 동일 음색 1회 생성 재사용"
+      }
+    },
+    {
+      "source": "wood_splitting",
+      "label": "wood_splitting",
+      "kind": "sfx",
+      "source_hint": "Axe repeatedly splitting logs",
+      "salience": "high",
+      "route": "v2a",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "timing": "continuous",
+      "times": [
+        [
+          0.0,
+          9.36
+        ]
+      ],
+      "onsets": [],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "caption": "wood cracking and splitting under axe impact",
+      "negative": "chop, breathing, walk",
+      "regen": null
+    }
+  ]
+}

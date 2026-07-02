@@ -1,0 +1,117 @@
+{
+  "clip": "-91W9Tp2x2w_000207",
+  "duration": 10.033,
+  "vl": true,
+  "sources": [
+    {
+      "source": "video_game_sound",
+      "label": "video_game_sound",
+      "kind": "sfx",
+      "source_hint": "Video game audio engine",
+      "salience": "high",
+      "route": "v2a",
+      "route_reason": "dense/repetitive → continuous, 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "timing": "continuous",
+      "times": [
+        [
+          3.8,
+          5.28
+        ]
+      ],
+      "onsets": [
+        3.8,
+        4.0,
+        4.16,
+        4.28,
+        4.56,
+        4.72,
+        4.88,
+        5.28
+      ],
+      "dense_collapsed": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 8,
+        "density": 5.405,
+        "regularity": {
+          "median_iv": 0.16,
+          "cov": 0.426
+        },
+        "kind": "sfx"
+      },
+      "caption": "player sprinting across grass field",
+      "negative": "breathing, male_speech",
+      "regen": null
+    },
+    {
+      "source": "breathing",
+      "label": "breathing",
+      "kind": "sfx",
+      "source_hint": "Player's respiratory system",
+      "salience": "low",
+      "route": "t2a",
+      "route_reason": "희소 반복 단발(onset 2회) → t2a",
+      "visible": null,
+      "timing": "transient",
+      "times": [
+        7.28,
+        8.88
+      ],
+      "onsets": [
+        7.28,
+        8.88
+      ],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 2,
+        "density": 1.25,
+        "regularity": {
+          "median_iv": 1.6,
+          "cov": 0.0
+        },
+        "kind": "sfx"
+      },
+      "caption": "steady rhythmic inhalation and exhalation",
+      "negative": null,
+      "regen": {
+        "policy": "reuse_once",
+        "reason": "영상에서 동일 반복 동작(VL) → 1회 생성 재사용"
+      }
+    },
+    {
+      "source": "male_speech",
+      "label": "male_speech",
+      "kind": "speech",
+      "source_hint": "Streamer's voice via microphone",
+      "salience": "high",
+      "route": "t2a",
+      "route_reason": "speech는 v2a 생성 불가 → t2a",
+      "visible": null,
+      "timing": "continuous",
+      "times": [
+        [
+          0.0,
+          2.16
+        ],
+        [
+          3.12,
+          10.0
+        ]
+      ],
+      "onsets": [],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "speech"
+      },
+      "caption": "man speaking with animated facial expressions",
+      "negative": null,
+      "regen": null
+    }
+  ]
+}

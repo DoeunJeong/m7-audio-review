@@ -1,0 +1,138 @@
+{
+  "clip": "-0DIFwkUpjQ_000050",
+  "duration": 10.0,
+  "vl": true,
+  "sources": [
+    {
+      "source": "laugh",
+      "label": "laugh",
+      "kind": "sfx",
+      "source_hint": "Skateboarder's face, visible in frame 0.0s.",
+      "salience": "high",
+      "route": "t2a",
+      "route_reason": "희소 반복 단발(onset 2회) → t2a",
+      "visible": null,
+      "timing": "transient",
+      "times": [
+        1.28,
+        4.76
+      ],
+      "onsets": [
+        1.28,
+        4.76
+      ],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 2,
+        "density": 0.575,
+        "regularity": {
+          "median_iv": 3.48,
+          "cov": 0.0
+        },
+        "kind": "sfx"
+      },
+      "caption": "high-pitched, bubbling laughter",
+      "negative": null,
+      "regen": {
+        "policy": "reuse_once",
+        "reason": "규칙적 반복(onset 2회, cov 0.0) → 동일 음색 1회 생성 재사용"
+      }
+    },
+    {
+      "source": "skateboard",
+      "label": "skateboard",
+      "kind": "sfx",
+      "source_hint": "Skateboard wheels on ground, visible in frames 0.0s, 0.76s, 1.28s, 2.00s, 4.00s, 5.00s, 5.44s, 5.86s, 6.00s, 8.00s.",
+      "salience": "high",
+      "route": "v2a",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "timing": "continuous",
+      "times": [
+        [
+          0.0,
+          10.0
+        ]
+      ],
+      "onsets": [],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "caption": "skateboard wheels rolling on concrete",
+      "negative": "laugh, male_speech, wind",
+      "regen": null
+    },
+    {
+      "source": "male_speech",
+      "label": "male_speech",
+      "kind": "speech",
+      "source_hint": "Male speaker's mouth visible in frame 0.0s, 0.76s, 1.28s, 2.00s, 4.00s, 5.00s, 5.44s, 5.86s, 6.00s, 8.00s.",
+      "salience": "medium",
+      "route": "t2a",
+      "route_reason": "speech는 v2a 생성 불가 → t2a",
+      "visible": null,
+      "timing": "continuous",
+      "times": [
+        [
+          0.0,
+          1.52
+        ],
+        [
+          5.44,
+          6.28
+        ],
+        [
+          8.6,
+          10.0
+        ]
+      ],
+      "onsets": [],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "speech"
+      },
+      "caption": "man speaking in a low, calm tone",
+      "negative": null,
+      "regen": null
+    },
+    {
+      "source": "wind",
+      "label": "wind",
+      "kind": "sfx",
+      "source_hint": "Wind rustling trees and grass, visible in frames 0.0s, 0.76s, 1.28s, 2.00s, 4.00s, 5.00s, 5.44s, 5.86s, 6.00s, 8.00s.",
+      "salience": "medium",
+      "route": "v2a",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "timing": "continuous",
+      "times": [
+        [
+          0.0,
+          10.0
+        ]
+      ],
+      "onsets": [],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "caption": "gentle breeze rustling through grass and leaves",
+      "negative": "laugh, skateboard, male_speech",
+      "regen": null
+    }
+  ]
+}

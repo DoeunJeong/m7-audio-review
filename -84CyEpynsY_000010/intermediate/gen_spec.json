@@ -1,0 +1,80 @@
+{
+  "clip_id": "-84CyEpynsY_000010",
+  "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-84CyEpynsY_000010/videos/-84CyEpynsY_000010.mp4",
+  "duration": 10.0,
+  "sample_rate": 44100,
+  "v2a_fixed_sec": 8.0,
+  "t2a_groups": [
+    {
+      "group_id": "t2a_00",
+      "source": "dog_yip",
+      "caption": "sharp, high-pitched dog yip",
+      "route_reason": "희소 반복 단발(onset 4회) → t2a",
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 4,
+        "density": 0.671,
+        "regularity": {
+          "median_iv": 1.84,
+          "cov": 0.26
+        },
+        "kind": "sfx"
+      },
+      "regen": {
+        "policy": "reuse_once",
+        "reason": "규칙적 반복(onset 4회, cov 0.26) → 동일 음색 1회 생성 재사용"
+      },
+      "onsets": [
+        1.24,
+        2.68,
+        4.52,
+        7.2
+      ],
+      "n": 4
+    },
+    {
+      "group_id": "t2a_01",
+      "source": "laughter",
+      "caption": "joyful, bubbling laughter",
+      "route_reason": "단발 → t2a",
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 1,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "regen": null,
+      "onsets": [
+        8.52
+      ],
+      "n": 1
+    }
+  ],
+  "v2a_groups": [
+    {
+      "group_id": "v2a_00",
+      "source": "water_falling",
+      "caption": "steady, rhythmic water dripping",
+      "negative": "dog_yip, laughter",
+      "spans": [
+        [
+          0.0,
+          10.0
+        ]
+      ],
+      "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-84CyEpynsY_000010/videos/-84CyEpynsY_000010.mp4",
+      "video_id": "000010",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      }
+    }
+  ],
+  "skipped": []
+}

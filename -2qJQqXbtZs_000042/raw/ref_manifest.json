@@ -1,0 +1,59 @@
+[
+  {
+    "group_id": "t2a_00",
+    "source": "filter_drop",
+    "mode": "t2a_render_once",
+    "ref_used": false,
+    "raws": [
+      [
+        "원본8s(no-ref)",
+        "t2a_00_filter_drop__raw8s.wav",
+        false
+      ],
+      [
+        "trim(no-ref)",
+        "t2a_00_filter_drop__trim.wav",
+        false
+      ]
+    ]
+  },
+  {
+    "group_id": "v2a_00",
+    "source": "sink_filling_or_washing",
+    "mode": "v2a_window",
+    "ref_used": false,
+    "raws": [
+      [
+        "sp0원본8s(no-ref)",
+        "v2a_00_sink_filling_or_washing__sp0__raw8s.wav",
+        false
+      ]
+    ]
+  },
+  {
+    "group_id": "v2a_01",
+    "source": "water_tap",
+    "mode": "v2a_window",
+    "ref_used": false,
+    "raws": [
+      [
+        "sp0원본8s(no-ref)",
+        "v2a_01_water_tap__sp0__raw8s.wav",
+        false
+      ]
+    ]
+  },
+  {
+    "group_id": "v2a_02",
+    "source": "filter_washing",
+    "mode": "v2a_window",
+    "ref_used": false,
+    "raws": [
+      [
+        "sp0원본8s(no-ref)",
+        "v2a_02_filter_washing__sp0__raw8s.wav",
+        false
+      ]
+    ]
+  }
+]

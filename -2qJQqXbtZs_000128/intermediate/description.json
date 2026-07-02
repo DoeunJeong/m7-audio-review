@@ -1,0 +1,130 @@
+{
+  "clip": "-2qJQqXbtZs_000128",
+  "duration": 10.04,
+  "vl": true,
+  "sources": [
+    {
+      "source": "vacuum_cleaner_start",
+      "label": "vacuum_cleaner_start",
+      "kind": "sfx",
+      "source_hint": "Vacuum cleaner power button being pressed",
+      "salience": "high",
+      "route": "v2a",
+      "route_reason": "dense/repetitive → continuous, 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "timing": "continuous",
+      "times": [
+        [
+          0.12,
+          1.32
+        ]
+      ],
+      "onsets": [
+        0.12,
+        0.28,
+        0.44,
+        0.68,
+        1.32
+      ],
+      "dense_collapsed": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 5,
+        "density": 4.167,
+        "regularity": {
+          "median_iv": 0.24,
+          "cov": 0.663
+        },
+        "kind": "sfx"
+      },
+      "caption": "Vacuum cleaner motor starts with a low hum and whirring sound.",
+      "negative": "vacuum_cleaner, vacuum_cleaner_2",
+      "regen": null
+    },
+    {
+      "source": "vacuum_cleaner",
+      "label": "vacuum_cleaner",
+      "kind": "sfx",
+      "source_hint": "Vacuum cleaner motor and suction system",
+      "salience": "high",
+      "route": "v2a",
+      "route_reason": "dense/repetitive → continuous, 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "timing": "continuous",
+      "times": [
+        [
+          2.8,
+          6.68
+        ]
+      ],
+      "onsets": [
+        2.8,
+        3.0,
+        3.2,
+        3.36,
+        3.52,
+        3.72,
+        3.96,
+        4.2,
+        4.32,
+        4.48,
+        4.68,
+        4.8,
+        5.0,
+        5.16,
+        5.32,
+        5.48,
+        5.64,
+        5.8,
+        5.96,
+        6.12,
+        6.28,
+        6.44,
+        6.68
+      ],
+      "dense_collapsed": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 23,
+        "density": 5.928,
+        "regularity": {
+          "median_iv": 0.16,
+          "cov": 0.189
+        },
+        "kind": "sfx"
+      },
+      "caption": "Vacuum cleaner moving across carpet with suction and brush roll noise.",
+      "negative": "vacuum_cleaner_start, vacuum_cleaner_2",
+      "regen": null
+    },
+    {
+      "source": "vacuum_cleaner_2",
+      "label": "vacuum_cleaner_2",
+      "kind": "sfx",
+      "source_hint": "Vacuum cleaner motor and suction system",
+      "salience": "high",
+      "route": "v2a",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "timing": "continuous",
+      "times": [
+        [
+          2.52,
+          6.96
+        ]
+      ],
+      "onsets": [],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "caption": "Vacuum cleaner moving across carpet with suction and brush roll noise.",
+      "negative": "vacuum_cleaner_start, vacuum_cleaner",
+      "regen": null
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "group_id": "t2a_00",
+    "source": "male_speech",
+    "mode": "t2a_render_once",
+    "ref_used": false,
+    "raws": [
+      [
+        "원본8s(no-ref)",
+        "t2a_00_male_speech__raw8s.wav",
+        false
+      ],
+      [
+        "trim(no-ref)",
+        "t2a_00_male_speech__trim.wav",
+        false
+      ]
+    ]
+  },
+  {
+    "group_id": "v2a_00",
+    "source": "vacuum_cleaner",
+    "mode": "v2a_window",
+    "ref_used": false,
+    "raws": [
+      [
+        "sp0원본8s(no-ref)",
+        "v2a_00_vacuum_cleaner__sp0__raw8s.wav",
+        false
+      ]
+    ]
+  },
+  {
+    "group_id": "v2a_01",
+    "source": "generic_impact_sounds",
+    "mode": "v2a_window",
+    "ref_used": false,
+    "raws": [
+      [
+        "sp0원본8s(no-ref)",
+        "v2a_01_generic_impact_sounds__sp0__raw8s.wav",
+        false
+      ]
+    ]
+  },
+  {
+    "group_id": "v2a_02",
+    "source": "vacuum_cleaner_2",
+    "mode": "v2a_window",
+    "ref_used": false,
+    "raws": [
+      [
+        "sp0원본8s(no-ref)",
+        "v2a_02_vacuum_cleaner_2__sp0__raw8s.wav",
+        false
+      ]
+    ]
+  },
+  {
+    "group_id": "v2a_03",
+    "source": "vacuum_cleaner_suction",
+    "mode": "v2a_window",
+    "ref_used": false,
+    "raws": [
+      [
+        "sp0원본8s(no-ref)",
+        "v2a_03_vacuum_cleaner_suction__sp0__raw8s.wav",
+        false
+      ]
+    ]
+  }
+]

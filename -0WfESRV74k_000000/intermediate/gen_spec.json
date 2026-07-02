@@ -1,0 +1,100 @@
+{
+  "clip_id": "-0WfESRV74k_000000",
+  "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-0WfESRV74k_000000/videos/-0WfESRV74k_000000.mp4",
+  "duration": 10.0078,
+  "sample_rate": 44100,
+  "v2a_fixed_sec": 8.0,
+  "t2a_groups": [
+    {
+      "group_id": "t2a_00",
+      "source": "crowd",
+      "caption": "distant crowd murmuring and cheering",
+      "route_reason": "단발 → t2a",
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 1,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "regen": null,
+      "onsets": [
+        0.32
+      ],
+      "n": 1
+    },
+    {
+      "group_id": "t2a_01",
+      "source": "music",
+      "caption": "melodic piano and vocal harmonies blending",
+      "route_reason": "music는 v2a 생성 불가 → t2a",
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "music"
+      },
+      "regen": null,
+      "spans": [
+        [
+          0.0,
+          10.0
+        ]
+      ],
+      "continuous": true
+    }
+  ],
+  "v2a_groups": [
+    {
+      "group_id": "v2a_00",
+      "source": "applause",
+      "caption": "audience clapping rhythmically in unison",
+      "negative": "crowd, music, male_singing",
+      "spans": [
+        [
+          0.24,
+          2.48
+        ]
+      ],
+      "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-0WfESRV74k_000000/videos/-0WfESRV74k_000000.mp4",
+      "video_id": "000000",
+      "route_reason": "dense/repetitive → continuous, 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 13,
+        "density": 5.804,
+        "regularity": {
+          "median_iv": 0.16,
+          "cov": 0.267
+        },
+        "kind": "sfx"
+      }
+    },
+    {
+      "group_id": "v2a_01",
+      "source": "male_singing",
+      "caption": "male voice singing with emotional intensity",
+      "negative": "applause, crowd, music",
+      "spans": [
+        [
+          5.36,
+          9.2
+        ]
+      ],
+      "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-0WfESRV74k_000000/videos/-0WfESRV74k_000000.mp4",
+      "video_id": "000000",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      }
+    }
+  ],
+  "skipped": []
+}

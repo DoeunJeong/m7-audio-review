@@ -1,0 +1,38 @@
+[
+  {
+    "group_id": "t2a_00",
+    "source": "music",
+    "mode": "t2a_render_once",
+    "ref_used": false,
+    "raws": [
+      [
+        "원본8s(no-ref)",
+        "t2a_00_music__raw8s.wav",
+        false
+      ],
+      [
+        "trim(no-ref)",
+        "t2a_00_music__trim.wav",
+        false
+      ]
+    ]
+  },
+  {
+    "group_id": "v2a_00",
+    "source": "male_singing",
+    "mode": "v2a_window",
+    "ref_used": true,
+    "raws": [
+      [
+        "sp0원본8s(no-ref)",
+        "v2a_00_male_singing__sp0__raw8s.wav",
+        false
+      ],
+      [
+        "sp1원본8s(ref)",
+        "v2a_00_male_singing__sp1__raw8s.wav",
+        true
+      ]
+    ]
+  }
+]

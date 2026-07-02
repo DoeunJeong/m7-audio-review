@@ -1,0 +1,178 @@
+{
+  "clip": "-HLTp7gPBEw_000030",
+  "duration": 10.002835,
+  "vl": true,
+  "sources": [
+    {
+      "source": "cat_paw_hit",
+      "label": "cat_paw_hit",
+      "kind": "sfx",
+      "source_hint": "Cat on screen interacting with TV",
+      "salience": "high",
+      "route": "t2a",
+      "route_reason": "희소 반복 단발(onset 4회) → t2a",
+      "visible": null,
+      "timing": "transient",
+      "times": [
+        0.36,
+        4.24,
+        6.44,
+        6.6
+      ],
+      "onsets": [
+        0.36,
+        4.24,
+        6.44,
+        6.6
+      ],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 4,
+        "density": 0.641,
+        "regularity": {
+          "median_iv": 2.2,
+          "cov": 0.731
+        },
+        "kind": "sfx"
+      },
+      "caption": "soft padded paw tapping",
+      "negative": null,
+      "regen": {
+        "policy": "regenerate_each",
+        "reason": "불규칙 반복(onset 4회, cov 0.731) → onset마다 재생성 권장"
+      }
+    },
+    {
+      "source": "cat_meow",
+      "label": "cat_meow",
+      "kind": "sfx",
+      "source_hint": "Cat on screen vocalizing",
+      "salience": "high",
+      "route": "v2a",
+      "route_reason": "dense/repetitive → continuous, 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "timing": "continuous",
+      "times": [
+        [
+          0.6,
+          8.6
+        ]
+      ],
+      "onsets": [
+        0.6,
+        1.0,
+        1.12,
+        1.48,
+        1.64,
+        1.76,
+        2.36,
+        2.52,
+        2.8,
+        2.96,
+        3.24,
+        3.52,
+        3.88,
+        5.4,
+        5.52,
+        5.68,
+        5.8,
+        6.04,
+        8.6
+      ],
+      "dense_collapsed": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 19,
+        "density": 2.375,
+        "regularity": {
+          "median_iv": 0.28,
+          "cov": 1.356
+        },
+        "kind": "sfx"
+      },
+      "caption": "cat vocalizing with soft meow",
+      "negative": "cat_paw_hit, cat_purr, tv_power_on",
+      "regen": null
+    },
+    {
+      "source": "cat_purr",
+      "label": "cat_purr",
+      "kind": "sfx",
+      "source_hint": "Cat on screen purring",
+      "salience": "medium",
+      "route": "t2a",
+      "route_reason": "희소 반복 단발(onset 9회) → t2a",
+      "visible": null,
+      "timing": "transient",
+      "times": [
+        0.68,
+        1.88,
+        2.64,
+        3.4,
+        3.76,
+        5.88,
+        6.12,
+        8.52,
+        8.76
+      ],
+      "onsets": [
+        0.68,
+        1.88,
+        2.64,
+        3.4,
+        3.76,
+        5.88,
+        6.12,
+        8.52,
+        8.76
+      ],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 9,
+        "density": 1.114,
+        "regularity": {
+          "median_iv": 0.76,
+          "cov": 0.778
+        },
+        "kind": "sfx"
+      },
+      "caption": "cat purring low and steady",
+      "negative": null,
+      "regen": {
+        "policy": "regenerate_each",
+        "reason": "불규칙 반복(onset 9회, cov 0.778) → onset마다 재생성 권장"
+      }
+    },
+    {
+      "source": "tv_power_on",
+      "label": "tv_power_on",
+      "kind": "sfx",
+      "source_hint": "TV powering on",
+      "salience": "high",
+      "route": "v2a",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "timing": "continuous",
+      "times": [
+        [
+          0.0,
+          9.96
+        ]
+      ],
+      "onsets": [],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "caption": "tv screen powering on with hum",
+      "negative": "cat_paw_hit, cat_meow, cat_purr",
+      "regen": null
+    }
+  ]
+}

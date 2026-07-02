@@ -1,0 +1,28 @@
+[
+  {
+    "group_id": "v2a_00",
+    "source": "crackle",
+    "mode": "v2a_window",
+    "ref_used": false,
+    "raws": [
+      [
+        "sp0원본8s(no-ref)",
+        "v2a_00_crackle__sp0__raw8s.wav",
+        false
+      ]
+    ]
+  },
+  {
+    "group_id": "v2a_01",
+    "source": "fire",
+    "mode": "v2a_window",
+    "ref_used": false,
+    "raws": [
+      [
+        "sp0원본8s(no-ref)",
+        "v2a_01_fire__sp0__raw8s.wav",
+        false
+      ]
+    ]
+  }
+]

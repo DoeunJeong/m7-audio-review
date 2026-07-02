@@ -1,0 +1,64 @@
+[
+  {
+    "group_id": "t2a_00",
+    "source": "laugh",
+    "mode": "t2a_render_once",
+    "ref_used": false,
+    "raws": [
+      [
+        "원본8s(no-ref)",
+        "t2a_00_laugh__raw8s.wav",
+        false
+      ],
+      [
+        "trim(no-ref)",
+        "t2a_00_laugh__trim.wav",
+        false
+      ]
+    ]
+  },
+  {
+    "group_id": "t2a_01",
+    "source": "male_speech",
+    "mode": "t2a_render_once",
+    "ref_used": false,
+    "raws": [
+      [
+        "원본8s(no-ref)",
+        "t2a_01_male_speech__raw8s.wav",
+        false
+      ],
+      [
+        "trim(no-ref)",
+        "t2a_01_male_speech__trim.wav",
+        false
+      ]
+    ]
+  },
+  {
+    "group_id": "v2a_00",
+    "source": "skateboard",
+    "mode": "v2a_window",
+    "ref_used": false,
+    "raws": [
+      [
+        "sp0원본8s(no-ref)",
+        "v2a_00_skateboard__sp0__raw8s.wav",
+        false
+      ]
+    ]
+  },
+  {
+    "group_id": "v2a_01",
+    "source": "wind",
+    "mode": "v2a_window",
+    "ref_used": false,
+    "raws": [
+      [
+        "sp0원본8s(no-ref)",
+        "v2a_01_wind__sp0__raw8s.wav",
+        false
+      ]
+    ]
+  }
+]

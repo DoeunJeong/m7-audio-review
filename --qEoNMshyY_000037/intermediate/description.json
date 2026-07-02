@@ -1,0 +1,115 @@
+{
+  "clip": "--qEoNMshyY_000037",
+  "duration": 10.04,
+  "vl": true,
+  "sources": [
+    {
+      "source": "tap_dance_footsteps",
+      "label": "tap_dance_footsteps",
+      "kind": "sfx",
+      "source_hint": "Tap shoes on floor",
+      "salience": "high",
+      "route": "v2a",
+      "route_reason": "dense/repetitive → continuous, 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "timing": "continuous",
+      "times": [
+        [
+          0.08,
+          9.52
+        ]
+      ],
+      "onsets": [
+        0.08,
+        0.36,
+        0.88,
+        1.08,
+        1.2,
+        1.36,
+        1.52,
+        1.68,
+        1.84,
+        2.12,
+        2.36,
+        2.52,
+        2.64,
+        2.88,
+        3.04,
+        3.16,
+        3.32,
+        3.48,
+        3.64,
+        3.84,
+        3.96,
+        4.12,
+        4.44,
+        4.6,
+        4.76,
+        4.92,
+        5.24,
+        5.4,
+        5.6,
+        5.72,
+        5.92,
+        6.2,
+        6.52,
+        6.68,
+        6.88,
+        7.16,
+        7.28,
+        7.52,
+        7.64,
+        7.88,
+        8.0,
+        8.16,
+        8.32,
+        8.48,
+        9.24,
+        9.52
+      ],
+      "dense_collapsed": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 46,
+        "density": 4.873,
+        "regularity": {
+          "median_iv": 0.16,
+          "cov": 0.538
+        },
+        "kind": "sfx"
+      },
+      "caption": "black and white tap shoes striking floor",
+      "negative": "music",
+      "regen": null
+    },
+    {
+      "source": "music",
+      "label": "music",
+      "kind": "music",
+      "source_hint": "Music source (not visible)",
+      "salience": "medium",
+      "route": "t2a",
+      "route_reason": "music는 v2a 생성 불가 → t2a",
+      "visible": null,
+      "timing": "continuous",
+      "times": [
+        [
+          0.0,
+          10.0
+        ]
+      ],
+      "onsets": [],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "music"
+      },
+      "caption": "music",
+      "negative": null,
+      "regen": null
+    }
+  ]
+}

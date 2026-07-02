@@ -1,0 +1,85 @@
+{
+  "clip_id": "fO2HS7_fZb0_000026",
+  "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/fO2HS7_fZb0_000026/videos/fO2HS7_fZb0_000026.mp4",
+  "duration": 9.0,
+  "sample_rate": 44100,
+  "v2a_fixed_sec": 8.0,
+  "t2a_groups": [
+    {
+      "group_id": "t2a_00",
+      "source": "dog",
+      "caption": "dog snuffling with nose close to car door",
+      "route_reason": "희소 반복 단발(onset 2회) → t2a",
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 2,
+        "density": 0.5,
+        "regularity": {
+          "median_iv": 4.0,
+          "cov": 0.0
+        },
+        "kind": "sfx"
+      },
+      "regen": {
+        "policy": "reuse_once",
+        "reason": "규칙적 반복(onset 2회, cov 0.0) → 동일 음색 1회 생성 재사용"
+      },
+      "onsets": [
+        0.2,
+        4.2
+      ],
+      "n": 2
+    },
+    {
+      "group_id": "t2a_01",
+      "source": "growling",
+      "caption": "dog growling low and guttural",
+      "route_reason": "단발 → t2a",
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 1,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "regen": null,
+      "onsets": [
+        0.48
+      ],
+      "n": 1
+    },
+    {
+      "group_id": "t2a_02",
+      "source": "bark",
+      "caption": "dog barking short and sharp",
+      "route_reason": "희소 반복 단발(onset 8회) → t2a",
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 8,
+        "density": 1.111,
+        "regularity": {
+          "median_iv": 0.72,
+          "cov": 0.736
+        },
+        "kind": "sfx"
+      },
+      "regen": {
+        "policy": "regenerate_each",
+        "reason": "불규칙 반복(onset 8회, cov 0.736) → onset마다 재생성 권장"
+      },
+      "onsets": [
+        0.72,
+        1.44,
+        2.16,
+        2.92,
+        5.8,
+        6.44,
+        7.2,
+        7.92
+      ],
+      "n": 8
+    }
+  ],
+  "v2a_groups": [],
+  "skipped": []
+}

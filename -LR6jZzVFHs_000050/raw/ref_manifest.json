@@ -1,0 +1,33 @@
+[
+  {
+    "group_id": "t2a_00",
+    "source": "keyboard_typing",
+    "mode": "t2a_render_once",
+    "ref_used": false,
+    "raws": [
+      [
+        "원본8s(no-ref)",
+        "t2a_00_keyboard_typing__raw8s.wav",
+        false
+      ],
+      [
+        "trim(no-ref)",
+        "t2a_00_keyboard_typing__trim.wav",
+        false
+      ]
+    ]
+  },
+  {
+    "group_id": "v2a_00",
+    "source": "computer_keyboard",
+    "mode": "v2a_window",
+    "ref_used": false,
+    "raws": [
+      [
+        "sp0원본8s(no-ref)",
+        "v2a_00_computer_keyboard__sp0__raw8s.wav",
+        false
+      ]
+    ]
+  }
+]

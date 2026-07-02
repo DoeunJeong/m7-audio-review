@@ -1,0 +1,94 @@
+{
+  "clip": "-0VQXloTkoo_000032",
+  "duration": 10.005011,
+  "vl": true,
+  "sources": [
+    {
+      "source": "music",
+      "label": "music",
+      "kind": "music",
+      "source_hint": "Stage band or pre-recorded track",
+      "salience": "high",
+      "route": "t2a",
+      "route_reason": "music는 v2a 생성 불가 → t2a",
+      "visible": null,
+      "timing": "continuous",
+      "times": [
+        [
+          0.0,
+          10.0
+        ]
+      ],
+      "onsets": [],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "music"
+      },
+      "caption": "upbeat rhythmic music with percussion and melody",
+      "negative": null,
+      "regen": null
+    },
+    {
+      "source": "tap_dance",
+      "label": "tap_dance",
+      "kind": "sfx",
+      "source_hint": "Dancers' tap shoes",
+      "salience": "high",
+      "route": "v2a",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "timing": "continuous",
+      "times": [
+        [
+          1.0,
+          10.0
+        ]
+      ],
+      "onsets": [],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "caption": "tap shoes striking wooden floor with rhythmic clicks",
+      "negative": "music, female_singing",
+      "regen": null
+    },
+    {
+      "source": "female_singing",
+      "label": "female_singing",
+      "kind": "sfx",
+      "source_hint": "Singer on stage",
+      "salience": "high",
+      "route": "v2a",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "timing": "continuous",
+      "times": [
+        [
+          2.28,
+          9.84
+        ]
+      ],
+      "onsets": [],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "caption": "female voice singing with clear, melodic tone",
+      "negative": "music, tap_dance",
+      "regen": null
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+[
+  {
+    "group_id": "t2a_00",
+    "source": "cheering",
+    "mode": "t2a_render_once",
+    "ref_used": false,
+    "raws": [
+      [
+        "원본8s(no-ref)",
+        "t2a_00_cheering__raw8s.wav",
+        false
+      ],
+      [
+        "trim(no-ref)",
+        "t2a_00_cheering__trim.wav",
+        false
+      ]
+    ]
+  },
+  {
+    "group_id": "t2a_01",
+    "source": "squeal",
+    "mode": "t2a_render_once",
+    "ref_used": false,
+    "raws": [
+      [
+        "원본8s(no-ref)",
+        "t2a_01_squeal__raw8s.wav",
+        false
+      ],
+      [
+        "trim(no-ref)",
+        "t2a_01_squeal__trim.wav",
+        false
+      ]
+    ]
+  },
+  {
+    "group_id": "t2a_02",
+    "source": "applause",
+    "mode": "t2a_render_once",
+    "ref_used": false,
+    "raws": [
+      [
+        "원본8s(no-ref)",
+        "t2a_02_applause__raw8s.wav",
+        false
+      ],
+      [
+        "trim(no-ref)",
+        "t2a_02_applause__trim.wav",
+        false
+      ]
+    ]
+  },
+  {
+    "group_id": "t2a_03",
+    "source": "male_speech",
+    "mode": "t2a_render_once",
+    "ref_used": false,
+    "raws": [
+      [
+        "원본8s(no-ref)",
+        "t2a_03_male_speech__raw8s.wav",
+        false
+      ],
+      [
+        "trim(no-ref)",
+        "t2a_03_male_speech__trim.wav",
+        false
+      ]
+    ]
+  },
+  {
+    "group_id": "v2a_00",
+    "source": "clapping",
+    "mode": "v2a_window",
+    "ref_used": false,
+    "raws": [
+      [
+        "sp0원본8s(no-ref)",
+        "v2a_00_clapping__sp0__raw8s.wav",
+        false
+      ]
+    ]
+  },
+  {
+    "group_id": "v2a_01",
+    "source": "crowd",
+    "mode": "v2a_window",
+    "ref_used": true,
+    "raws": [
+      [
+        "sp0원본8s(no-ref)",
+        "v2a_01_crowd__sp0__raw8s.wav",
+        false
+      ],
+      [
+        "sp1원본8s(ref)",
+        "v2a_01_crowd__sp1__raw8s.wav",
+        true
+      ]
+    ]
+  }
+]

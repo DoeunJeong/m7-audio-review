@@ -1,0 +1,140 @@
+{
+  "clip": "1RAcDEFEszA_000093",
+  "duration": 10.003991,
+  "vl": true,
+  "sources": [
+    {
+      "source": "apple_chopping",
+      "label": "apple_chopping",
+      "kind": "sfx",
+      "source_hint": "Green apple slicer cutting apples into slices.",
+      "salience": "high",
+      "route": "t2a",
+      "route_reason": "희소 반복 단발(onset 3회) → t2a",
+      "visible": null,
+      "timing": "transient",
+      "times": [
+        1.92,
+        4.88,
+        7.64
+      ],
+      "onsets": [
+        1.92,
+        4.88,
+        7.64
+      ],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 3,
+        "density": 0.524,
+        "regularity": {
+          "median_iv": 2.96,
+          "cov": 0.035
+        },
+        "kind": "sfx"
+      },
+      "caption": "sharp slicing of apple with a slicer",
+      "negative": null,
+      "regen": {
+        "policy": "reuse_once",
+        "reason": "규칙적 반복(onset 3회, cov 0.035) → 동일 음색 1회 생성 재사용"
+      }
+    },
+    {
+      "source": "female_speech",
+      "label": "female_speech",
+      "kind": "speech",
+      "source_hint": "Woman in apron speaking to the camera or chef.",
+      "salience": "high",
+      "route": "t2a",
+      "route_reason": "speech는 v2a 생성 불가 → t2a",
+      "visible": null,
+      "timing": "continuous",
+      "times": [
+        [
+          0.0,
+          3.28
+        ],
+        [
+          4.92,
+          9.04
+        ]
+      ],
+      "onsets": [],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "speech"
+      },
+      "caption": "female voice speaking in a kitchen",
+      "negative": null,
+      "regen": null
+    },
+    {
+      "source": "male_speech",
+      "label": "male_speech",
+      "kind": "speech",
+      "source_hint": "Chef in white uniform speaking to the woman or camera.",
+      "salience": "high",
+      "route": "t2a",
+      "route_reason": "speech는 v2a 생성 불가 → t2a",
+      "visible": null,
+      "timing": "continuous",
+      "times": [
+        [
+          3.28,
+          4.92
+        ],
+        [
+          9.2,
+          10.0
+        ]
+      ],
+      "onsets": [],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "speech"
+      },
+      "caption": "male voice speaking in a kitchen",
+      "negative": null,
+      "regen": null
+    },
+    {
+      "source": "conversation",
+      "label": "conversation",
+      "kind": "sfx",
+      "source_hint": "Two people talking in a kitchen setting.",
+      "salience": "medium",
+      "route": "v2a",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "timing": "continuous",
+      "times": [
+        [
+          0.0,
+          10.0
+        ]
+      ],
+      "onsets": [],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "caption": "two people talking in a kitchen",
+      "negative": "apple_chopping, female_speech, male_speech",
+      "regen": null
+    }
+  ]
+}

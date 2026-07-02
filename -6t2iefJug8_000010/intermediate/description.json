@@ -1,0 +1,36 @@
+{
+  "clip": "-6t2iefJug8_000010",
+  "duration": 10.0,
+  "vl": false,
+  "sources": [
+    {
+      "source": "music",
+      "label": "music",
+      "kind": "music",
+      "source_hint": "Drum kit including cymbals, snare, and bass drum.",
+      "salience": "high",
+      "route": "t2a",
+      "route_reason": "music는 v2a 생성 불가 → t2a",
+      "visible": null,
+      "timing": "continuous",
+      "times": [
+        [
+          0.0,
+          10.0
+        ]
+      ],
+      "onsets": [],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "music"
+      },
+      "caption": "music",
+      "negative": null,
+      "regen": null
+    }
+  ]
+}

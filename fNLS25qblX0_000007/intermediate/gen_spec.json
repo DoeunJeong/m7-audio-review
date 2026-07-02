@@ -1,0 +1,104 @@
+{
+  "clip_id": "fNLS25qblX0_000007",
+  "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/fNLS25qblX0_000007/videos/fNLS25qblX0_000007.mp4",
+  "duration": 10.02,
+  "sample_rate": 44100,
+  "v2a_fixed_sec": 8.0,
+  "t2a_groups": [
+    {
+      "group_id": "t2a_00",
+      "source": "walk",
+      "caption": "soft footsteps on wooden floor",
+      "route_reason": "희소 반복 단발(onset 4회) → t2a",
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 4,
+        "density": 2.0,
+        "regularity": {
+          "median_iv": 0.56,
+          "cov": 0.408
+        },
+        "kind": "sfx"
+      },
+      "regen": {
+        "policy": "regenerate_each",
+        "reason": "불규칙 반복(onset 4회, cov 0.408) → onset마다 재생성 권장"
+      },
+      "onsets": [
+        0.24,
+        0.8,
+        1.84,
+        2.24
+      ],
+      "n": 4
+    },
+    {
+      "group_id": "t2a_01",
+      "source": "bouncing",
+      "caption": "ball bouncing on table surface",
+      "route_reason": "단발 → t2a",
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 1,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "regen": null,
+      "onsets": [
+        4.04
+      ],
+      "n": 1
+    },
+    {
+      "group_id": "t2a_02",
+      "source": "table_tennis_table_motor",
+      "caption": "table tennis table motor hum",
+      "route_reason": "v2a 후보(continuous(지속/텍스처))였으나 화면에 원인 미노출 → t2a 강등",
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "regen": null,
+      "spans": [
+        [
+          0.0,
+          10.0
+        ]
+      ],
+      "continuous": true
+    }
+  ],
+  "v2a_groups": [
+    {
+      "group_id": "v2a_00",
+      "source": "tap",
+      "caption": "ping-pong paddle tapping table",
+      "negative": "walk, bouncing, table_tennis_table_motor",
+      "spans": [
+        [
+          2.76,
+          9.84
+        ]
+      ],
+      "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/fNLS25qblX0_000007/videos/fNLS25qblX0_000007.mp4",
+      "video_id": "000007",
+      "route_reason": "dense/repetitive → continuous, 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 20,
+        "density": 2.825,
+        "regularity": {
+          "median_iv": 0.4,
+          "cov": 0.249
+        },
+        "kind": "sfx"
+      }
+    }
+  ],
+  "skipped": []
+}

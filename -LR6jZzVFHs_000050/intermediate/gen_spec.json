@@ -1,0 +1,65 @@
+{
+  "clip_id": "-LR6jZzVFHs_000050",
+  "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-LR6jZzVFHs_000050/videos/-LR6jZzVFHs_000050.mp4",
+  "duration": 10.0,
+  "sample_rate": 44100,
+  "v2a_fixed_sec": 8.0,
+  "t2a_groups": [
+    {
+      "group_id": "t2a_00",
+      "source": "keyboard_typing",
+      "caption": "fingers tapping white keyboard keys",
+      "route_reason": "희소 반복 단발(onset 7회) → t2a",
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 7,
+        "density": 1.08,
+        "regularity": {
+          "median_iv": 0.16,
+          "cov": 1.922
+        },
+        "kind": "sfx"
+      },
+      "regen": {
+        "policy": "reuse_once",
+        "reason": "영상에서 동일 반복 동작(VL) → 1회 생성 재사용"
+      },
+      "onsets": [
+        2.68,
+        2.8,
+        3.0,
+        8.72,
+        8.88,
+        9.0,
+        9.16
+      ],
+      "n": 7
+    }
+  ],
+  "v2a_groups": [
+    {
+      "group_id": "v2a_00",
+      "source": "computer_keyboard",
+      "caption": "white computer keyboard being typed on",
+      "negative": "keyboard_typing",
+      "spans": [
+        [
+          0.0,
+          9.72
+        ]
+      ],
+      "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-LR6jZzVFHs_000050/videos/-LR6jZzVFHs_000050.mp4",
+      "video_id": "000050",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      }
+    }
+  ],
+  "skipped": []
+}

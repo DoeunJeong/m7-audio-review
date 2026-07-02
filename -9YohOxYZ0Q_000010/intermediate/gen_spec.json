@@ -1,0 +1,126 @@
+{
+  "clip_id": "-9YohOxYZ0Q_000010",
+  "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-9YohOxYZ0Q_000010/videos/-9YohOxYZ0Q_000010.mp4",
+  "duration": 10.004649,
+  "sample_rate": 44100,
+  "v2a_fixed_sec": 8.0,
+  "t2a_groups": [
+    {
+      "group_id": "t2a_00",
+      "source": "bark",
+      "caption": "sharp, short bark from a puppy",
+      "route_reason": "희소 반복 단발(onset 4회) → t2a",
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 4,
+        "density": 0.926,
+        "regularity": {
+          "median_iv": 0.76,
+          "cov": 0.728
+        },
+        "kind": "sfx"
+      },
+      "regen": {
+        "policy": "regenerate_each",
+        "reason": "불규칙 반복(onset 4회, cov 0.728) → onset마다 재생성 권장"
+      },
+      "onsets": [
+        2.08,
+        2.72,
+        3.48,
+        6.4
+      ],
+      "n": 4
+    },
+    {
+      "group_id": "t2a_01",
+      "source": "puppy_pawing_on_ground",
+      "caption": "soft thud of puppy paws on concrete",
+      "route_reason": "희소 반복 단발(onset 2회) → t2a",
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 2,
+        "density": 4.167,
+        "regularity": {
+          "median_iv": 0.48,
+          "cov": 0.0
+        },
+        "kind": "sfx"
+      },
+      "regen": {
+        "policy": "reuse_once",
+        "reason": "규칙적 반복(onset 2회, cov 0.0) → 동일 음색 1회 생성 재사용"
+      },
+      "onsets": [
+        9.0,
+        9.48
+      ],
+      "n": 2
+    }
+  ],
+  "v2a_groups": [
+    {
+      "group_id": "v2a_00",
+      "source": "growling",
+      "caption": "low, tense growl from a puppy",
+      "negative": "bark, puppy_pawing_on_ground, puppy_walking_on_concrete",
+      "spans": [
+        [
+          0.2,
+          1.72
+        ],
+        [
+          2.88,
+          5.36
+        ],
+        [
+          7.0,
+          9.08
+        ]
+      ],
+      "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-9YohOxYZ0Q_000010/videos/-9YohOxYZ0Q_000010.mp4",
+      "video_id": "000010",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      }
+    },
+    {
+      "group_id": "v2a_01",
+      "source": "puppy_walking_on_concrete",
+      "caption": "puppy's paws making soft thuds on concrete",
+      "negative": "bark, puppy_pawing_on_ground, growling",
+      "spans": [
+        [
+          1.72,
+          2.88
+        ],
+        [
+          5.36,
+          7.0
+        ],
+        [
+          9.08,
+          9.96
+        ]
+      ],
+      "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-9YohOxYZ0Q_000010/videos/-9YohOxYZ0Q_000010.mp4",
+      "video_id": "000010",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      }
+    }
+  ],
+  "skipped": []
+}

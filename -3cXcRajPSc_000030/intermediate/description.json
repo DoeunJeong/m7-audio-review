@@ -1,0 +1,196 @@
+{
+  "clip": "-3cXcRajPSc_000030",
+  "duration": 10.0,
+  "vl": true,
+  "sources": [
+    {
+      "source": "rain_on_surface",
+      "label": "rain_on_surface",
+      "kind": "sfx",
+      "source_hint": "Rain falling on wet street and vehicle surfaces.",
+      "salience": "high",
+      "route": "v2a",
+      "route_reason": "dense/repetitive → continuous, 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "timing": "continuous",
+      "times": [
+        [
+          0.08,
+          9.84
+        ]
+      ],
+      "onsets": [
+        0.08,
+        0.24,
+        0.36,
+        0.52,
+        0.72,
+        0.92,
+        1.16,
+        1.4,
+        1.6,
+        1.8,
+        2.0,
+        2.16,
+        2.36,
+        2.6,
+        2.84,
+        3.0,
+        3.2,
+        3.32,
+        3.64,
+        4.0,
+        4.16,
+        4.48,
+        4.64,
+        5.16,
+        5.6,
+        6.12,
+        6.28,
+        6.88,
+        7.2,
+        7.64,
+        7.96,
+        8.24,
+        8.48,
+        8.8,
+        9.08,
+        9.56,
+        9.84
+      ],
+      "dense_collapsed": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 37,
+        "density": 3.791,
+        "regularity": {
+          "median_iv": 0.24,
+          "cov": 0.445
+        },
+        "kind": "sfx"
+      },
+      "caption": "raindrops pattering on wet pavement",
+      "negative": "clip_clop, wind_noise_microphone, wind",
+      "regen": null
+    },
+    {
+      "source": "clip_clop",
+      "label": "clip_clop",
+      "kind": "sfx",
+      "source_hint": "Person walking on wet sidewalk, shoes making clip-clop sound.",
+      "salience": "medium",
+      "route": "v2a",
+      "route_reason": "dense/repetitive → continuous, 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "timing": "continuous",
+      "times": [
+        [
+          1.24,
+          9.76
+        ]
+      ],
+      "onsets": [
+        1.24,
+        1.52,
+        2.68,
+        3.8,
+        3.92,
+        4.28,
+        4.76,
+        4.92,
+        5.08,
+        5.32,
+        5.72,
+        5.84,
+        6.04,
+        6.2,
+        6.52,
+        6.68,
+        6.8,
+        6.96,
+        7.12,
+        7.36,
+        7.48,
+        7.84,
+        8.16,
+        8.4,
+        8.68,
+        9.2,
+        9.36,
+        9.76
+      ],
+      "dense_collapsed": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 28,
+        "density": 3.286,
+        "regularity": {
+          "median_iv": 0.24,
+          "cov": 0.819
+        },
+        "kind": "sfx"
+      },
+      "caption": "footsteps on wet pavement",
+      "negative": "rain_on_surface, wind_noise_microphone, wind",
+      "regen": null
+    },
+    {
+      "source": "wind_noise_microphone",
+      "label": "wind_noise_microphone",
+      "kind": "sfx",
+      "source_hint": "Wind blowing past buildings and street, picked up by microphone.",
+      "salience": "medium",
+      "route": "v2a",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "timing": "continuous",
+      "times": [
+        [
+          0.72,
+          10.0
+        ]
+      ],
+      "onsets": [],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "caption": "wind rustling through microphone",
+      "negative": "rain_on_surface, clip_clop, wind",
+      "regen": null
+    },
+    {
+      "source": "wind",
+      "label": "wind",
+      "kind": "sfx",
+      "source_hint": "Wind moving through urban environment, possibly around buildings and trees.",
+      "salience": "medium",
+      "route": "v2a",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "timing": "continuous",
+      "times": [
+        [
+          0.0,
+          10.0
+        ]
+      ],
+      "onsets": [],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "caption": "wind blowing through alleyway",
+      "negative": "rain_on_surface, clip_clop, wind_noise_microphone",
+      "regen": null
+    }
+  ]
+}

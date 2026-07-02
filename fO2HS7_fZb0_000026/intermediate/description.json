@@ -1,0 +1,119 @@
+{
+  "clip": "fO2HS7_fZb0_000026",
+  "duration": 9.0,
+  "vl": true,
+  "sources": [
+    {
+      "source": "dog",
+      "label": "dog",
+      "kind": "sfx",
+      "source_hint": "Pug dog wearing a tie, inside a car.",
+      "salience": "high",
+      "route": "t2a",
+      "route_reason": "희소 반복 단발(onset 2회) → t2a",
+      "visible": null,
+      "timing": "transient",
+      "times": [
+        0.2,
+        4.2
+      ],
+      "onsets": [
+        0.2,
+        4.2
+      ],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 2,
+        "density": 0.5,
+        "regularity": {
+          "median_iv": 4.0,
+          "cov": 0.0
+        },
+        "kind": "sfx"
+      },
+      "caption": "dog snuffling with nose close to car door",
+      "negative": null,
+      "regen": {
+        "policy": "reuse_once",
+        "reason": "규칙적 반복(onset 2회, cov 0.0) → 동일 음색 1회 생성 재사용"
+      }
+    },
+    {
+      "source": "growling",
+      "label": "growling",
+      "kind": "sfx",
+      "source_hint": "Pug dog inside a car, looking alert.",
+      "salience": "medium",
+      "route": "t2a",
+      "route_reason": "단발 → t2a",
+      "visible": null,
+      "timing": "transient",
+      "times": [
+        0.48
+      ],
+      "onsets": [
+        0.48
+      ],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 1,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "caption": "dog growling low and guttural",
+      "negative": null,
+      "regen": null
+    },
+    {
+      "source": "bark",
+      "label": "bark",
+      "kind": "sfx",
+      "source_hint": "Pug dog inside a car, appearing alert or excited.",
+      "salience": "high",
+      "route": "t2a",
+      "route_reason": "희소 반복 단발(onset 8회) → t2a",
+      "visible": null,
+      "timing": "transient",
+      "times": [
+        0.72,
+        1.44,
+        2.16,
+        2.92,
+        5.8,
+        6.44,
+        7.2,
+        7.92
+      ],
+      "onsets": [
+        0.72,
+        1.44,
+        2.16,
+        2.92,
+        5.8,
+        6.44,
+        7.2,
+        7.92
+      ],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 8,
+        "density": 1.111,
+        "regularity": {
+          "median_iv": 0.72,
+          "cov": 0.736
+        },
+        "kind": "sfx"
+      },
+      "caption": "dog barking short and sharp",
+      "negative": null,
+      "regen": {
+        "policy": "regenerate_each",
+        "reason": "불규칙 반복(onset 8회, cov 0.736) → onset마다 재생성 권장"
+      }
+    }
+  ]
+}

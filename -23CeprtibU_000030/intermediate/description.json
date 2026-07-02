@@ -1,0 +1,70 @@
+{
+  "clip": "-23CeprtibU_000030",
+  "duration": 10.0,
+  "vl": false,
+  "sources": [
+    {
+      "source": "chainsaw",
+      "label": "chainsaw",
+      "kind": "sfx",
+      "source_hint": "Chainsaw being operated by a person cutting a log",
+      "salience": "high",
+      "route": "v2a",
+      "route_reason": "continuous(지속/텍스처) → v2a (시각 확인 안 됨, baseline 유지)",
+      "visible": null,
+      "timing": "continuous",
+      "times": [
+        [
+          0.0,
+          10.0
+        ]
+      ],
+      "onsets": [
+        0.0,
+        0.2,
+        0.36,
+        0.68,
+        2.08,
+        2.32,
+        2.56,
+        2.96,
+        3.32,
+        3.56,
+        3.68,
+        3.84,
+        4.04,
+        4.2,
+        4.36,
+        4.6,
+        4.84,
+        5.2,
+        5.36,
+        6.96,
+        7.12,
+        7.32,
+        7.6,
+        7.76,
+        7.92,
+        8.12,
+        8.24,
+        8.4,
+        8.56,
+        8.76
+      ],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 30,
+        "density": 3.425,
+        "regularity": {
+          "median_iv": 0.2,
+          "cov": 1.108
+        },
+        "kind": "sfx"
+      },
+      "caption": "chainsaw",
+      "negative": "",
+      "regen": null
+    }
+  ]
+}

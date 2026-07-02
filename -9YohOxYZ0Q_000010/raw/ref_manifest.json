@@ -1,0 +1,84 @@
+[
+  {
+    "group_id": "t2a_00",
+    "source": "bark",
+    "mode": "t2a_render_once",
+    "ref_used": false,
+    "raws": [
+      [
+        "원본8s(no-ref)",
+        "t2a_00_bark__raw8s.wav",
+        false
+      ],
+      [
+        "trim(no-ref)",
+        "t2a_00_bark__trim.wav",
+        false
+      ]
+    ]
+  },
+  {
+    "group_id": "t2a_01",
+    "source": "puppy_pawing_on_ground",
+    "mode": "t2a_render_once",
+    "ref_used": false,
+    "raws": [
+      [
+        "원본8s(no-ref)",
+        "t2a_01_puppy_pawing_on_ground__raw8s.wav",
+        false
+      ],
+      [
+        "trim(no-ref)",
+        "t2a_01_puppy_pawing_on_ground__trim.wav",
+        false
+      ]
+    ]
+  },
+  {
+    "group_id": "v2a_00",
+    "source": "growling",
+    "mode": "v2a_window",
+    "ref_used": true,
+    "raws": [
+      [
+        "sp0원본8s(no-ref)",
+        "v2a_00_growling__sp0__raw8s.wav",
+        false
+      ],
+      [
+        "sp1원본8s(ref)",
+        "v2a_00_growling__sp1__raw8s.wav",
+        true
+      ],
+      [
+        "sp2원본8s(ref)",
+        "v2a_00_growling__sp2__raw8s.wav",
+        true
+      ]
+    ]
+  },
+  {
+    "group_id": "v2a_01",
+    "source": "puppy_walking_on_concrete",
+    "mode": "v2a_window",
+    "ref_used": true,
+    "raws": [
+      [
+        "sp0원본8s(no-ref)",
+        "v2a_01_puppy_walking_on_concrete__sp0__raw8s.wav",
+        false
+      ],
+      [
+        "sp1원본8s(ref)",
+        "v2a_01_puppy_walking_on_concrete__sp1__raw8s.wav",
+        true
+      ],
+      [
+        "sp2원본8s(ref)",
+        "v2a_01_puppy_walking_on_concrete__sp2__raw8s.wav",
+        true
+      ]
+    ]
+  }
+]

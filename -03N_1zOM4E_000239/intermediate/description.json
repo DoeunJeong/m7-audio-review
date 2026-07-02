@@ -1,0 +1,103 @@
+{
+  "clip": "-03N_1zOM4E_000239",
+  "duration": 10.04,
+  "vl": true,
+  "sources": [
+    {
+      "source": "tap",
+      "label": "tap",
+      "kind": "sfx",
+      "source_hint": "Table tennis ball hitting paddle or table",
+      "salience": "high",
+      "route": "t2a",
+      "route_reason": "희소 반복 단발(onset 3회) → t2a",
+      "visible": null,
+      "timing": "transient",
+      "times": [
+        2.08,
+        3.04,
+        5.72
+      ],
+      "onsets": [
+        2.08,
+        3.04,
+        5.72
+      ],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 3,
+        "density": 0.824,
+        "regularity": {
+          "median_iv": 2.68,
+          "cov": 0.473
+        },
+        "kind": "sfx"
+      },
+      "caption": "soft rhythmic tapping on table surface",
+      "negative": null,
+      "regen": {
+        "policy": "regenerate_each",
+        "reason": "불규칙 반복(onset 3회, cov 0.473) → onset마다 재생성 권장"
+      }
+    },
+    {
+      "source": "bouncing",
+      "label": "bouncing",
+      "kind": "sfx",
+      "source_hint": "Table tennis ball bouncing on table",
+      "salience": "high",
+      "route": "t2a",
+      "route_reason": "희소 반복 단발(onset 13회) → t2a",
+      "visible": null,
+      "timing": "transient",
+      "times": [
+        2.32,
+        2.84,
+        3.28,
+        5.56,
+        5.88,
+        6.44,
+        6.96,
+        7.52,
+        7.68,
+        7.96,
+        8.24,
+        8.44,
+        8.8
+      ],
+      "onsets": [
+        2.32,
+        2.84,
+        3.28,
+        5.56,
+        5.88,
+        6.44,
+        6.96,
+        7.52,
+        7.68,
+        7.96,
+        8.24,
+        8.44,
+        8.8
+      ],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 13,
+        "density": 2.006,
+        "regularity": {
+          "median_iv": 0.44,
+          "cov": 1.002
+        },
+        "kind": "sfx"
+      },
+      "caption": "ping-pong ball bouncing on table surface",
+      "negative": null,
+      "regen": {
+        "policy": "regenerate_each",
+        "reason": "불규칙 반복(onset 13회, cov 1.002) → onset마다 재생성 권장"
+      }
+    }
+  ]
+}

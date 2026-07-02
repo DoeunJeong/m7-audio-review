@@ -1,0 +1,157 @@
+{
+  "clip": "fNLS25qblX0_000007",
+  "duration": 10.02,
+  "vl": true,
+  "sources": [
+    {
+      "source": "walk",
+      "label": "walk",
+      "kind": "sfx",
+      "source_hint": "Person's feet on wooden floor",
+      "salience": "medium",
+      "route": "t2a",
+      "route_reason": "희소 반복 단발(onset 4회) → t2a",
+      "visible": null,
+      "timing": "transient",
+      "times": [
+        0.24,
+        0.8,
+        1.84,
+        2.24
+      ],
+      "onsets": [
+        0.24,
+        0.8,
+        1.84,
+        2.24
+      ],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 4,
+        "density": 2.0,
+        "regularity": {
+          "median_iv": 0.56,
+          "cov": 0.408
+        },
+        "kind": "sfx"
+      },
+      "caption": "soft footsteps on wooden floor",
+      "negative": null,
+      "regen": {
+        "policy": "regenerate_each",
+        "reason": "불규칙 반복(onset 4회, cov 0.408) → onset마다 재생성 권장"
+      }
+    },
+    {
+      "source": "tap",
+      "label": "tap",
+      "kind": "sfx",
+      "source_hint": "Table tennis paddle hitting the table",
+      "salience": "high",
+      "route": "v2a",
+      "route_reason": "dense/repetitive → continuous, 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "timing": "continuous",
+      "times": [
+        [
+          2.76,
+          9.84
+        ]
+      ],
+      "onsets": [
+        2.76,
+        3.04,
+        3.4,
+        3.84,
+        4.12,
+        4.52,
+        5.0,
+        5.24,
+        5.68,
+        6.12,
+        6.4,
+        6.76,
+        7.28,
+        7.52,
+        7.96,
+        8.44,
+        8.68,
+        9.08,
+        9.56,
+        9.84
+      ],
+      "dense_collapsed": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 20,
+        "density": 2.825,
+        "regularity": {
+          "median_iv": 0.4,
+          "cov": 0.249
+        },
+        "kind": "sfx"
+      },
+      "caption": "ping-pong paddle tapping table",
+      "negative": "walk, bouncing, table_tennis_table_motor",
+      "regen": null
+    },
+    {
+      "source": "bouncing",
+      "label": "bouncing",
+      "kind": "sfx",
+      "source_hint": "Ping-pong ball hitting the table",
+      "salience": "medium",
+      "route": "t2a",
+      "route_reason": "단발 → t2a",
+      "visible": null,
+      "timing": "transient",
+      "times": [
+        4.04
+      ],
+      "onsets": [
+        4.04
+      ],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 1,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "caption": "ball bouncing on table surface",
+      "negative": null,
+      "regen": null
+    },
+    {
+      "source": "table_tennis_table_motor",
+      "label": "table_tennis_table_motor",
+      "kind": "sfx",
+      "source_hint": "Table tennis table motor",
+      "salience": "low",
+      "route": "t2a",
+      "route_reason": "v2a 후보(continuous(지속/텍스처))였으나 화면에 원인 미노출 → t2a 강등",
+      "visible": false,
+      "timing": "continuous",
+      "times": [
+        [
+          0.0,
+          10.0
+        ]
+      ],
+      "onsets": [],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "caption": "table tennis table motor hum",
+      "negative": null,
+      "regen": null
+    }
+  ]
+}

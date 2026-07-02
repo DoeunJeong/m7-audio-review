@@ -1,0 +1,73 @@
+[
+  {
+    "group_id": "v2a_00",
+    "source": "meow",
+    "mode": "v2a_window",
+    "ref_used": true,
+    "raws": [
+      [
+        "sp0원본8s(no-ref)",
+        "v2a_00_meow__sp0__raw8s.wav",
+        false
+      ],
+      [
+        "sp1원본8s(ref)",
+        "v2a_00_meow__sp1__raw8s.wav",
+        true
+      ],
+      [
+        "sp2원본8s(ref)",
+        "v2a_00_meow__sp2__raw8s.wav",
+        true
+      ],
+      [
+        "sp3원본8s(ref)",
+        "v2a_00_meow__sp3__raw8s.wav",
+        true
+      ],
+      [
+        "sp4원본8s(ref)",
+        "v2a_00_meow__sp4__raw8s.wav",
+        true
+      ],
+      [
+        "sp5원본8s(ref)",
+        "v2a_00_meow__sp5__raw8s.wav",
+        true
+      ]
+    ]
+  },
+  {
+    "group_id": "v2a_01",
+    "source": "background_noise",
+    "mode": "v2a_window",
+    "ref_used": true,
+    "raws": [
+      [
+        "sp0원본8s(no-ref)",
+        "v2a_01_background_noise__sp0__raw8s.wav",
+        false
+      ],
+      [
+        "sp1원본8s(ref)",
+        "v2a_01_background_noise__sp1__raw8s.wav",
+        true
+      ],
+      [
+        "sp2원본8s(ref)",
+        "v2a_01_background_noise__sp2__raw8s.wav",
+        true
+      ],
+      [
+        "sp3원본8s(ref)",
+        "v2a_01_background_noise__sp3__raw8s.wav",
+        true
+      ],
+      [
+        "sp4원본8s(ref)",
+        "v2a_01_background_noise__sp4__raw8s.wav",
+        true
+      ]
+    ]
+  }
+]

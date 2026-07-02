@@ -1,0 +1,157 @@
+{
+  "clip": "-9YohOxYZ0Q_000010",
+  "duration": 10.004649,
+  "vl": true,
+  "sources": [
+    {
+      "source": "bark",
+      "label": "bark",
+      "kind": "sfx",
+      "source_hint": "Puppy",
+      "salience": "medium",
+      "route": "t2a",
+      "route_reason": "희소 반복 단발(onset 4회) → t2a",
+      "visible": null,
+      "timing": "transient",
+      "times": [
+        2.08,
+        2.72,
+        3.48,
+        6.4
+      ],
+      "onsets": [
+        2.08,
+        2.72,
+        3.48,
+        6.4
+      ],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 4,
+        "density": 0.926,
+        "regularity": {
+          "median_iv": 0.76,
+          "cov": 0.728
+        },
+        "kind": "sfx"
+      },
+      "caption": "sharp, short bark from a puppy",
+      "negative": null,
+      "regen": {
+        "policy": "regenerate_each",
+        "reason": "불규칙 반복(onset 4회, cov 0.728) → onset마다 재생성 권장"
+      }
+    },
+    {
+      "source": "puppy_pawing_on_ground",
+      "label": "puppy_pawing_on_ground",
+      "kind": "sfx",
+      "source_hint": "Puppy",
+      "salience": "low",
+      "route": "t2a",
+      "route_reason": "희소 반복 단발(onset 2회) → t2a",
+      "visible": null,
+      "timing": "transient",
+      "times": [
+        9.0,
+        9.48
+      ],
+      "onsets": [
+        9.0,
+        9.48
+      ],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 2,
+        "density": 4.167,
+        "regularity": {
+          "median_iv": 0.48,
+          "cov": 0.0
+        },
+        "kind": "sfx"
+      },
+      "caption": "soft thud of puppy paws on concrete",
+      "negative": null,
+      "regen": {
+        "policy": "reuse_once",
+        "reason": "규칙적 반복(onset 2회, cov 0.0) → 동일 음색 1회 생성 재사용"
+      }
+    },
+    {
+      "source": "growling",
+      "label": "growling",
+      "kind": "sfx",
+      "source_hint": "Puppy",
+      "salience": "high",
+      "route": "v2a",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "timing": "continuous",
+      "times": [
+        [
+          0.2,
+          1.72
+        ],
+        [
+          2.88,
+          5.36
+        ],
+        [
+          7.0,
+          9.08
+        ]
+      ],
+      "onsets": [],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "caption": "low, tense growl from a puppy",
+      "negative": "bark, puppy_pawing_on_ground, puppy_walking_on_concrete",
+      "regen": null
+    },
+    {
+      "source": "puppy_walking_on_concrete",
+      "label": "puppy_walking_on_concrete",
+      "kind": "sfx",
+      "source_hint": "Puppy",
+      "salience": "medium",
+      "route": "v2a",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "timing": "continuous",
+      "times": [
+        [
+          1.72,
+          2.88
+        ],
+        [
+          5.36,
+          7.0
+        ],
+        [
+          9.08,
+          9.96
+        ]
+      ],
+      "onsets": [],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "caption": "puppy's paws making soft thuds on concrete",
+      "negative": "bark, puppy_pawing_on_ground, growling",
+      "regen": null
+    }
+  ]
+}

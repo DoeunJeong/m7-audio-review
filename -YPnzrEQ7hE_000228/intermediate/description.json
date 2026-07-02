@@ -1,0 +1,43 @@
+{
+  "clip": "-YPnzrEQ7hE_000228",
+  "duration": 10.003991,
+  "vl": false,
+  "sources": [
+    {
+      "source": "hair_rinsing",
+      "label": "hair_rinsing",
+      "kind": "sfx",
+      "source_hint": "Child's hands and head under water",
+      "salience": "high",
+      "route": "t2a",
+      "route_reason": "희소 반복 단발(onset 2회) → t2a",
+      "visible": null,
+      "timing": "transient",
+      "times": [
+        5.0,
+        5.48
+      ],
+      "onsets": [
+        5.0,
+        5.48
+      ],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 2,
+        "density": 4.167,
+        "regularity": {
+          "median_iv": 0.48,
+          "cov": 0.0
+        },
+        "kind": "sfx"
+      },
+      "caption": "hair rinsing",
+      "negative": null,
+      "regen": {
+        "policy": "reuse_once",
+        "reason": "규칙적 반복(onset 2회, cov 0.0) → 동일 음색 1회 생성 재사용"
+      }
+    }
+  ]
+}

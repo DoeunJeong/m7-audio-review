@@ -1,0 +1,46 @@
+[
+  {
+    "group_id": "v2a_00",
+    "source": "drill",
+    "mode": "v2a_window",
+    "ref_used": false,
+    "raws": [
+      [
+        "sp0원본8s(no-ref)",
+        "v2a_00_drill__sp0__raw8s.wav",
+        false
+      ]
+    ]
+  },
+  {
+    "group_id": "v2a_01",
+    "source": "wood_nail_impact",
+    "mode": "v2a_window",
+    "ref_used": true,
+    "raws": [
+      [
+        "sp0원본8s(no-ref)",
+        "v2a_01_wood_nail_impact__sp0__raw8s.wav",
+        false
+      ],
+      [
+        "sp1원본8s(ref)",
+        "v2a_01_wood_nail_impact__sp1__raw8s.wav",
+        true
+      ]
+    ]
+  },
+  {
+    "group_id": "v2a_02",
+    "source": "mechanisms",
+    "mode": "v2a_window",
+    "ref_used": false,
+    "raws": [
+      [
+        "sp0원본8s(no-ref)",
+        "v2a_02_mechanisms__sp0__raw8s.wav",
+        false
+      ]
+    ]
+  }
+]

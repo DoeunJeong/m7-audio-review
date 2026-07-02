@@ -1,0 +1,15 @@
+[
+  {
+    "group_id": "v2a_00",
+    "source": "chainsaw",
+    "mode": "v2a_window",
+    "ref_used": false,
+    "raws": [
+      [
+        "sp0원본8s(no-ref)",
+        "v2a_00_chainsaw__sp0__raw8s.wav",
+        false
+      ]
+    ]
+  }
+]

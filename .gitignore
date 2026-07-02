@@ -1,0 +1,7 @@
+_worker*.log
+_*.log
+meta.json
+__pycache__/
+*.pyc
+.gh/
+.config/

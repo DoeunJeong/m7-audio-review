@@ -1,0 +1,109 @@
+{
+  "clip_id": "-3cXcRajPSc_000030",
+  "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-3cXcRajPSc_000030/videos/-3cXcRajPSc_000030.mp4",
+  "duration": 10.0,
+  "sample_rate": 44100,
+  "v2a_fixed_sec": 8.0,
+  "t2a_groups": [],
+  "v2a_groups": [
+    {
+      "group_id": "v2a_00",
+      "source": "rain_on_surface",
+      "caption": "raindrops pattering on wet pavement",
+      "negative": "clip_clop, wind_noise_microphone, wind",
+      "spans": [
+        [
+          0.08,
+          9.84
+        ]
+      ],
+      "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-3cXcRajPSc_000030/videos/-3cXcRajPSc_000030.mp4",
+      "video_id": "000030",
+      "route_reason": "dense/repetitive → continuous, 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 37,
+        "density": 3.791,
+        "regularity": {
+          "median_iv": 0.24,
+          "cov": 0.445
+        },
+        "kind": "sfx"
+      }
+    },
+    {
+      "group_id": "v2a_01",
+      "source": "clip_clop",
+      "caption": "footsteps on wet pavement",
+      "negative": "rain_on_surface, wind_noise_microphone, wind",
+      "spans": [
+        [
+          1.24,
+          9.76
+        ]
+      ],
+      "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-3cXcRajPSc_000030/videos/-3cXcRajPSc_000030.mp4",
+      "video_id": "000030",
+      "route_reason": "dense/repetitive → continuous, 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 28,
+        "density": 3.286,
+        "regularity": {
+          "median_iv": 0.24,
+          "cov": 0.819
+        },
+        "kind": "sfx"
+      }
+    },
+    {
+      "group_id": "v2a_02",
+      "source": "wind_noise_microphone",
+      "caption": "wind rustling through microphone",
+      "negative": "rain_on_surface, clip_clop, wind",
+      "spans": [
+        [
+          0.72,
+          10.0
+        ]
+      ],
+      "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-3cXcRajPSc_000030/videos/-3cXcRajPSc_000030.mp4",
+      "video_id": "000030",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      }
+    },
+    {
+      "group_id": "v2a_03",
+      "source": "wind",
+      "caption": "wind blowing through alleyway",
+      "negative": "rain_on_surface, clip_clop, wind_noise_microphone",
+      "spans": [
+        [
+          0.0,
+          10.0
+        ]
+      ],
+      "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-3cXcRajPSc_000030/videos/-3cXcRajPSc_000030.mp4",
+      "video_id": "000030",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      }
+    }
+  ],
+  "skipped": []
+}

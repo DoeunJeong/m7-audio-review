@@ -1,0 +1,73 @@
+{
+  "clip_id": "-03N_1zOM4E_000239",
+  "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-03N_1zOM4E_000239/videos/-03N_1zOM4E_000239.mp4",
+  "duration": 10.04,
+  "sample_rate": 44100,
+  "v2a_fixed_sec": 8.0,
+  "t2a_groups": [
+    {
+      "group_id": "t2a_00",
+      "source": "tap",
+      "caption": "soft rhythmic tapping on table surface",
+      "route_reason": "희소 반복 단발(onset 3회) → t2a",
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 3,
+        "density": 0.824,
+        "regularity": {
+          "median_iv": 2.68,
+          "cov": 0.473
+        },
+        "kind": "sfx"
+      },
+      "regen": {
+        "policy": "regenerate_each",
+        "reason": "불규칙 반복(onset 3회, cov 0.473) → onset마다 재생성 권장"
+      },
+      "onsets": [
+        2.08,
+        3.04,
+        5.72
+      ],
+      "n": 3
+    },
+    {
+      "group_id": "t2a_01",
+      "source": "bouncing",
+      "caption": "ping-pong ball bouncing on table surface",
+      "route_reason": "희소 반복 단발(onset 13회) → t2a",
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 13,
+        "density": 2.006,
+        "regularity": {
+          "median_iv": 0.44,
+          "cov": 1.002
+        },
+        "kind": "sfx"
+      },
+      "regen": {
+        "policy": "regenerate_each",
+        "reason": "불규칙 반복(onset 13회, cov 1.002) → onset마다 재생성 권장"
+      },
+      "onsets": [
+        2.32,
+        2.84,
+        3.28,
+        5.56,
+        5.88,
+        6.44,
+        6.96,
+        7.52,
+        7.68,
+        7.96,
+        8.24,
+        8.44,
+        8.8
+      ],
+      "n": 13
+    }
+  ],
+  "v2a_groups": [],
+  "skipped": []
+}

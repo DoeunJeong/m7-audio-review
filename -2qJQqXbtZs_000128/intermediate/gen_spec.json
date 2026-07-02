@@ -1,0 +1,86 @@
+{
+  "clip_id": "-2qJQqXbtZs_000128",
+  "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-2qJQqXbtZs_000128/videos/-2qJQqXbtZs_000128.mp4",
+  "duration": 10.04,
+  "sample_rate": 44100,
+  "v2a_fixed_sec": 8.0,
+  "t2a_groups": [],
+  "v2a_groups": [
+    {
+      "group_id": "v2a_00",
+      "source": "vacuum_cleaner_start",
+      "caption": "Vacuum cleaner motor starts with a low hum and whirring sound.",
+      "negative": "vacuum_cleaner, vacuum_cleaner_2",
+      "spans": [
+        [
+          0.12,
+          1.32
+        ]
+      ],
+      "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-2qJQqXbtZs_000128/videos/-2qJQqXbtZs_000128.mp4",
+      "video_id": "000128",
+      "route_reason": "dense/repetitive → continuous, 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 5,
+        "density": 4.167,
+        "regularity": {
+          "median_iv": 0.24,
+          "cov": 0.663
+        },
+        "kind": "sfx"
+      }
+    },
+    {
+      "group_id": "v2a_01",
+      "source": "vacuum_cleaner",
+      "caption": "Vacuum cleaner moving across carpet with suction and brush roll noise.",
+      "negative": "vacuum_cleaner_start, vacuum_cleaner_2",
+      "spans": [
+        [
+          2.8,
+          6.68
+        ]
+      ],
+      "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-2qJQqXbtZs_000128/videos/-2qJQqXbtZs_000128.mp4",
+      "video_id": "000128",
+      "route_reason": "dense/repetitive → continuous, 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 23,
+        "density": 5.928,
+        "regularity": {
+          "median_iv": 0.16,
+          "cov": 0.189
+        },
+        "kind": "sfx"
+      }
+    },
+    {
+      "group_id": "v2a_02",
+      "source": "vacuum_cleaner_2",
+      "caption": "Vacuum cleaner moving across carpet with suction and brush roll noise.",
+      "negative": "vacuum_cleaner_start, vacuum_cleaner",
+      "spans": [
+        [
+          2.52,
+          6.96
+        ]
+      ],
+      "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-2qJQqXbtZs_000128/videos/-2qJQqXbtZs_000128.mp4",
+      "video_id": "000128",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      }
+    }
+  ],
+  "skipped": []
+}

@@ -1,0 +1,34 @@
+{
+  "clip_id": "-8S9TKWIOSc_000030",
+  "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-8S9TKWIOSc_000030/videos/-8S9TKWIOSc_000030.mp4",
+  "duration": 10.008662,
+  "sample_rate": 44100,
+  "v2a_fixed_sec": 8.0,
+  "t2a_groups": [],
+  "v2a_groups": [
+    {
+      "group_id": "v2a_00",
+      "source": "chainsaw",
+      "caption": "chainsaw",
+      "negative": "",
+      "spans": [
+        [
+          0.0,
+          10.0
+        ]
+      ],
+      "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-8S9TKWIOSc_000030/videos/-8S9TKWIOSc_000030.mp4",
+      "video_id": "000030",
+      "route_reason": "continuous(지속/텍스처) → v2a (시각 확인 안 됨, baseline 유지)",
+      "visible": null,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      }
+    }
+  ],
+  "skipped": []
+}

@@ -1,0 +1,131 @@
+{
+  "clip_id": "fPubwuy5X0E_000268",
+  "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/fPubwuy5X0E_000268/videos/fPubwuy5X0E_000268.mp4",
+  "duration": 10.012,
+  "sample_rate": 44100,
+  "v2a_fixed_sec": 8.0,
+  "t2a_groups": [
+    {
+      "group_id": "t2a_00",
+      "source": "male_speech",
+      "caption": "man speaking in a calm tone",
+      "route_reason": "speech는 v2a 생성 불가 → t2a",
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "speech"
+      },
+      "regen": null,
+      "spans": [
+        [
+          5.56,
+          10.0
+        ]
+      ],
+      "continuous": true
+    }
+  ],
+  "v2a_groups": [
+    {
+      "group_id": "v2a_00",
+      "source": "vacuum_cleaner",
+      "caption": "vacuum cleaner motor whirring and sucking dust",
+      "negative": "generic_impact_sounds, male_speech, vacuum_cleaner_2, vacuum_cleaner_suction",
+      "spans": [
+        [
+          1.16,
+          4.24
+        ]
+      ],
+      "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/fPubwuy5X0E_000268/videos/fPubwuy5X0E_000268.mp4",
+      "video_id": "000268",
+      "route_reason": "dense/repetitive → continuous, 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 16,
+        "density": 5.195,
+        "regularity": {
+          "median_iv": 0.2,
+          "cov": 0.333
+        },
+        "kind": "sfx"
+      }
+    },
+    {
+      "group_id": "v2a_01",
+      "source": "generic_impact_sounds",
+      "caption": "sharp metallic clang of a tool hitting a surface",
+      "negative": "vacuum_cleaner, male_speech, vacuum_cleaner_2, vacuum_cleaner_suction",
+      "spans": [
+        [
+          5.16,
+          6.08
+        ]
+      ],
+      "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/fPubwuy5X0E_000268/videos/fPubwuy5X0E_000268.mp4",
+      "video_id": "000268",
+      "route_reason": "dense/repetitive → continuous, 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 3,
+        "density": 3.261,
+        "regularity": {
+          "median_iv": 0.64,
+          "cov": 0.391
+        },
+        "kind": "sfx"
+      }
+    },
+    {
+      "group_id": "v2a_02",
+      "source": "vacuum_cleaner_2",
+      "caption": "vacuum cleaner motor whirring and sucking dust",
+      "negative": "vacuum_cleaner, generic_impact_sounds, male_speech, vacuum_cleaner_suction",
+      "spans": [
+        [
+          0.0,
+          4.88
+        ]
+      ],
+      "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/fPubwuy5X0E_000268/videos/fPubwuy5X0E_000268.mp4",
+      "video_id": "000268",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      }
+    },
+    {
+      "group_id": "v2a_03",
+      "source": "vacuum_cleaner_suction",
+      "caption": "vacuum cleaner suction sound as it picks up debris",
+      "negative": "vacuum_cleaner, generic_impact_sounds, male_speech, vacuum_cleaner_2",
+      "spans": [
+        [
+          4.88,
+          5.56
+        ]
+      ],
+      "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/fPubwuy5X0E_000268/videos/fPubwuy5X0E_000268.mp4",
+      "video_id": "000268",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      }
+    }
+  ],
+  "skipped": []
+}

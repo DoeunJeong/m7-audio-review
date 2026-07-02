@@ -1,0 +1,154 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>--IOqc-XgYo_000000</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,"Segoe UI",sans-serif;background:#0f1420;color:#e6edf3}
+.wrap{display:grid;grid-template-columns:minmax(300px,400px) 1fr;gap:18px;padding:18px;min-height:100vh}
+.left{position:sticky;top:18px;align-self:start}
+a.back{color:#7fd1ff;font-size:.8rem;text-decoration:none}
+h1{font-size:1rem;margin:6px 0}.sub{color:#8b98a8;font-size:.8rem;margin:0 0 10px}
+video{width:100%;border-radius:10px;background:#000}
+.master{margin-top:10px;background:#12261a;border:1px solid #2f5d3f;border-radius:10px;padding:10px}
+.master b{color:#7ee2a8;font-size:.82rem}audio{width:100%;height:34px;margin-top:6px}
+.hint{color:#8b98a8;font-size:.72rem;margin-top:10px;line-height:1.7}
+.dot{display:inline-block;width:9px;height:9px;border-radius:2px;vertical-align:middle;margin:0 3px 0 8px}
+.dot.t2a{background:#e0912b}.dot.v2a{background:#3fc463}
+.tcur{margin-top:8px;color:#ffd166;font-variant-numeric:tabular-nums;font-size:.85rem}
+.right{display:flex;flex-direction:column;gap:12px}
+.track{border:1px solid #24304a;border-radius:10px;padding:10px 12px;background:#131a29}
+.thead{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.tag{font-size:.6rem;font-weight:800;padding:1px 6px;border-radius:999px;color:#fff}
+.tag.t2a{background:#e0912b}.tag.v2a{background:#3fc463}
+.src{font-weight:700;font-size:.86rem}
+.mode{font-size:.6rem;color:#8b98a8;margin-left:6px;border:1px solid #2c3a52;border-radius:999px;padding:0 6px}
+.refb{font-size:.58rem;font-weight:700;margin-left:6px;border-radius:999px;padding:0 7px}
+.refb.ref{background:#3a2d52;color:#c9a7ff;border:1px solid #6f4da0}
+.refb.noref{background:#1c2836;color:#7d8ba0;border:1px solid #2c3a52}
+.raws{margin-top:7px;padding:6px 8px;background:#0e1420;border:1px solid #202b3d;border-radius:8px}
+.rawh{font-size:.64rem;color:#9aa7ba;margin-bottom:2px;font-weight:600}
+.rawrow{display:flex;align-items:center;gap:6px;margin-top:4px}
+.rawlab{font-size:.62rem;color:#c3cee0;min-width:150px}
+.rawrow audio.mini{flex:1}
+.review{margin-top:12px;padding:10px;background:#12261a;border:1px solid #2f5d3f;border-radius:10px}
+.revh{font-size:.75rem;font-weight:700;color:#9ee29e;margin-bottom:6px}
+.revname{width:100%;padding:5px 8px;border-radius:6px;border:1px solid #2c3a52;background:#0e1420;color:#e6edf3;font-size:.8rem;box-sizing:border-box}
+.revbtns{display:flex;gap:8px;margin-top:8px}
+.revbtns button,.imp{font-size:.72rem;padding:4px 10px;border-radius:6px;border:1px solid #2c3a52;background:#1c2836;color:#e6edf3;cursor:pointer}
+.revnote{font-size:.64rem;color:#8b98a8;margin-top:6px;line-height:1.5}
+.cmt{margin-top:8px}
+.cmh{font-size:.64rem;color:#9aa7ba;font-weight:600;margin-bottom:3px}
+.cmt textarea{width:100%;min-height:44px;resize:vertical;padding:6px 8px;border-radius:6px;border:1px solid #3a4a2f;background:#12180e;color:#e6edf3;font-size:.76rem;font-family:inherit;box-sizing:border-box}
+.others{margin-top:5px}
+.ocmt{font-size:.7rem;color:#c3cee0;background:#0e1420;border-left:2px solid #6f4da0;padding:3px 7px;margin-top:3px;border-radius:0 4px 4px 0}
+.cap{color:#c3cee0;font-size:.76rem;margin:6px 0 2px;line-height:1.4}.cap .neg{color:#e6896f}
+.lane{position:relative;height:30px;border-radius:6px;margin-top:8px;background:#0c1119;cursor:pointer;overflow:hidden;
+ background-image:repeating-linear-gradient(90deg,transparent 0 9.9%,rgba(255,255,255,.05) 9.9% 10%)}
+.seg{position:absolute;top:5px;bottom:5px;border-radius:4px;background:linear-gradient(135deg,#1f7a35,#3fc463);opacity:.5}
+.seg.active{opacity:1;box-shadow:0 0 0 2px rgba(255,255,255,.5)}
+.onset{position:absolute;top:0;bottom:0;width:2px;background:#e0912b;transform:translateX(-50%)}
+.onset::after{content:"";position:absolute;top:50%;left:50%;width:8px;height:8px;border-radius:999px;background:#e0912b;transform:translate(-50%,-50%);transition:transform .08s,box-shadow .08s}
+.onset.fire::after{transform:translate(-50%,-50%) scale(2.1);box-shadow:0 0 0 6px rgba(224,145,43,.35)}
+.ph{position:absolute;top:0;bottom:0;width:2px;background:#ffd166;left:0;z-index:5;pointer-events:none}
+.ruler{position:relative;height:16px;margin-top:2px;color:#66738a;font-size:.62rem}
+.ruler span{position:absolute;transform:translateX(-50%)}
+audio.mini{height:28px}
+</style></head><body>
+<div class="wrap">
+ <div class="left">
+  <a class="back" href="index.html">&larr; all clips</a>
+  <h1>--IOqc-XgYo_000000</h1><p class="sub">duration 10.0s · 트랙 1개</p>
+  <video id="v" muted playsinline preload="metadata" src="../--IOqc-XgYo_000000/videos/--IOqc-XgYo_000000.mp4"></video>
+  <div class="master"><b>&#9654; final_mix (통합 오디오 · 마스터)</b> — 재생하면 영상+타임라인 동기
+   <audio id="master" controls preload="metadata" src="../--IOqc-XgYo_000000/final_mix.wav"></audio></div>
+  <div class="tcur" id="tcur">t = 0.00 s</div>
+  <div class="hint"><span class="dot t2a"></span>T2A onset(틱이 점등) <span class="dot v2a"></span>V2A span(구간 점등)<br>
+   레인 클릭 = 그 시점으로 이동 · 각 트랙 오디오 개별 재생 · <b>원본(편집 전)</b> 오디오 함께 재생 · 라벨의 <span class="refb ref">ref &#10003;</span>/<span class="refb noref">no-ref</span> = reference 사용 여부</div>
+  <div class="review">
+   <div class="revh">📝 리뷰 (트랙별 문제점을 각 트랙 아래에 작성)</div>
+   <input id="reviewer" class="revname" placeholder="리뷰어 이름(작성자 표시용)">
+   <div class="revbtns">
+    <button onclick="exportComments()">코멘트 내보내기(JSON)</button>
+    <label class="imp">가져오기<input type="file" accept=".json" onchange="importComments(this)" hidden></label>
+   </div>
+   <div class="revnote">브라우저에 자동 저장됩니다. JSON으로 내보내 공유하거나, 남의 JSON을 가져와 합쳐 볼 수 있어요.</div>
+  </div>
+ </div>
+ <div class="right" id="panel"></div>
+</div>
+<script>
+const D={"clip_id": "--IOqc-XgYo_000000", "duration": 10.0, "video": "../--IOqc-XgYo_000000/videos/--IOqc-XgYo_000000.mp4", "final_mix": "../--IOqc-XgYo_000000/final_mix.wav", "tracks": [{"group_id": "t2a_00", "route": "t2a", "mode": "onset·copy", "source": "music", "caption": "music", "negative": null, "wav": "t2a_00_music.wav", "onsets": [], "spans": [], "ref_used": false, "raws": [{"label": "원본8s(no-ref)", "wav": "t2a_00_music__raw8s.wav", "ref": false}, {"label": "trim(no-ref)", "wav": "t2a_00_music__trim.wav", "ref": false}]}]}, DUR=D.duration||10, WIN=0.14;
+const v=document.getElementById('v'), master=document.getElementById('master'), tcur=document.getElementById('tcur'), panel=document.getElementById('panel');
+const pct=t=>Math.max(0,Math.min(100,t/DUR*100));
+const esc=s=>(s==null?'':''+s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+// ── 코멘트 저장(localStorage) ──
+const CK='m7demo_comments';
+function loadStore(){try{const s=JSON.parse(localStorage.getItem(CK));return (s&&s.data)?s:{reviewer:'',data:{}}}catch(e){return {reviewer:'',data:{}}}}
+let STORE=loadStore();
+function saveStore(){localStorage.setItem(CK,JSON.stringify(STORE))}
+function saveCmt(gid,val){(STORE.data[D.clip_id]=STORE.data[D.clip_id]||{})[gid]=val;saveStore();}
+let IMPORTS=[];try{IMPORTS=JSON.parse(localStorage.getItem('m7demo_imported')||'[]')}catch(e){IMPORTS=[]}
+function othersFor(gid){return IMPORTS.map(x=>({r:x.reviewer||'anon',t:((x.data||{})[D.clip_id]||{})[gid]})).filter(o=>o.t);}
+function exportComments(){const blob=new Blob([JSON.stringify(STORE,null,2)],{type:'application/json'});
+ const a=document.createElement('a');a.href=URL.createObjectURL(blob);
+ a.download='comments_'+((STORE.reviewer||'anon').replace(/\s+/g,'_'))+'.json';a.click();}
+function importComments(inp){const f=inp.files[0];if(!f)return;const rd=new FileReader();
+ rd.onload=()=>{try{IMPORTS.push(JSON.parse(rd.result));localStorage.setItem('m7demo_imported',JSON.stringify(IMPORTS));location.reload();}catch(e){alert('JSON 파싱 실패');}};rd.readAsText(f);}
+const items=[];
+// ruler
+let rul='<div class="ruler">';for(let s=0;s<=Math.ceil(DUR);s++)rul+='<span style="left:'+pct(s)+'%">'+s+'s</span>';rul+='</div>';
+D.tracks.forEach(tr=>{
+ const box=document.createElement('div');box.className='track';
+ const refbadge = tr.ref_used ? '<span class="refb ref">ref &#10003;</span>' : '<span class="refb noref">no-ref</span>';
+ let h='<div class="thead"><span class="tag '+tr.route+'">'+tr.route.toUpperCase()+'</span><span class="src">'+esc(tr.source)+'</span><span class="mode">'+esc(tr.mode)+'</span>'+refbadge+'</div>';
+ h+='<div class="cap">'+esc(tr.caption)+(tr.negative?' <span class="neg">[suppress: '+esc(tr.negative)+']</span>':'')+'</div>';
+ box.innerHTML=h;
+ const lane=document.createElement('div');lane.className='lane';
+ const ph=document.createElement('div');ph.className='ph';lane.appendChild(ph);
+ (tr.onsets||[]).forEach(t=>{const o=document.createElement('div');o.className='onset';o.style.left=pct(t)+'%';lane.appendChild(o);items.push({el:o,kind:'on',t});});
+ (tr.spans||[]).forEach(sp=>{const g=document.createElement('div');g.className='seg';g.style.left=pct(sp[0])+'%';g.style.width=pct(sp[1]-sp[0])+'%';lane.appendChild(g);items.push({el:g,kind:'seg',s:sp[0],e:sp[1]});});
+ lane.addEventListener('click',ev=>{const r=lane.getBoundingClientRect();const t=(ev.clientX-r.left)/r.width*DUR;master.currentTime=t;if(v)v.currentTime=t;});
+ box.appendChild(lane);
+ box.insertAdjacentHTML('beforeend',rul);
+ const a=document.createElement('audio');a.className='mini';a.controls=true;a.preload='none';a.src='../'+D.clip_id+'/tracks/'+tr.wav;
+ box.appendChild(a);
+ // 편집 전 원본(raw) 오디오 + ref 여부
+ if((tr.raws||[]).length){
+   const rw=document.createElement('div');rw.className='raws';
+   rw.innerHTML='<div class="rawh">원본(편집 전):</div>';
+   tr.raws.forEach(r=>{
+     const row=document.createElement('div');row.className='rawrow';
+     row.innerHTML='<span class="rawlab">'+esc(r.label)+'</span>'+(r.ref?'<span class="refb ref">ref</span>':'<span class="refb noref">no-ref</span>');
+     const ra=document.createElement('audio');ra.className='mini';ra.controls=true;ra.preload='none';ra.src='../'+D.clip_id+'/raw/'+r.wav;
+     row.appendChild(ra);rw.appendChild(row);
+   });
+   box.appendChild(rw);
+ }
+ // 트랙별 문제점 코멘트 (localStorage 자동저장)
+ const cm=document.createElement('div');cm.className='cmt';
+ cm.innerHTML='<div class="cmh">🐞 문제점 코멘트</div>';
+ const ta=document.createElement('textarea');ta.placeholder='이 트랙의 문제점을 적어주세요…';
+ ta.value=((STORE.data[D.clip_id]||{})[tr.group_id])||'';
+ ta.addEventListener('input',()=>saveCmt(tr.group_id,ta.value));
+ cm.appendChild(ta);
+ const others=othersFor(tr.group_id);
+ if(others.length){let oh='';others.forEach(o=>{oh+='<div class="ocmt"><b>'+esc(o.r)+':</b> '+esc(o.t)+'</div>';});
+   cm.insertAdjacentHTML('beforeend','<div class="others">'+oh+'</div>');}
+ box.appendChild(cm);
+ box._ph=ph;tr._ph=ph;
+ panel.appendChild(box);
+});
+const phs=[...document.querySelectorAll('.ph')];
+function tick(){
+ const t=master.currentTime||0;const L=pct(t)+'%';
+ phs.forEach(p=>p.style.left=L);tcur.textContent='t = '+t.toFixed(2)+' s';
+ items.forEach(it=>{if(it.kind==='on')it.el.classList.toggle('fire',Math.abs(t-it.t)<WIN);else it.el.classList.toggle('active',t>=it.s&&t<=it.e);});
+ if(!master.paused)requestAnimationFrame(tick);
+}
+// 영상 동기: master 재생/정지/이동에 영상 맞춤(음소거)
+master.addEventListener('play',()=>{if(v){v.currentTime=master.currentTime;v.play().catch(()=>{});}tick();});
+master.addEventListener('pause',()=>{if(v)v.pause();tick();});
+master.addEventListener('seeking',()=>{if(v)v.currentTime=master.currentTime;});
+master.addEventListener('timeupdate',()=>{if(v&&Math.abs(v.currentTime-master.currentTime)>0.25)v.currentTime=master.currentTime;if(master.paused)tick();});
+tick();
+// 리뷰어 이름 (localStorage 유지)
+const rv=document.getElementById('reviewer');if(rv){rv.value=STORE.reviewer||'';rv.addEventListener('input',()=>{STORE.reviewer=rv.value;saveStore();});}
+</script></body></html>

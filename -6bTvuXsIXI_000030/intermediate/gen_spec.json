@@ -1,0 +1,109 @@
+{
+  "clip_id": "-6bTvuXsIXI_000030",
+  "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-6bTvuXsIXI_000030/videos/-6bTvuXsIXI_000030.mp4",
+  "duration": 10.0,
+  "sample_rate": 44100,
+  "v2a_fixed_sec": 8.0,
+  "t2a_groups": [
+    {
+      "group_id": "t2a_00",
+      "source": "whistling",
+      "caption": "A high-pitched, continuous whistling sound",
+      "route_reason": "희소 반복 단발(onset 2회) → t2a",
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 2,
+        "density": 5.556,
+        "regularity": {
+          "median_iv": 0.36,
+          "cov": 0.0
+        },
+        "kind": "sfx"
+      },
+      "regen": {
+        "policy": "regenerate_each",
+        "reason": "영상에서 반복 동작이 매번 다름(VL) → onset마다 재생성"
+      },
+      "onsets": [
+        7.4,
+        7.76
+      ],
+      "n": 2
+    }
+  ],
+  "v2a_groups": [
+    {
+      "group_id": "v2a_00",
+      "source": "whoop",
+      "caption": "A single person's excited whooping sound",
+      "negative": "whistling, applause, crowd",
+      "spans": [
+        [
+          2.92,
+          9.16
+        ]
+      ],
+      "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-6bTvuXsIXI_000030/videos/-6bTvuXsIXI_000030.mp4",
+      "video_id": "000030",
+      "route_reason": "dense/repetitive → continuous, 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 19,
+        "density": 3.045,
+        "regularity": {
+          "median_iv": 0.16,
+          "cov": 1.025
+        },
+        "kind": "sfx"
+      }
+    },
+    {
+      "group_id": "v2a_01",
+      "source": "applause",
+      "caption": "Audience members clapping their hands together",
+      "negative": "whoop, whistling, crowd",
+      "spans": [
+        [
+          2.04,
+          10.0
+        ]
+      ],
+      "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-6bTvuXsIXI_000030/videos/-6bTvuXsIXI_000030.mp4",
+      "video_id": "000030",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      }
+    },
+    {
+      "group_id": "v2a_02",
+      "source": "crowd",
+      "caption": "A large crowd cheering and shouting",
+      "negative": "whoop, whistling, applause",
+      "spans": [
+        [
+          2.12,
+          10.0
+        ]
+      ],
+      "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-6bTvuXsIXI_000030/videos/-6bTvuXsIXI_000030.mp4",
+      "video_id": "000030",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      }
+    }
+  ],
+  "skipped": []
+}

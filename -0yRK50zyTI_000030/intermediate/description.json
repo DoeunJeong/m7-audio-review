@@ -1,0 +1,110 @@
+{
+  "clip": "-0yRK50zyTI_000030",
+  "duration": 10.0,
+  "vl": true,
+  "sources": [
+    {
+      "source": "box_opening",
+      "label": "box_opening",
+      "kind": "sfx",
+      "source_hint": "Knife cutting cardboard box",
+      "salience": "high",
+      "route": "t2a",
+      "route_reason": "희소 반복 단발(onset 7회) → t2a",
+      "visible": null,
+      "timing": "transient",
+      "times": [
+        0.04,
+        0.32,
+        1.72,
+        2.6,
+        7.84,
+        8.24,
+        8.6
+      ],
+      "onsets": [
+        0.04,
+        0.32,
+        1.72,
+        2.6,
+        7.84,
+        8.24,
+        8.6
+      ],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 7,
+        "density": 0.818,
+        "regularity": {
+          "median_iv": 0.88,
+          "cov": 1.226
+        },
+        "kind": "sfx"
+      },
+      "caption": "sharp knife slicing through cardboard box tape",
+      "negative": null,
+      "regen": {
+        "policy": "regenerate_each",
+        "reason": "불규칙 반복(onset 7회, cov 1.226) → onset마다 재생성 권장"
+      }
+    },
+    {
+      "source": "breathing",
+      "label": "breathing",
+      "kind": "sfx",
+      "source_hint": "Human breathing",
+      "salience": "low",
+      "route": "t2a",
+      "route_reason": "단발 → t2a",
+      "visible": null,
+      "timing": "transient",
+      "times": [
+        3.04
+      ],
+      "onsets": [
+        3.04
+      ],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 1,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "caption": "steady rhythmic breathing",
+      "negative": null,
+      "regen": null
+    },
+    {
+      "source": "mechanisms",
+      "label": "mechanisms",
+      "kind": "sfx",
+      "source_hint": "Knife cutting cardboard box",
+      "salience": "medium",
+      "route": "v2a",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "timing": "continuous",
+      "times": [
+        [
+          0.0,
+          10.0
+        ]
+      ],
+      "onsets": [],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "caption": "knife scraping cardboard as it cuts through",
+      "negative": "box_opening, breathing",
+      "regen": null
+    }
+  ]
+}

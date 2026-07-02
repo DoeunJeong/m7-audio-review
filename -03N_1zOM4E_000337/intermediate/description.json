@@ -1,0 +1,107 @@
+{
+  "clip": "-03N_1zOM4E_000337",
+  "duration": 10.04,
+  "vl": true,
+  "sources": [
+    {
+      "source": "bouncing",
+      "label": "bouncing",
+      "kind": "sfx",
+      "source_hint": "Ping-pong ball hitting table",
+      "salience": "high",
+      "route": "t2a",
+      "route_reason": "희소 반복 단발(onset 15회) → t2a",
+      "visible": null,
+      "timing": "transient",
+      "times": [
+        0.32,
+        0.84,
+        0.96,
+        1.52,
+        2.2,
+        2.56,
+        5.72,
+        6.2,
+        6.36,
+        6.64,
+        7.36,
+        7.48,
+        7.72,
+        9.52,
+        9.72
+      ],
+      "onsets": [
+        0.32,
+        0.84,
+        0.96,
+        1.52,
+        2.2,
+        2.56,
+        5.72,
+        6.2,
+        6.36,
+        6.64,
+        7.36,
+        7.48,
+        7.72,
+        9.52,
+        9.72
+      ],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 15,
+        "density": 1.596,
+        "regularity": {
+          "median_iv": 0.48,
+          "cov": 1.199
+        },
+        "kind": "sfx"
+      },
+      "caption": "ping-pong ball bouncing on table surface",
+      "negative": null,
+      "regen": {
+        "policy": "regenerate_each",
+        "reason": "불규칙 반복(onset 15회, cov 1.199) → onset마다 재생성 권장"
+      }
+    },
+    {
+      "source": "tap",
+      "label": "tap",
+      "kind": "sfx",
+      "source_hint": "Ping-pong paddle",
+      "salience": "medium",
+      "route": "t2a",
+      "route_reason": "희소 반복 단발(onset 3회) → t2a",
+      "visible": null,
+      "timing": "transient",
+      "times": [
+        4.16,
+        5.52,
+        9.64
+      ],
+      "onsets": [
+        4.16,
+        5.52,
+        9.64
+      ],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 3,
+        "density": 0.547,
+        "regularity": {
+          "median_iv": 4.12,
+          "cov": 0.504
+        },
+        "kind": "sfx"
+      },
+      "caption": "ping-pong paddle tapping table",
+      "negative": null,
+      "regen": {
+        "policy": "regenerate_each",
+        "reason": "불규칙 반복(onset 3회, cov 0.504) → onset마다 재생성 권장"
+      }
+    }
+  ]
+}

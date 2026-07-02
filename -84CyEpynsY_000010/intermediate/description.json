@@ -1,0 +1,104 @@
+{
+  "clip": "-84CyEpynsY_000010",
+  "duration": 10.0,
+  "vl": true,
+  "sources": [
+    {
+      "source": "dog_yip",
+      "label": "dog_yip",
+      "kind": "sfx",
+      "source_hint": "Small dog in the video",
+      "salience": "high",
+      "route": "t2a",
+      "route_reason": "희소 반복 단발(onset 4회) → t2a",
+      "visible": null,
+      "timing": "transient",
+      "times": [
+        1.24,
+        2.68,
+        4.52,
+        7.2
+      ],
+      "onsets": [
+        1.24,
+        2.68,
+        4.52,
+        7.2
+      ],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 4,
+        "density": 0.671,
+        "regularity": {
+          "median_iv": 1.84,
+          "cov": 0.26
+        },
+        "kind": "sfx"
+      },
+      "caption": "sharp, high-pitched dog yip",
+      "negative": null,
+      "regen": {
+        "policy": "reuse_once",
+        "reason": "규칙적 반복(onset 4회, cov 0.26) → 동일 음색 1회 생성 재사용"
+      }
+    },
+    {
+      "source": "laughter",
+      "label": "laughter",
+      "kind": "sfx",
+      "source_hint": "Person laughing (implied by context)",
+      "salience": "medium",
+      "route": "t2a",
+      "route_reason": "단발 → t2a",
+      "visible": null,
+      "timing": "transient",
+      "times": [
+        8.52
+      ],
+      "onsets": [
+        8.52
+      ],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 1,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "caption": "joyful, bubbling laughter",
+      "negative": null,
+      "regen": null
+    },
+    {
+      "source": "water_falling",
+      "label": "water_falling",
+      "kind": "sfx",
+      "source_hint": "Water flowing in the background",
+      "salience": "high",
+      "route": "v2a",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "timing": "continuous",
+      "times": [
+        [
+          0.0,
+          10.0
+        ]
+      ],
+      "onsets": [],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "caption": "steady, rhythmic water dripping",
+      "negative": "dog_yip, laughter",
+      "regen": null
+    }
+  ]
+}

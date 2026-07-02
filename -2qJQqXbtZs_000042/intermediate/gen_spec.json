@@ -1,0 +1,109 @@
+{
+  "clip_id": "-2qJQqXbtZs_000042",
+  "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-2qJQqXbtZs_000042/videos/-2qJQqXbtZs_000042.mp4",
+  "duration": 10.04,
+  "sample_rate": 44100,
+  "v2a_fixed_sec": 8.0,
+  "t2a_groups": [
+    {
+      "group_id": "t2a_00",
+      "source": "filter_drop",
+      "caption": "filter dropping into trash can",
+      "route_reason": "희소 반복 단발(onset 2회) → t2a",
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 2,
+        "density": 5.556,
+        "regularity": {
+          "median_iv": 0.36,
+          "cov": 0.0
+        },
+        "kind": "sfx"
+      },
+      "regen": {
+        "policy": "reuse_once",
+        "reason": "규칙적 반복(onset 2회, cov 0.0) → 동일 음색 1회 생성 재사용"
+      },
+      "onsets": [
+        0.56,
+        0.92
+      ],
+      "n": 2
+    }
+  ],
+  "v2a_groups": [
+    {
+      "group_id": "v2a_00",
+      "source": "sink_filling_or_washing",
+      "caption": "water splashing in sink",
+      "negative": "filter_drop, water_tap, filter_washing",
+      "spans": [
+        [
+          4.08,
+          9.84
+        ]
+      ],
+      "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-2qJQqXbtZs_000042/videos/-2qJQqXbtZs_000042.mp4",
+      "video_id": "000042",
+      "route_reason": "dense/repetitive → continuous, 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 27,
+        "density": 4.688,
+        "regularity": {
+          "median_iv": 0.2,
+          "cov": 0.306
+        },
+        "kind": "sfx"
+      }
+    },
+    {
+      "group_id": "v2a_01",
+      "source": "water_tap",
+      "caption": "water flowing from faucet",
+      "negative": "filter_drop, sink_filling_or_washing, filter_washing",
+      "spans": [
+        [
+          3.56,
+          10.0
+        ]
+      ],
+      "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-2qJQqXbtZs_000042/videos/-2qJQqXbtZs_000042.mp4",
+      "video_id": "000042",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      }
+    },
+    {
+      "group_id": "v2a_02",
+      "source": "filter_washing",
+      "caption": "water running over filter",
+      "negative": "filter_drop, sink_filling_or_washing, water_tap",
+      "spans": [
+        [
+          0.0,
+          3.56
+        ]
+      ],
+      "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-2qJQqXbtZs_000042/videos/-2qJQqXbtZs_000042.mp4",
+      "video_id": "000042",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      }
+    }
+  ],
+  "skipped": []
+}

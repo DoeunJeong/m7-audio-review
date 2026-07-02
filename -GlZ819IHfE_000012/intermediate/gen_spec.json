@@ -1,0 +1,60 @@
+{
+  "clip_id": "-GlZ819IHfE_000012",
+  "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-GlZ819IHfE_000012/videos/-GlZ819IHfE_000012.mp4",
+  "duration": 10.022,
+  "sample_rate": 44100,
+  "v2a_fixed_sec": 8.0,
+  "t2a_groups": [
+    {
+      "group_id": "t2a_00",
+      "source": "male_speech",
+      "caption": "man speaking with animated hand gestures",
+      "route_reason": "speech는 v2a 생성 불가 → t2a",
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "speech"
+      },
+      "regen": null,
+      "spans": [
+        [
+          0.0,
+          2.52
+        ],
+        [
+          3.48,
+          10.0
+        ]
+      ],
+      "continuous": true
+    }
+  ],
+  "v2a_groups": [
+    {
+      "group_id": "v2a_00",
+      "source": "chopping_food",
+      "caption": "chopping food with a slap chop tool",
+      "negative": "male_speech",
+      "spans": [
+        [
+          1.24,
+          3.0
+        ]
+      ],
+      "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-GlZ819IHfE_000012/videos/-GlZ819IHfE_000012.mp4",
+      "video_id": "000012",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      }
+    }
+  ],
+  "skipped": []
+}

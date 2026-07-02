@@ -1,0 +1,60 @@
+{
+  "clip_id": "-7cMtsWTtnQ_000200",
+  "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-7cMtsWTtnQ_000200/videos/-7cMtsWTtnQ_000200.mp4",
+  "duration": 10.0,
+  "sample_rate": 44100,
+  "v2a_fixed_sec": 8.0,
+  "t2a_groups": [],
+  "v2a_groups": [
+    {
+      "group_id": "v2a_00",
+      "source": "applause",
+      "caption": "audience clapping hands together in unison",
+      "negative": "applause_2",
+      "spans": [
+        [
+          0.04,
+          9.84
+        ]
+      ],
+      "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-7cMtsWTtnQ_000200/videos/-7cMtsWTtnQ_000200.mp4",
+      "video_id": "000200",
+      "route_reason": "dense/repetitive → continuous, 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 46,
+        "density": 4.694,
+        "regularity": {
+          "median_iv": 0.2,
+          "cov": 0.396
+        },
+        "kind": "sfx"
+      }
+    },
+    {
+      "group_id": "v2a_01",
+      "source": "applause_2",
+      "caption": "audience clapping hands together in unison",
+      "negative": "applause",
+      "spans": [
+        [
+          0.0,
+          10.0
+        ]
+      ],
+      "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-7cMtsWTtnQ_000200/videos/-7cMtsWTtnQ_000200.mp4",
+      "video_id": "000200",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      }
+    }
+  ],
+  "skipped": []
+}

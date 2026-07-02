@@ -1,0 +1,75 @@
+{
+  "clip": "--L3BCCcGEw_000400",
+  "duration": 10.024059,
+  "vl": true,
+  "sources": [
+    {
+      "source": "applause",
+      "label": "applause",
+      "kind": "sfx",
+      "source_hint": "Audience members clapping hands",
+      "salience": "high",
+      "route": "v2a",
+      "route_reason": "dense/repetitive → continuous, 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "timing": "continuous",
+      "times": [
+        [
+          5.28,
+          6.24
+        ]
+      ],
+      "onsets": [
+        5.28,
+        5.44,
+        5.6,
+        5.76,
+        5.92,
+        6.24
+      ],
+      "dense_collapsed": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 6,
+        "density": 6.25,
+        "regularity": {
+          "median_iv": 0.16,
+          "cov": 0.333
+        },
+        "kind": "sfx"
+      },
+      "caption": "Audience applauding with clapping hands",
+      "negative": "applause_2",
+      "regen": null
+    },
+    {
+      "source": "applause_2",
+      "label": "applause_2",
+      "kind": "sfx",
+      "source_hint": "Audience clapping",
+      "salience": "high",
+      "route": "v2a",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "timing": "continuous",
+      "times": [
+        [
+          0.0,
+          10.0
+        ]
+      ],
+      "onsets": [],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "caption": "Audience applauding with clapping hands",
+      "negative": "applause",
+      "regen": null
+    }
+  ]
+}

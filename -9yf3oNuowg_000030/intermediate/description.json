@@ -1,0 +1,92 @@
+{
+  "clip": "-9yf3oNuowg_000030",
+  "duration": 10.0,
+  "vl": true,
+  "sources": [
+    {
+      "source": "thunder",
+      "label": "thunder",
+      "kind": "sfx",
+      "source_hint": "Storm clouds overhead, visible rain and wind in frames.",
+      "salience": "high",
+      "route": "t2a",
+      "route_reason": "v2a 후보(dense/repetitive → continuous)였으나 화면에 원인 미노출 → t2a 강등",
+      "visible": false,
+      "timing": "continuous",
+      "times": [
+        [
+          1.44,
+          4.92
+        ]
+      ],
+      "onsets": [
+        1.44,
+        1.56,
+        1.76,
+        1.92,
+        2.04,
+        2.24,
+        2.44,
+        2.72,
+        2.88,
+        3.04,
+        3.2,
+        3.36,
+        3.52,
+        3.68,
+        3.84,
+        4.0,
+        4.16,
+        4.32,
+        4.56,
+        4.92
+      ],
+      "dense_collapsed": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 20,
+        "density": 5.747,
+        "regularity": {
+          "median_iv": 0.16,
+          "cov": 0.303
+        },
+        "kind": "sfx"
+      },
+      "caption": "distant rumbling thunder",
+      "negative": null,
+      "regen": {
+        "policy": "reuse_once",
+        "reason": "규칙적 반복(onset 20회, cov 0.303) → 동일 음색 1회 생성 재사용"
+      }
+    },
+    {
+      "source": "rain_on_surface",
+      "label": "rain_on_surface",
+      "kind": "sfx",
+      "source_hint": "Visible rain streaks on window, wet streets and rooftops.",
+      "salience": "high",
+      "route": "v2a",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "timing": "continuous",
+      "times": [
+        [
+          0.0,
+          10.0
+        ]
+      ],
+      "onsets": [],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "caption": "raindrops hitting glass window",
+      "negative": "thunder",
+      "regen": null
+    }
+  ]
+}

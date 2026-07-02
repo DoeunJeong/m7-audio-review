@@ -1,0 +1,124 @@
+{
+  "clip": "fTyCcmvQXXU_000333",
+  "duration": 10.043,
+  "vl": true,
+  "sources": [
+    {
+      "source": "gun_click",
+      "label": "gun_click",
+      "kind": "sfx",
+      "source_hint": "Mechanism of a firearm being cocked or manipulated",
+      "salience": "high",
+      "route": "t2a",
+      "route_reason": "희소 반복 단발(onset 6회) → t2a",
+      "visible": null,
+      "timing": "transient",
+      "times": [
+        0.6,
+        3.56,
+        3.72,
+        8.36,
+        8.76,
+        9.24
+      ],
+      "onsets": [
+        0.6,
+        3.56,
+        3.72,
+        8.36,
+        8.76,
+        9.24
+      ],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 6,
+        "density": 0.694,
+        "regularity": {
+          "median_iv": 0.48,
+          "cov": 1.028
+        },
+        "kind": "sfx"
+      },
+      "caption": "metallic click of a firearm safety being engaged",
+      "negative": null,
+      "regen": {
+        "policy": "regenerate_each",
+        "reason": "불규칙 반복(onset 6회, cov 1.028) → onset마다 재생성 권장"
+      }
+    },
+    {
+      "source": "breathing",
+      "label": "breathing",
+      "kind": "sfx",
+      "source_hint": "Man's respiratory system during speech",
+      "salience": "medium",
+      "route": "t2a",
+      "route_reason": "희소 반복 단발(onset 4회) → t2a",
+      "visible": null,
+      "timing": "transient",
+      "times": [
+        2.48,
+        2.72,
+        2.84,
+        9.72
+      ],
+      "onsets": [
+        2.48,
+        2.72,
+        2.84,
+        9.72
+      ],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 4,
+        "density": 0.552,
+        "regularity": {
+          "median_iv": 0.24,
+          "cov": 1.309
+        },
+        "kind": "sfx"
+      },
+      "caption": "soft inhalation and exhalation of breath",
+      "negative": null,
+      "regen": {
+        "policy": "regenerate_each",
+        "reason": "불규칙 반복(onset 4회, cov 1.309) → onset마다 재생성 권장"
+      }
+    },
+    {
+      "source": "male_speech",
+      "label": "male_speech",
+      "kind": "speech",
+      "source_hint": "Man's vocal cords",
+      "salience": "high",
+      "route": "t2a",
+      "route_reason": "speech는 v2a 생성 불가 → t2a",
+      "visible": null,
+      "timing": "continuous",
+      "times": [
+        [
+          0.68,
+          2.2
+        ],
+        [
+          3.04,
+          10.0
+        ]
+      ],
+      "onsets": [],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "speech"
+      },
+      "caption": "man speaking with calm tone",
+      "negative": null,
+      "regen": null
+    }
+  ]
+}

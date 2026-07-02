@@ -1,0 +1,165 @@
+{
+  "clip": "-3usm60vq2g_000321",
+  "duration": 10.064,
+  "vl": true,
+  "sources": [
+    {
+      "source": "chirp",
+      "label": "chirp",
+      "kind": "sfx",
+      "source_hint": "Bird in the background, likely near the outdoor setting.",
+      "salience": "low",
+      "route": "t2a",
+      "route_reason": "희소 반복 단발(onset 16회) → t2a",
+      "visible": null,
+      "timing": "transient",
+      "times": [
+        0.36,
+        0.8,
+        1.08,
+        1.48,
+        2.16,
+        2.68,
+        4.08,
+        4.44,
+        4.6,
+        5.28,
+        6.6,
+        6.92,
+        7.96,
+        8.72,
+        9.0,
+        9.36
+      ],
+      "onsets": [
+        0.36,
+        0.8,
+        1.08,
+        1.48,
+        2.16,
+        2.68,
+        4.08,
+        4.44,
+        4.6,
+        5.28,
+        6.6,
+        6.92,
+        7.96,
+        8.72,
+        9.0,
+        9.36
+      ],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 16,
+        "density": 1.778,
+        "regularity": {
+          "median_iv": 0.44,
+          "cov": 0.617
+        },
+        "kind": "sfx"
+      },
+      "caption": "sharp metallic chirp",
+      "negative": null,
+      "regen": {
+        "policy": "regenerate_each",
+        "reason": "불규칙 반복(onset 16회, cov 0.617) → onset마다 재생성 권장"
+      }
+    },
+    {
+      "source": "walk",
+      "label": "walk",
+      "kind": "sfx",
+      "source_hint": "Person walking, likely the person holding the hammer or nearby.",
+      "salience": "medium",
+      "route": "t2a",
+      "route_reason": "단발 → t2a",
+      "visible": null,
+      "timing": "transient",
+      "times": [
+        3.12
+      ],
+      "onsets": [
+        3.12
+      ],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 1,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "caption": "footsteps on gravel",
+      "negative": null,
+      "regen": null
+    },
+    {
+      "source": "hammer_strike",
+      "label": "hammer_strike",
+      "kind": "sfx",
+      "source_hint": "Hammer hitting wood or metal, as seen in the video frames.",
+      "salience": "high",
+      "route": "t2a",
+      "route_reason": "희소 반복 단발(onset 3회) → t2a",
+      "visible": null,
+      "timing": "transient",
+      "times": [
+        5.56,
+        6.04,
+        7.84
+      ],
+      "onsets": [
+        5.56,
+        6.04,
+        7.84
+      ],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 3,
+        "density": 1.316,
+        "regularity": {
+          "median_iv": 1.8,
+          "cov": 0.579
+        },
+        "kind": "sfx"
+      },
+      "caption": "hammer hitting metal",
+      "negative": null,
+      "regen": {
+        "policy": "regenerate_each",
+        "reason": "불규칙 반복(onset 3회, cov 0.579) → onset마다 재생성 권장"
+      }
+    },
+    {
+      "source": "breathing",
+      "label": "breathing",
+      "kind": "sfx",
+      "source_hint": "Person speaking or breathing, possibly the person holding the hammer.",
+      "salience": "low",
+      "route": "t2a",
+      "route_reason": "단발 → t2a",
+      "visible": null,
+      "timing": "transient",
+      "times": [
+        8.92
+      ],
+      "onsets": [
+        8.92
+      ],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 1,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "caption": "steady breath",
+      "negative": null,
+      "regen": null
+    }
+  ]
+}

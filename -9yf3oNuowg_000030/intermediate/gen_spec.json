@@ -1,0 +1,78 @@
+{
+  "clip_id": "-9yf3oNuowg_000030",
+  "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-9yf3oNuowg_000030/videos/-9yf3oNuowg_000030.mp4",
+  "duration": 10.0,
+  "sample_rate": 44100,
+  "v2a_fixed_sec": 8.0,
+  "t2a_groups": [
+    {
+      "group_id": "t2a_00",
+      "source": "thunder",
+      "caption": "distant rumbling thunder",
+      "route_reason": "v2a 후보(dense/repetitive → continuous)였으나 화면에 원인 미노출 → t2a 강등",
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 20,
+        "density": 5.747,
+        "regularity": {
+          "median_iv": 0.16,
+          "cov": 0.303
+        },
+        "kind": "sfx"
+      },
+      "regen": {
+        "policy": "reuse_once",
+        "reason": "규칙적 반복(onset 20회, cov 0.303) → 동일 음색 1회 생성 재사용"
+      },
+      "onsets": [
+        1.44,
+        1.56,
+        1.76,
+        1.92,
+        2.04,
+        2.24,
+        2.44,
+        2.72,
+        2.88,
+        3.04,
+        3.2,
+        3.36,
+        3.52,
+        3.68,
+        3.84,
+        4.0,
+        4.16,
+        4.32,
+        4.56,
+        4.92
+      ],
+      "n": 20
+    }
+  ],
+  "v2a_groups": [
+    {
+      "group_id": "v2a_00",
+      "source": "rain_on_surface",
+      "caption": "raindrops hitting glass window",
+      "negative": "thunder",
+      "spans": [
+        [
+          0.0,
+          10.0
+        ]
+      ],
+      "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-9yf3oNuowg_000030/videos/-9yf3oNuowg_000030.mp4",
+      "video_id": "000030",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      }
+    }
+  ],
+  "skipped": []
+}

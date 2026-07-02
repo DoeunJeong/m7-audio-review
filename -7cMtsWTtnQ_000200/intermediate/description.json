@@ -1,0 +1,115 @@
+{
+  "clip": "-7cMtsWTtnQ_000200",
+  "duration": 10.0,
+  "vl": true,
+  "sources": [
+    {
+      "source": "applause",
+      "label": "applause",
+      "kind": "sfx",
+      "source_hint": "Audience members clapping hands",
+      "salience": "high",
+      "route": "v2a",
+      "route_reason": "dense/repetitive → continuous, 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "timing": "continuous",
+      "times": [
+        [
+          0.04,
+          9.84
+        ]
+      ],
+      "onsets": [
+        0.04,
+        0.44,
+        0.64,
+        0.76,
+        0.92,
+        1.12,
+        1.28,
+        1.64,
+        1.8,
+        1.96,
+        2.12,
+        2.36,
+        2.64,
+        2.8,
+        3.16,
+        3.32,
+        3.48,
+        3.76,
+        3.96,
+        4.08,
+        4.24,
+        4.56,
+        4.92,
+        5.08,
+        5.24,
+        5.48,
+        5.84,
+        6.12,
+        6.28,
+        6.4,
+        6.68,
+        6.88,
+        7.0,
+        7.32,
+        7.52,
+        7.68,
+        7.96,
+        8.08,
+        8.24,
+        8.48,
+        8.96,
+        9.16,
+        9.36,
+        9.52,
+        9.64,
+        9.84
+      ],
+      "dense_collapsed": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 46,
+        "density": 4.694,
+        "regularity": {
+          "median_iv": 0.2,
+          "cov": 0.396
+        },
+        "kind": "sfx"
+      },
+      "caption": "audience clapping hands together in unison",
+      "negative": "applause_2",
+      "regen": null
+    },
+    {
+      "source": "applause_2",
+      "label": "applause_2",
+      "kind": "sfx",
+      "source_hint": "Audience members clapping hands",
+      "salience": "high",
+      "route": "v2a",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "timing": "continuous",
+      "times": [
+        [
+          0.0,
+          10.0
+        ]
+      ],
+      "onsets": [],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "caption": "audience clapping hands together in unison",
+      "negative": "applause",
+      "regen": null
+    }
+  ]
+}

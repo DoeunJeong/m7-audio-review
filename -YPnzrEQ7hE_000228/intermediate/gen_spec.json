@@ -1,0 +1,36 @@
+{
+  "clip_id": "-YPnzrEQ7hE_000228",
+  "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-YPnzrEQ7hE_000228/videos/-YPnzrEQ7hE_000228.mp4",
+  "duration": 10.003991,
+  "sample_rate": 44100,
+  "v2a_fixed_sec": 8.0,
+  "t2a_groups": [
+    {
+      "group_id": "t2a_00",
+      "source": "hair_rinsing",
+      "caption": "hair rinsing",
+      "route_reason": "희소 반복 단발(onset 2회) → t2a",
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 2,
+        "density": 4.167,
+        "regularity": {
+          "median_iv": 0.48,
+          "cov": 0.0
+        },
+        "kind": "sfx"
+      },
+      "regen": {
+        "policy": "reuse_once",
+        "reason": "규칙적 반복(onset 2회, cov 0.0) → 동일 음색 1회 생성 재사용"
+      },
+      "onsets": [
+        5.0,
+        5.48
+      ],
+      "n": 2
+    }
+  ],
+  "v2a_groups": [],
+  "skipped": []
+}

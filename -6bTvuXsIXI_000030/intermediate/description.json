@@ -1,0 +1,153 @@
+{
+  "clip": "-6bTvuXsIXI_000030",
+  "duration": 10.0,
+  "vl": true,
+  "sources": [
+    {
+      "source": "whoop",
+      "label": "whoop",
+      "kind": "sfx",
+      "source_hint": "Crowd of people cheering",
+      "salience": "high",
+      "route": "v2a",
+      "route_reason": "dense/repetitive → continuous, 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "timing": "continuous",
+      "times": [
+        [
+          2.92,
+          9.16
+        ]
+      ],
+      "onsets": [
+        2.92,
+        3.08,
+        3.24,
+        3.4,
+        3.52,
+        4.2,
+        4.36,
+        4.48,
+        4.64,
+        5.16,
+        5.28,
+        5.72,
+        5.96,
+        6.12,
+        6.36,
+        6.76,
+        6.88,
+        8.48,
+        9.16
+      ],
+      "dense_collapsed": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 19,
+        "density": 3.045,
+        "regularity": {
+          "median_iv": 0.16,
+          "cov": 1.025
+        },
+        "kind": "sfx"
+      },
+      "caption": "A single person's excited whooping sound",
+      "negative": "whistling, applause, crowd",
+      "regen": null
+    },
+    {
+      "source": "whistling",
+      "label": "whistling",
+      "kind": "sfx",
+      "source_hint": "Audience members whistling",
+      "salience": "medium",
+      "route": "t2a",
+      "route_reason": "희소 반복 단발(onset 2회) → t2a",
+      "visible": null,
+      "timing": "transient",
+      "times": [
+        7.4,
+        7.76
+      ],
+      "onsets": [
+        7.4,
+        7.76
+      ],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 2,
+        "density": 5.556,
+        "regularity": {
+          "median_iv": 0.36,
+          "cov": 0.0
+        },
+        "kind": "sfx"
+      },
+      "caption": "A high-pitched, continuous whistling sound",
+      "negative": null,
+      "regen": {
+        "policy": "regenerate_each",
+        "reason": "영상에서 반복 동작이 매번 다름(VL) → onset마다 재생성"
+      }
+    },
+    {
+      "source": "applause",
+      "label": "applause",
+      "kind": "sfx",
+      "source_hint": "Audience clapping hands",
+      "salience": "high",
+      "route": "v2a",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "timing": "continuous",
+      "times": [
+        [
+          2.04,
+          10.0
+        ]
+      ],
+      "onsets": [],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "caption": "Audience members clapping their hands together",
+      "negative": "whoop, whistling, crowd",
+      "regen": null
+    },
+    {
+      "source": "crowd",
+      "label": "crowd",
+      "kind": "sfx",
+      "source_hint": "Large crowd of people",
+      "salience": "high",
+      "route": "v2a",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "timing": "continuous",
+      "times": [
+        [
+          2.12,
+          10.0
+        ]
+      ],
+      "onsets": [],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "caption": "A large crowd cheering and shouting",
+      "negative": "whoop, whistling, applause",
+      "regen": null
+    }
+  ]
+}

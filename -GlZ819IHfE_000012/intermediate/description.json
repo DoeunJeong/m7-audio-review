@@ -1,0 +1,69 @@
+{
+  "clip": "-GlZ819IHfE_000012",
+  "duration": 10.022,
+  "vl": true,
+  "sources": [
+    {
+      "source": "male_speech",
+      "label": "male_speech",
+      "kind": "speech",
+      "source_hint": "Man's mouth and hands",
+      "salience": "high",
+      "route": "t2a",
+      "route_reason": "speech는 v2a 생성 불가 → t2a",
+      "visible": null,
+      "timing": "continuous",
+      "times": [
+        [
+          0.0,
+          2.52
+        ],
+        [
+          3.48,
+          10.0
+        ]
+      ],
+      "onsets": [],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "speech"
+      },
+      "caption": "man speaking with animated hand gestures",
+      "negative": null,
+      "regen": null
+    },
+    {
+      "source": "chopping_food",
+      "label": "chopping_food",
+      "kind": "sfx",
+      "source_hint": "Slap Chop device and vegetables",
+      "salience": "high",
+      "route": "v2a",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "timing": "continuous",
+      "times": [
+        [
+          1.24,
+          3.0
+        ]
+      ],
+      "onsets": [],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "caption": "chopping food with a slap chop tool",
+      "negative": "male_speech",
+      "regen": null
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "clip_id": "-32EWNC_btk_000011",
+  "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/-32EWNC_btk_000011/videos/-32EWNC_btk_000011.mp4",
+  "duration": 10.055,
+  "sample_rate": 44100,
+  "v2a_fixed_sec": 8.0,
+  "t2a_groups": [
+    {
+      "group_id": "t2a_00",
+      "source": "engine_start",
+      "caption": "metallic engine crankshaft turning",
+      "route_reason": "v2a 후보(dense/repetitive → continuous)였으나 화면에 원인 미노출 → t2a 강등",
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 29,
+        "density": 4.77,
+        "regularity": {
+          "median_iv": 0.16,
+          "cov": 0.946
+        },
+        "kind": "sfx"
+      },
+      "regen": {
+        "policy": "regenerate_each",
+        "reason": "불규칙 반복(onset 29회, cov 0.946) → onset마다 재생성 권장"
+      },
+      "onsets": [
+        3.68,
+        3.8,
+        3.96,
+        4.08,
+        5.32,
+        5.6,
+        5.8,
+        6.04,
+        6.2,
+        6.36,
+        6.72,
+        7.04,
+        7.16,
+        7.32,
+        7.52,
+        7.72,
+        7.84,
+        7.96,
+        8.2,
+        8.32,
+        8.48,
+        8.64,
+        8.8,
+        8.96,
+        9.12,
+        9.28,
+        9.44,
+        9.6,
+        9.76
+      ],
+      "n": 29
+    }
+  ],
+  "v2a_groups": [
+    {
+      "group_id": "v2a_00",
+      "source": "medium_engine_mid_frequency",
+      "caption": "metallic engine components vibrating",
+      "negative": "engine_start, engine_knocking",
+      "spans": [
+        [
+          0.0,
+          10.0
+        ]
+      ],
+      "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-32EWNC_btk_000011/videos/-32EWNC_btk_000011.mp4",
+      "video_id": "000011",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      }
+    },
+    {
+      "group_id": "v2a_01",
+      "source": "engine_knocking",
+      "caption": "metallic engine components vibrating",
+      "negative": "engine_start, medium_engine_mid_frequency",
+      "spans": [
+        [
+          0.0,
+          10.0
+        ]
+      ],
+      "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/-32EWNC_btk_000011/videos/-32EWNC_btk_000011.mp4",
+      "video_id": "000011",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      }
+    }
+  ],
+  "skipped": []
+}

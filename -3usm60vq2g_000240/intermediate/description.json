@@ -1,0 +1,136 @@
+{
+  "clip": "-3usm60vq2g_000240",
+  "duration": 10.05,
+  "vl": true,
+  "sources": [
+    {
+      "source": "chirp",
+      "label": "chirp",
+      "kind": "sfx",
+      "source_hint": "Bird in the environment",
+      "salience": "low",
+      "route": "t2a",
+      "route_reason": "희소 반복 단발(onset 10회) → t2a",
+      "visible": null,
+      "timing": "transient",
+      "times": [
+        0.0,
+        0.16,
+        0.92,
+        1.16,
+        2.28,
+        2.64,
+        3.08,
+        6.32,
+        9.6,
+        9.8
+      ],
+      "onsets": [
+        0.0,
+        0.16,
+        0.92,
+        1.16,
+        2.28,
+        2.64,
+        3.08,
+        6.32,
+        9.6,
+        9.8
+      ],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 10,
+        "density": 1.02,
+        "regularity": {
+          "median_iv": 0.44,
+          "cov": 1.098
+        },
+        "kind": "sfx"
+      },
+      "caption": "sharp, high-pitched metallic chirp",
+      "negative": null,
+      "regen": {
+        "policy": "regenerate_each",
+        "reason": "불규칙 반복(onset 10회, cov 1.098) → onset마다 재생성 권장"
+      }
+    },
+    {
+      "source": "tool_impact",
+      "label": "tool_impact",
+      "kind": "sfx",
+      "source_hint": "Hammer or similar tool hitting a surface",
+      "salience": "medium",
+      "route": "t2a",
+      "route_reason": "희소 반복 단발(onset 4회) → t2a",
+      "visible": null,
+      "timing": "transient",
+      "times": [
+        4.44,
+        4.68,
+        5.0,
+        8.36
+      ],
+      "onsets": [
+        4.44,
+        4.68,
+        5.0,
+        8.36
+      ],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 4,
+        "density": 1.02,
+        "regularity": {
+          "median_iv": 0.32,
+          "cov": 1.111
+        },
+        "kind": "sfx"
+      },
+      "caption": "metallic tool striking wood with force",
+      "negative": null,
+      "regen": {
+        "policy": "regenerate_each",
+        "reason": "불규칙 반복(onset 4회, cov 1.111) → onset마다 재생성 권장"
+      }
+    },
+    {
+      "source": "male_speech",
+      "label": "male_speech",
+      "kind": "speech",
+      "source_hint": "Person speaking",
+      "salience": "high",
+      "route": "t2a",
+      "route_reason": "speech는 v2a 생성 불가 → t2a",
+      "visible": null,
+      "timing": "continuous",
+      "times": [
+        [
+          0.2,
+          4.28
+        ],
+        [
+          6.44,
+          6.84
+        ],
+        [
+          8.48,
+          9.48
+        ]
+      ],
+      "onsets": [],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "speech"
+      },
+      "caption": "man speaking in a calm tone",
+      "negative": null,
+      "regen": null
+    }
+  ]
+}

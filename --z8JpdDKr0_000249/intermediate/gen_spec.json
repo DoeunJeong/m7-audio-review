@@ -1,0 +1,87 @@
+{
+  "clip_id": "--z8JpdDKr0_000249",
+  "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/--z8JpdDKr0_000249/videos/--z8JpdDKr0_000249.mp4",
+  "duration": 10.059,
+  "sample_rate": 44100,
+  "v2a_fixed_sec": 8.0,
+  "t2a_groups": [],
+  "v2a_groups": [
+    {
+      "group_id": "v2a_00",
+      "source": "drill",
+      "caption": "drill bit spinning rapidly into wood",
+      "negative": "wood_nail_impact, mechanisms",
+      "spans": [
+        [
+          5.88,
+          9.68
+        ]
+      ],
+      "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/--z8JpdDKr0_000249/videos/--z8JpdDKr0_000249.mp4",
+      "video_id": "000249",
+      "route_reason": "dense/repetitive → continuous, 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 16,
+        "density": 4.211,
+        "regularity": {
+          "median_iv": 0.2,
+          "cov": 0.664
+        },
+        "kind": "sfx"
+      }
+    },
+    {
+      "group_id": "v2a_01",
+      "source": "wood_nail_impact",
+      "caption": "wooden nail being driven into timber",
+      "negative": "drill, mechanisms",
+      "spans": [
+        [
+          0.0,
+          5.84
+        ],
+        [
+          6.36,
+          6.84
+        ]
+      ],
+      "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/--z8JpdDKr0_000249/videos/--z8JpdDKr0_000249.mp4",
+      "video_id": "000249",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      }
+    },
+    {
+      "group_id": "v2a_02",
+      "source": "mechanisms",
+      "caption": "mechanical whirring and clanking of tools",
+      "negative": "drill, wood_nail_impact",
+      "spans": [
+        [
+          0.0,
+          10.0
+        ]
+      ],
+      "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/--z8JpdDKr0_000249/videos/--z8JpdDKr0_000249.mp4",
+      "video_id": "000249",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      }
+    }
+  ],
+  "skipped": []
+}

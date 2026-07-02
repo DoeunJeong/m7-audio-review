@@ -1,0 +1,97 @@
+{
+  "clip": "-4o0jRbgHr4_000030",
+  "duration": 10.0,
+  "vl": true,
+  "sources": [
+    {
+      "source": "cat_meow",
+      "label": "cat_meow",
+      "kind": "sfx",
+      "source_hint": "White cat with green eyes",
+      "salience": "high",
+      "route": "t2a",
+      "route_reason": "단발 → t2a",
+      "visible": null,
+      "timing": "transient",
+      "times": [
+        5.56
+      ],
+      "onsets": [
+        5.56
+      ],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 1,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "caption": "cat vocalizing with open mouth",
+      "negative": null,
+      "regen": null
+    },
+    {
+      "source": "air_conditioner",
+      "label": "air_conditioner",
+      "kind": "sfx",
+      "source_hint": "Mechanical unit in background",
+      "salience": "medium",
+      "route": "t2a",
+      "route_reason": "v2a 후보(continuous(지속/텍스처))였으나 화면에 원인 미노출 → t2a 강등",
+      "visible": false,
+      "timing": "continuous",
+      "times": [
+        [
+          0.0,
+          10.0
+        ]
+      ],
+      "onsets": [],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "caption": "air conditioner hum",
+      "negative": null,
+      "regen": null
+    },
+    {
+      "source": "floor_scratching",
+      "label": "floor_scratching",
+      "kind": "sfx",
+      "source_hint": "Cat's claws on floor",
+      "salience": "medium",
+      "route": "v2a",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "timing": "continuous",
+      "times": [
+        [
+          0.76,
+          4.08
+        ],
+        [
+          6.28,
+          9.92
+        ]
+      ],
+      "onsets": [],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "caption": "cat claws scraping floor",
+      "negative": "cat_meow, air_conditioner",
+      "regen": null
+    }
+  ]
+}

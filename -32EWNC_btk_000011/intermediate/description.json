@@ -1,0 +1,130 @@
+{
+  "clip": "-32EWNC_btk_000011",
+  "duration": 10.055,
+  "vl": true,
+  "sources": [
+    {
+      "source": "engine_start",
+      "label": "engine_start",
+      "kind": "sfx",
+      "source_hint": "Car engine",
+      "salience": "high",
+      "route": "t2a",
+      "route_reason": "v2a 후보(dense/repetitive → continuous)였으나 화면에 원인 미노출 → t2a 강등",
+      "visible": false,
+      "timing": "continuous",
+      "times": [
+        [
+          3.68,
+          9.76
+        ]
+      ],
+      "onsets": [
+        3.68,
+        3.8,
+        3.96,
+        4.08,
+        5.32,
+        5.6,
+        5.8,
+        6.04,
+        6.2,
+        6.36,
+        6.72,
+        7.04,
+        7.16,
+        7.32,
+        7.52,
+        7.72,
+        7.84,
+        7.96,
+        8.2,
+        8.32,
+        8.48,
+        8.64,
+        8.8,
+        8.96,
+        9.12,
+        9.28,
+        9.44,
+        9.6,
+        9.76
+      ],
+      "dense_collapsed": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 29,
+        "density": 4.77,
+        "regularity": {
+          "median_iv": 0.16,
+          "cov": 0.946
+        },
+        "kind": "sfx"
+      },
+      "caption": "metallic engine crankshaft turning",
+      "negative": null,
+      "regen": {
+        "policy": "regenerate_each",
+        "reason": "불규칙 반복(onset 29회, cov 0.946) → onset마다 재생성 권장"
+      }
+    },
+    {
+      "source": "medium_engine_mid_frequency",
+      "label": "medium_engine_mid_frequency",
+      "kind": "sfx",
+      "source_hint": "Car engine",
+      "salience": "high",
+      "route": "v2a",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "timing": "continuous",
+      "times": [
+        [
+          0.0,
+          10.0
+        ]
+      ],
+      "onsets": [],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "caption": "metallic engine components vibrating",
+      "negative": "engine_start, engine_knocking",
+      "regen": null
+    },
+    {
+      "source": "engine_knocking",
+      "label": "engine_knocking",
+      "kind": "sfx",
+      "source_hint": "Car engine",
+      "salience": "high",
+      "route": "v2a",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "timing": "continuous",
+      "times": [
+        [
+          0.0,
+          10.0
+        ]
+      ],
+      "onsets": [],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "caption": "metallic engine components vibrating",
+      "negative": "engine_start, medium_engine_mid_frequency",
+      "regen": null
+    }
+  ]
+}

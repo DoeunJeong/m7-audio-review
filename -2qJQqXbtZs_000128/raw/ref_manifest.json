@@ -1,0 +1,41 @@
+[
+  {
+    "group_id": "v2a_00",
+    "source": "vacuum_cleaner_start",
+    "mode": "v2a_window",
+    "ref_used": false,
+    "raws": [
+      [
+        "sp0원본8s(no-ref)",
+        "v2a_00_vacuum_cleaner_start__sp0__raw8s.wav",
+        false
+      ]
+    ]
+  },
+  {
+    "group_id": "v2a_01",
+    "source": "vacuum_cleaner",
+    "mode": "v2a_window",
+    "ref_used": false,
+    "raws": [
+      [
+        "sp0원본8s(no-ref)",
+        "v2a_01_vacuum_cleaner__sp0__raw8s.wav",
+        false
+      ]
+    ]
+  },
+  {
+    "group_id": "v2a_02",
+    "source": "vacuum_cleaner_2",
+    "mode": "v2a_window",
+    "ref_used": false,
+    "raws": [
+      [
+        "sp0원본8s(no-ref)",
+        "v2a_02_vacuum_cleaner_2__sp0__raw8s.wav",
+        false
+      ]
+    ]
+  }
+]

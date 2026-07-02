@@ -1,0 +1,114 @@
+{
+  "clip_id": "fX5Ulo9HjhE_000330",
+  "video_path": "/home/judejiwoo/m7_local50_20260702_174639/m7_local50_20260702_174639/fX5Ulo9HjhE_000330/videos/fX5Ulo9HjhE_000330.mp4",
+  "duration": 10.04,
+  "sample_rate": 44100,
+  "v2a_fixed_sec": 8.0,
+  "t2a_groups": [
+    {
+      "group_id": "t2a_00",
+      "source": "chop",
+      "caption": "sharp axe hitting wood with force",
+      "route_reason": "희소 반복 단발(onset 2회) → t2a",
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 2,
+        "density": 0.267,
+        "regularity": {
+          "median_iv": 7.48,
+          "cov": 0.0
+        },
+        "kind": "sfx"
+      },
+      "regen": {
+        "policy": "reuse_once",
+        "reason": "규칙적 반복(onset 2회, cov 0.0) → 동일 음색 1회 생성 재사용"
+      },
+      "onsets": [
+        1.08,
+        8.56
+      ],
+      "n": 2
+    },
+    {
+      "group_id": "t2a_01",
+      "source": "breathing",
+      "caption": "steady rhythmic breaths in and out",
+      "route_reason": "희소 반복 단발(onset 6회) → t2a",
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 6,
+        "density": 0.739,
+        "regularity": {
+          "median_iv": 0.76,
+          "cov": 1.004
+        },
+        "kind": "sfx"
+      },
+      "regen": {
+        "policy": "regenerate_each",
+        "reason": "불규칙 반복(onset 6회, cov 1.004) → onset마다 재생성 권장"
+      },
+      "onsets": [
+        1.44,
+        3.32,
+        4.0,
+        4.12,
+        4.88,
+        9.56
+      ],
+      "n": 6
+    },
+    {
+      "group_id": "t2a_02",
+      "source": "walk",
+      "caption": "boots stepping on dirt ground",
+      "route_reason": "희소 반복 단발(onset 2회) → t2a",
+      "evidence": {
+        "timing": "transient",
+        "onset_count": 2,
+        "density": 2.941,
+        "regularity": {
+          "median_iv": 0.68,
+          "cov": 0.0
+        },
+        "kind": "sfx"
+      },
+      "regen": {
+        "policy": "reuse_once",
+        "reason": "규칙적 반복(onset 2회, cov 0.0) → 동일 음색 1회 생성 재사용"
+      },
+      "onsets": [
+        5.36,
+        6.04
+      ],
+      "n": 2
+    }
+  ],
+  "v2a_groups": [
+    {
+      "group_id": "v2a_00",
+      "source": "wood_splitting",
+      "caption": "wood cracking and splitting under axe impact",
+      "negative": "chop, breathing, walk",
+      "spans": [
+        [
+          0.0,
+          9.36
+        ]
+      ],
+      "video_path": "/home/judejiwoo/Multitrack-V2A/web_demo/samples/m7_local50_20260702_174639/fX5Ulo9HjhE_000330/videos/fX5Ulo9HjhE_000330.mp4",
+      "video_id": "000330",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      }
+    }
+  ],
+  "skipped": []
+}

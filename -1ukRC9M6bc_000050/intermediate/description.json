@@ -1,0 +1,69 @@
+{
+  "clip": "-1ukRC9M6bc_000050",
+  "duration": 10.0,
+  "vl": true,
+  "sources": [
+    {
+      "source": "music",
+      "label": "music",
+      "kind": "music",
+      "source_hint": "Drum kit and vocalists",
+      "salience": "high",
+      "route": "t2a",
+      "route_reason": "music는 v2a 생성 불가 → t2a",
+      "visible": null,
+      "timing": "continuous",
+      "times": [
+        [
+          0.0,
+          10.0
+        ]
+      ],
+      "onsets": [],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "music"
+      },
+      "caption": "drumsticks striking drumheads with force",
+      "negative": null,
+      "regen": null
+    },
+    {
+      "source": "female_singing",
+      "label": "female_singing",
+      "kind": "sfx",
+      "source_hint": "Female singer",
+      "salience": "high",
+      "route": "v2a",
+      "route_reason": "continuous(지속/텍스처), 원인이 화면에 보임 → v2a",
+      "visible": true,
+      "timing": "continuous",
+      "times": [
+        [
+          0.0,
+          2.16
+        ],
+        [
+          3.08,
+          7.04
+        ]
+      ],
+      "onsets": [],
+      "dense_collapsed": false,
+      "evidence": {
+        "timing": "continuous",
+        "onset_count": 0,
+        "density": 0.0,
+        "regularity": null,
+        "kind": "sfx"
+      },
+      "caption": "female voice singing with emotion",
+      "negative": "music",
+      "regen": null
+    }
+  ]
+}

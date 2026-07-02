@@ -1,0 +1,33 @@
+[
+  {
+    "group_id": "v2a_00",
+    "source": "applause",
+    "mode": "v2a_window",
+    "ref_used": true,
+    "raws": [
+      [
+        "sp0원본8s(no-ref)",
+        "v2a_00_applause__sp0__raw8s.wav",
+        false
+      ],
+      [
+        "sp1원본8s(ref)",
+        "v2a_00_applause__sp1__raw8s.wav",
+        true
+      ]
+    ]
+  },
+  {
+    "group_id": "v2a_01",
+    "source": "cheering",
+    "mode": "v2a_window",
+    "ref_used": false,
+    "raws": [
+      [
+        "sp0원본8s(no-ref)",
+        "v2a_01_cheering__sp0__raw8s.wav",
+        false
+      ]
+    ]
+  }
+]
